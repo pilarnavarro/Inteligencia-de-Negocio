@@ -1,0 +1,8 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+	\PYG{k+kn}{from} \PYG{n+nn}{sklearn.neighbors} \PYG{k+kn}{import} \PYG{n}{KNeighborsClassifier}
+	
+	\PYG{k}{def} \PYG{n+nf}{Knn}\PYG{p}{(}\PYG{n}{X}\PYG{p}{,}\PYG{n}{Y}\PYG{p}{,}\PYG{n}{n\PYGZus{}neighbors}\PYG{p}{,}\PYG{n}{weights}\PYG{p}{,}\PYG{n}{p}\PYG{p}{,}\PYG{n}{metric}\PYG{o}{=}\PYG{l+s+s1}{\PYGZsq{}minkowski\PYGZsq{}}\PYG{p}{):}
+		\PYG{n}{clf}\PYG{o}{=}\PYG{n}{KNeighborsClassifier}\PYG{p}{(}\PYG{n}{n\PYGZus{}neighbors}\PYG{o}{=}\PYG{n}{n\PYGZus{}neighbors}\PYG{p}{,}
+		\PYG{n}{weights}\PYG{o}{=}\PYG{n}{weights}\PYG{p}{,} \PYG{n}{p}\PYG{o}{=}\PYG{n}{p}\PYG{p}{,}\PYG{n}{metric}\PYG{o}{=}\PYG{n}{metric}\PYG{p}{)}
+		\PYG{n}{clasificacion}\PYG{p}{(}\PYG{n}{X}\PYG{p}{,}\PYG{n}{Y}\PYG{p}{,}\PYG{n}{clf}\PYG{p}{)}
+\end{Verbatim}

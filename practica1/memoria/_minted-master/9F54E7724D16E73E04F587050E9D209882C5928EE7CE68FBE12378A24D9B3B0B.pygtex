@@ -1,0 +1,7 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{k+kn}{from} \PYG{n+nn}{sklearn.svm} \PYG{k+kn}{import} \PYG{n}{LinearSVC}
+
+\PYG{k}{def} \PYG{n+nf}{svm}\PYG{p}{(}\PYG{n}{X}\PYG{p}{,}\PYG{n}{Y}\PYG{p}{,}\PYG{n}{C}\PYG{o}{=}\PYG{l+m+mf}{1.0}\PYG{p}{,}\PYG{n}{class\PYGZus{}weight}\PYG{o}{=}\PYG{k+kc}{None}\PYG{p}{,}\PYG{n}{max\PYGZus{}iter}\PYG{o}{=}\PYG{l+m+mi}{1000}\PYG{p}{):}
+	\PYG{n}{clf}\PYG{o}{=}\PYG{n}{LinearSVC}\PYG{p}{(}\PYG{n}{C}\PYG{o}{=}\PYG{n}{C}\PYG{p}{,}\PYG{n}{class\PYGZus{}weight}\PYG{o}{=}\PYG{n}{class\PYGZus{}weight}\PYG{p}{,}\PYG{n}{random\PYGZus{}state}\PYG{o}{=}\PYG{l+m+mi}{10}\PYG{p}{,}\PYG{n}{max\PYGZus{}iter}\PYG{o}{=}\PYG{n}{max\PYGZus{}iter}\PYG{p}{)}
+	\PYG{n}{clasificacion}\PYG{p}{(}\PYG{n}{X}\PYG{p}{,}\PYG{n}{Y}\PYG{p}{,}\PYG{n}{clf}\PYG{p}{)}
+\end{Verbatim}

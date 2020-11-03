@@ -1,0 +1,16 @@
+\BOOKMARK [1][-]{section.1}{Introducci\363n}{}% 1
+\BOOKMARK [1][-]{section.2}{Procesado de datos}{}% 2
+\BOOKMARK [1][-]{section.3}{Configuraci\363n de algoritmos}{}% 3
+\BOOKMARK [2][-]{subsection.3.1}{Vecinos m\341s cercanos k-NN}{section.3}% 4
+\BOOKMARK [2][-]{subsection.3.2}{\301rboles de decisi\363n}{section.3}% 5
+\BOOKMARK [2][-]{subsection.3.3}{Random Forest}{section.3}% 6
+\BOOKMARK [2][-]{subsection.3.4}{Redes Neuronales}{section.3}% 7
+\BOOKMARK [1][-]{section.4}{Resultados obtenidos}{}% 8
+\BOOKMARK [2][-]{subsection.4.1}{Linear SVC}{section.4}% 9
+\BOOKMARK [2][-]{subsection.4.2}{Vecinos m\341s cercanos Knn}{section.4}% 10
+\BOOKMARK [2][-]{subsection.4.3}{\301rboles de decisi\363n}{section.4}% 11
+\BOOKMARK [2][-]{subsection.4.4}{Random Forest}{section.4}% 12
+\BOOKMARK [2][-]{subsection.4.5}{Redes Neuronales}{section.4}% 13
+\BOOKMARK [1][-]{section.5}{An\341lisis de resultados}{}% 14
+\BOOKMARK [1][-]{section.6}{Interpretaci\363n de resultados}{}% 15
+\BOOKMARK [1][-]{section.7}{Bibliograf\355a}{}% 16

@@ -1,0 +1,39 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{l+s+sd}{\PYGZsq{}\PYGZsq{}\PYGZsq{}}
+\PYG{l+s+sd}{Función genérica para resolver el problema de clasificación.}
+\PYG{l+s+sd}{Muestra por pantalla los resultados de las métricas de}
+\PYG{l+s+sd}{evaluación tras entrenar el modelo y predecir las clases sobre el}
+\PYG{l+s+sd}{conjunto de datos de test}
+
+\PYG{l+s+sd}{X \PYGZhy{}\PYGZgt{} Conjunto de atributos que se usarán para predecir la clases}
+\PYG{l+s+sd}{Y \PYGZhy{}\PYGZgt{} Etiquetas de las clases}
+\PYG{l+s+sd}{clf \PYGZhy{}\PYGZgt{} Clasificador que se usará para resolver el problema}
+
+\PYG{l+s+sd}{No devuelve nada}
+
+\PYG{l+s+sd}{\PYGZsq{}\PYGZsq{}\PYGZsq{}}
+
+\PYG{k}{def} \PYG{n+nf}{clasificacion}\PYG{p}{(}\PYG{n}{X}\PYG{p}{,}\PYG{n}{Y}\PYG{p}{,}\PYG{n}{clf}\PYG{p}{):}
+	\PYG{n}{kf}\PYG{o}{=}\PYG{n}{KFold}\PYG{p}{(}\PYG{n}{n\PYGZus{}splits}\PYG{o}{=}\PYG{l+m+mi}{5}\PYG{p}{,}\PYG{n}{shuffle}\PYG{o}{=}\PYG{k+kc}{True}\PYG{p}{,}\PYG{n}{random\PYGZus{}state}\PYG{o}{=}\PYG{l+m+mi}{100}\PYG{p}{)}
+	
+	\PYG{n}{f1}\PYG{p}{,}\PYG{n}{auc}\PYG{p}{,}\PYG{n}{accuracy}\PYG{o}{=}\PYG{l+m+mi}{0}\PYG{p}{,}\PYG{l+m+mi}{0}\PYG{p}{,}\PYG{l+m+mi}{0}
+	\PYG{n}{cm}\PYG{o}{=}\PYG{n}{np}\PYG{o}{.}\PYG{n}{zeros}\PYG{p}{((}\PYG{l+m+mi}{2}\PYG{p}{,}\PYG{l+m+mi}{2}\PYG{p}{))}
+	
+	\PYG{k}{for} \PYG{n}{train\PYGZus{}index}\PYG{p}{,} \PYG{n}{test\PYGZus{}index} \PYG{o+ow}{in} \PYG{n}{kf}\PYG{o}{.}\PYG{n}{split}\PYG{p}{(}\PYG{n}{X}\PYG{p}{):}
+	\PYG{n}{x\PYGZus{}train}\PYG{p}{,} \PYG{n}{x\PYGZus{}test} \PYG{o}{=} \PYG{n}{X}\PYG{o}{.}\PYG{n}{iloc}\PYG{p}{[}\PYG{n}{train\PYGZus{}index}\PYG{p}{],} \PYG{n}{X}\PYG{o}{.}\PYG{n}{iloc}\PYG{p}{[}\PYG{n}{test\PYGZus{}index}\PYG{p}{]}
+	\PYG{n}{y\PYGZus{}train}\PYG{p}{,} \PYG{n}{y\PYGZus{}test} \PYG{o}{=} \PYG{n}{Y}\PYG{o}{.}\PYG{n}{iloc}\PYG{p}{[}\PYG{n}{train\PYGZus{}index}\PYG{p}{],} \PYG{n}{Y}\PYG{o}{.}\PYG{n}{iloc}\PYG{p}{[}\PYG{n}{test\PYGZus{}index}\PYG{p}{]}
+	
+	\PYG{n}{clf}\PYG{o}{.}\PYG{n}{fit}\PYG{p}{(}\PYG{n}{x\PYGZus{}train}\PYG{p}{,} \PYG{n}{y\PYGZus{}train}\PYG{p}{)}
+	\PYG{n}{pred}\PYG{o}{=}\PYG{n}{clf}\PYG{o}{.}\PYG{n}{predict}\PYG{p}{(}\PYG{n}{x\PYGZus{}test}\PYG{p}{)}
+	
+	\PYG{n}{auc}\PYG{o}{=}\PYG{n}{auc}\PYG{o}{+}\PYG{n}{roc\PYGZus{}auc\PYGZus{}score}\PYG{p}{(}\PYG{n}{y\PYGZus{}test}\PYG{p}{,}\PYG{n}{pred}\PYG{p}{)}
+	
+	\PYG{n}{accuracy}\PYG{o}{=}\PYG{n}{accuracy}\PYG{o}{+}\PYG{n}{accuracy\PYGZus{}score}\PYG{p}{(}\PYG{n}{y\PYGZus{}test}\PYG{p}{,} \PYG{n}{pred}\PYG{p}{,} \PYG{n}{normalize}\PYG{o}{=}\PYG{k+kc}{True}\PYG{p}{)}
+	\PYG{n}{f1}\PYG{o}{=}\PYG{n}{f1}\PYG{o}{+}\PYG{n}{f1\PYGZus{}score}\PYG{p}{(}\PYG{n}{y\PYGZus{}test}\PYG{p}{,} \PYG{n}{pred}\PYG{p}{)}
+	\PYG{n}{cm}\PYG{o}{=}\PYG{n}{cm}\PYG{o}{+}\PYG{n}{confusion\PYGZus{}matrix}\PYG{p}{(}\PYG{n}{y\PYGZus{}test}\PYG{p}{,}\PYG{n}{pred}\PYG{p}{,}\PYG{n}{normalize}\PYG{o}{=}\PYG{l+s+s1}{\PYGZsq{}true\PYGZsq{}}\PYG{p}{)}
+
+\PYG{n+nb}{print}\PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{}Precisión: \PYGZdq{}}\PYG{p}{,} \PYG{n}{accuracy}\PYG{o}{/}\PYG{l+m+mi}{5}\PYG{p}{)}
+\PYG{n+nb}{print}\PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{}AUC: \PYGZdq{}}\PYG{p}{,} \PYG{n}{auc}\PYG{o}{/}\PYG{l+m+mi}{5}\PYG{p}{)}
+\PYG{n+nb}{print}\PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{}F1\PYGZhy{}score: \PYGZdq{}}\PYG{p}{,}\PYG{n}{f1}\PYG{o}{/}\PYG{l+m+mi}{5}\PYG{p}{)}
+\PYG{n+nb}{print}\PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{}Confusion Matrix:}\PYG{l+s+se}{\PYGZbs{}n}\PYG{l+s+s2}{ \PYGZdq{}}\PYG{p}{,} \PYG{n}{cm}\PYG{o}{/}\PYG{l+m+mi}{5}\PYG{p}{)}
+\end{Verbatim}

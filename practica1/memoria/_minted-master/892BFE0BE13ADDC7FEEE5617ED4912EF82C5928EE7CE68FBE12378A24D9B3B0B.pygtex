@@ -1,0 +1,10 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{k+kn}{from} \PYG{n+nn}{sklearn.ensemble} \PYG{k+kn}{import} \PYG{n}{RandomForestClassifier}
+
+\PYG{k}{def} \PYG{n+nf}{RanForest}\PYG{p}{(}\PYG{n}{X}\PYG{p}{,}\PYG{n}{Y}\PYG{p}{,}\PYG{n}{num\PYGZus{}trees}\PYG{p}{,}\PYG{n}{criterion}\PYG{p}{,}\PYG{n}{max\PYGZus{}depth}\PYG{o}{=}\PYG{k+kc}{None}\PYG{p}{,} \PYG{n}{bootstrap}\PYG{o}{=}\PYG{k+kc}{True}\PYG{p}{,}
+\PYG{n}{min\PYGZus{}samples\PYGZus{}split}\PYG{o}{=}\PYG{l+m+mi}{2}\PYG{p}{,}\PYG{n}{min\PYGZus{}samples\PYGZus{}leaf}\PYG{o}{=}\PYG{l+m+mi}{1}\PYG{p}{):}
+	\PYG{n}{clf}\PYG{o}{=}\PYG{n}{RandomForestClassifier}\PYG{p}{(}\PYG{n}{n\PYGZus{}estimators}\PYG{o}{=}\PYG{n}{num\PYGZus{}trees}\PYG{p}{,} \PYG{n}{criterion}\PYG{o}{=}\PYG{n}{criterion}\PYG{p}{,}
+	\PYG{n}{max\PYGZus{}depth}\PYG{o}{=}\PYG{n}{max\PYGZus{}depth}\PYG{p}{,} \PYG{n}{bootstrap}\PYG{o}{=}\PYG{n}{bootstrap}\PYG{p}{,}\PYG{n}{min\PYGZus{}samples\PYGZus{}split}\PYG{o}{=}\PYG{n}{min\PYGZus{}samples\PYGZus{}split}\PYG{p}{,}
+	\PYG{n}{min\PYGZus{}samples\PYGZus{}leaf}\PYG{o}{=}\PYG{n}{min\PYGZus{}samples\PYGZus{}leaf}\PYG{p}{,}\PYG{n}{random\PYGZus{}state}\PYG{o}{=}\PYG{l+m+mi}{100}\PYG{p}{)}
+	\PYG{n}{clasificacion}\PYG{p}{(}\PYG{n}{X}\PYG{p}{,}\PYG{n}{Y}\PYG{p}{,}\PYG{n}{clf}\PYG{p}{)}
+\end{Verbatim}

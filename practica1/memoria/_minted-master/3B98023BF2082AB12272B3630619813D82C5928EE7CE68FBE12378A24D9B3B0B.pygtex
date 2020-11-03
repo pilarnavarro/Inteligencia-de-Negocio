@@ -1,0 +1,10 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{k+kn}{from} \PYG{n+nn}{sklearn.neural\PYGZus{}network} \PYG{k+kn}{import} \PYG{n}{MLPClassifier}
+
+\PYG{k}{def} \PYG{n+nf}{NN}\PYG{p}{(}\PYG{n}{X}\PYG{p}{,}\PYG{n}{Y}\PYG{p}{,}\PYG{n}{hl\PYGZus{}sizes}\PYG{p}{,}\PYG{n}{activation}\PYG{o}{=}\PYG{l+s+s1}{\PYGZsq{}relu\PYGZsq{}}\PYG{p}{,}\PYG{n}{solver}\PYG{o}{=}\PYG{l+s+s1}{\PYGZsq{}adam\PYGZsq{}}\PYG{p}{,}\PYG{n}{alpha}\PYG{o}{=}\PYG{l+m+mf}{0.0001}\PYG{p}{,}\PYG{n}{learning\PYGZus{}rate}\PYG{o}{=}\PYG{l+m+mf}{0.001}\PYG{p}{,}
+\PYG{n}{max\PYGZus{}iter}\PYG{o}{=}\PYG{l+m+mi}{200}\PYG{p}{):}
+	\PYG{n}{clf}\PYG{o}{=}\PYG{n}{MLPClassifier}\PYG{p}{(}\PYG{n}{hidden\PYGZus{}layer\PYGZus{}sizes}\PYG{o}{=}\PYG{n}{hl\PYGZus{}sizes}\PYG{p}{,} \PYG{n}{activation}\PYG{o}{=}\PYG{n}{activation}\PYG{p}{,}
+	\PYG{n}{solver}\PYG{o}{=}\PYG{n}{solver}\PYG{p}{,} \PYG{n}{alpha}\PYG{o}{=}\PYG{n}{alpha}\PYG{p}{,} \PYG{n}{learning\PYGZus{}rate\PYGZus{}init}\PYG{o}{=}\PYG{n}{learning\PYGZus{}rate}\PYG{p}{,}
+	\PYG{n}{max\PYGZus{}iter}\PYG{o}{=}\PYG{n}{max\PYGZus{}iter}\PYG{p}{,}\PYG{n}{random\PYGZus{}state}\PYG{o}{=}\PYG{l+m+mi}{100}\PYG{p}{)}
+	\PYG{n}{clasificacion}\PYG{p}{(}\PYG{n}{X}\PYG{p}{,}\PYG{n}{Y}\PYG{p}{,}\PYG{n}{clf}\PYG{p}{)}
+\end{Verbatim}

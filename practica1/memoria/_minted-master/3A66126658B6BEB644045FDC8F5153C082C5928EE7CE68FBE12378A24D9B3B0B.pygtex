@@ -1,0 +1,23 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+	\PYG{k+kn}{from} \PYG{n+nn}{sklearn.tree} \PYG{k+kn}{import} \PYG{n}{DecisionTreeClassifier}\PYG{p}{,}\PYG{n}{export\PYGZus{}graphviz}
+	\PYG{k+kn}{import} \PYG{n+nn}{graphviz}
+	
+	\PYG{k}{def} \PYG{n+nf}{decisionTree}\PYG{p}{(}\PYG{n}{X}\PYG{p}{,}\PYG{n}{Y}\PYG{p}{,} \PYG{n}{criterion}\PYG{p}{,}\PYG{n}{depth}\PYG{o}{=}\PYG{k+kc}{False}\PYG{p}{,}\PYG{n}{max\PYGZus{}depth}\PYG{o}{=}\PYG{k+kc}{None}\PYG{p}{,}
+	\PYG{n}{min\PYGZus{}samples\PYGZus{}split}\PYG{o}{=}\PYG{l+m+mi}{2}\PYG{p}{,}\PYG{n}{min\PYGZus{}samples\PYGZus{}leaf}\PYG{o}{=}\PYG{l+m+mi}{1}\PYG{p}{,}\PYG{n}{plot}\PYG{o}{=}\PYG{k+kc}{False}\PYG{p}{):}
+		\PYG{n}{clf}\PYG{o}{=}\PYG{n}{DecisionTreeClassifier}\PYG{p}{(}\PYG{n}{criterion}\PYG{o}{=}\PYG{n}{criterion}\PYG{p}{,}\PYG{n}{max\PYGZus{}depth}\PYG{o}{=}\PYG{n}{max\PYGZus{}depth}\PYG{p}{,}
+		\PYG{n}{min\PYGZus{}samples\PYGZus{}split}\PYG{o}{=}\PYG{n}{min\PYGZus{}samples\PYGZus{}split}\PYG{p}{,}\PYG{n}{min\PYGZus{}samples\PYGZus{}leaf}\PYG{o}{=}\PYG{n}{min\PYGZus{}samples\PYGZus{}leaf}\PYG{p}{,}
+		\PYG{n}{random\PYGZus{}state}\PYG{o}{=}\PYG{l+m+mi}{100}\PYG{p}{)}
+		\PYG{n}{clasificacion}\PYG{p}{(}\PYG{n}{X}\PYG{p}{,}\PYG{n}{Y}\PYG{p}{,}\PYG{n}{clf}\PYG{p}{)}
+		\PYG{k}{if} \PYG{n}{depth}\PYG{p}{:}
+			\PYG{n+nb}{print}\PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{}Max depth: \PYGZdq{}}\PYG{p}{,} \PYG{n}{clf}\PYG{o}{.}\PYG{n}{tree\PYGZus{}}\PYG{o}{.}\PYG{n}{max\PYGZus{}depth}\PYG{p}{)}
+			\PYG{n+nb}{print}\PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{}Número de hojas: \PYGZdq{}}\PYG{p}{,} \PYG{n}{clf}\PYG{o}{.}\PYG{n}{get\PYGZus{}n\PYGZus{}leaves}\PYG{p}{())}
+			\PYG{n+nb}{print}\PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{}Número de nodos: \PYGZdq{}}\PYG{p}{,} \PYG{n}{clf}\PYG{o}{.}\PYG{n}{tree\PYGZus{}}\PYG{o}{.}\PYG{n}{node\PYGZus{}count}\PYG{p}{)}
+		\PYG{k}{if} \PYG{n}{plot}\PYG{p}{:}
+			\PYG{n}{dot\PYGZus{}data} \PYG{o}{=} \PYG{n}{export\PYGZus{}graphviz}\PYG{p}{(}\PYG{n}{clf}\PYG{p}{,} \PYG{n}{out\PYGZus{}file}\PYG{o}{=}\PYG{k+kc}{None}\PYG{p}{,}
+			\PYG{n}{feature\PYGZus{}names}\PYG{o}{=}\PYG{n}{X}\PYG{o}{.}\PYG{n}{columns}\PYG{p}{,} \PYG{n}{class\PYGZus{}names}\PYG{o}{=}\PYG{p}{[}\PYG{l+s+s1}{\PYGZsq{}benigno\PYGZsq{}}\PYG{p}{,}\PYG{l+s+s1}{\PYGZsq{}maligno\PYGZsq{}}\PYG{p}{],}
+			\PYG{n}{filled}\PYG{o}{=}\PYG{k+kc}{True}\PYG{p}{)}
+			\PYG{n}{graph} \PYG{o}{=} \PYG{n}{graphviz}\PYG{o}{.}\PYG{n}{Source}\PYG{p}{(}\PYG{n}{dot\PYGZus{}data}\PYG{p}{,} \PYG{n+nb}{format}\PYG{o}{=}\PYG{l+s+s2}{\PYGZdq{}png\PYGZdq{}}\PYG{p}{)}
+			\PYG{n}{graph}\PYG{o}{.}\PYG{n}{render}\PYG{p}{(}\PYG{l+s+s1}{\PYGZsq{}decision\PYGZus{}tree\PYGZsq{}}\PYG{p}{)}
+			\PYG{n}{graph}
+	
+\end{Verbatim}
