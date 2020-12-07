@@ -1,0 +1,10 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{n}{caso2}\PYG{o}{=}\PYG{n}{raw\PYGZus{}data}\PYG{p}{[((}\PYG{n}{raw\PYGZus{}data}\PYG{o}{.}\PYG{n}{superficie\PYGZus{}calzada} \PYG{o}{==} \PYG{l+s+s2}{\PYGZdq{}NEVADA\PYGZdq{}}\PYG{p}{)} \PYG{o}{|}
+				\PYG{p}{(}\PYG{n}{raw\PYGZus{}data}\PYG{o}{.}\PYG{n}{superficie\PYGZus{}calzada} \PYG{o}{==} \PYG{l+s+s2}{\PYGZdq{}MOJADA\PYGZdq{}}\PYG{p}{)} \PYG{o}{|}
+ 				\PYG{p}{(}\PYG{n}{raw\PYGZus{}data}\PYG{o}{.}\PYG{n}{superficie\PYGZus{}calzada} \PYG{o}{==} \PYG{l+s+s2}{\PYGZdq{}HELADA\PYGZdq{}}\PYG{p}{))} \PYG{o}{\PYGZam{}}
+ 			\PYG{p}{((}\PYG{n}{raw\PYGZus{}data}\PYG{o}{.}\PYG{n}{luminosidad} \PYG{o}{==} \PYG{l+s+s2}{\PYGZdq{}NOCHE: ILUMINACIÓN INSUFICIENTE\PYGZdq{}}\PYG{p}{)} \PYG{o}{|}
+ 				 \PYG{p}{(}\PYG{n}{raw\PYGZus{}data}\PYG{o}{.}\PYG{n}{luminosidad} \PYG{o}{==} \PYG{l+s+s2}{\PYGZdq{}NOCHE: SIN ILUMINACIÓN\PYGZdq{}}\PYG{p}{))]}
+\PYG{n}{cols}\PYG{o}{=}\PYG{p}{[}\PYG{l+s+s2}{\PYGZdq{}tot\PYGZus{}heridos\PYGZus{}leves\PYGZdq{}}\PYG{p}{,}\PYG{l+s+s2}{\PYGZdq{}tot\PYGZus{}heridos\PYGZus{}graves\PYGZdq{}}\PYG{p}{,}\PYG{l+s+s2}{\PYGZdq{}tot\PYGZus{}victimas\PYGZdq{}}\PYG{p}{,} \PYG{l+s+s2}{\PYGZdq{}tot\PYGZus{}muertos\PYGZdq{}}\PYG{p}{,}
+	\PYG{l+s+s2}{\PYGZdq{}tot\PYGZus{}vehiculos\PYGZus{}implicados\PYGZdq{}}\PYG{p}{]}
+\PYG{n}{caso2}\PYG{o}{=}\PYG{n}{caso2}\PYG{p}{[}\PYG{n}{cols}\PYG{p}{]}
+\end{Verbatim}

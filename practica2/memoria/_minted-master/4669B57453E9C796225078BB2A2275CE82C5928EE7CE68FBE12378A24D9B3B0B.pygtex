@@ -1,0 +1,21 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{k}{def} \PYG{n+nf}{calcular\PYGZus{}k\PYGZus{}hierarchical}\PYG{p}{(}\PYG{n}{data}\PYG{p}{,}\PYG{n}{k\PYGZus{}max}\PYG{p}{):}
+	\PYG{n}{distortions}\PYG{o}{=}\PYG{p}{[]}
+	\PYG{k}{for} \PYG{n}{i} \PYG{o+ow}{in} \PYG{n+nb}{range}\PYG{p}{(}\PYG{l+m+mi}{2}\PYG{p}{,}\PYG{n}{k\PYGZus{}max}\PYG{p}{):}
+	\PYG{n}{resultado} \PYG{o}{=} \PYG{n}{AgglomerativeClustering}\PYG{p}{(}\PYG{n}{n\PYGZus{}clusters}\PYG{o}{=} \PYG{n}{i}\PYG{p}{)}\PYG{o}{.}\PYG{n}{fit}\PYG{p}{(}\PYG{n}{data}\PYG{p}{)}
+	
+	\PYG{c+c1}{\PYGZsh{}Calcular los centros}
+	\PYG{n}{centros}\PYG{o}{=}\PYG{n}{pd}\PYG{o}{.}\PYG{n}{DataFrame}\PYG{p}{(}\PYG{n}{data}\PYG{p}{)}
+	\PYG{n}{centros}\PYG{p}{[}\PYG{l+s+s1}{\PYGZsq{}labels\PYGZsq{}}\PYG{p}{]}\PYG{o}{=}\PYG{n}{resultado}\PYG{o}{.}\PYG{n}{labels\PYGZus{}}
+	\PYG{n}{centros}\PYG{o}{=}\PYG{n}{np}\PYG{o}{.}\PYG{n}{array}\PYG{p}{(}\PYG{n}{centros}\PYG{o}{.}\PYG{n}{groupby}\PYG{p}{(}\PYG{l+s+s1}{\PYGZsq{}labels\PYGZsq{}}\PYG{p}{)}\PYG{o}{.}\PYG{n}{mean}\PYG{p}{())}
+	\PYG{n}{distortions}\PYG{o}{.}\PYG{n}{append}\PYG{p}{(}\PYG{n+nb}{sum}\PYG{p}{(}\PYG{n}{np}\PYG{o}{.}\PYG{n}{min}\PYG{p}{(}\PYG{n}{cdist}\PYG{p}{(}\PYG{n}{data}\PYG{p}{,} \PYG{n}{centros}\PYG{p}{,}
+	\PYG{l+s+s1}{\PYGZsq{}euclidean\PYGZsq{}}\PYG{p}{),}\PYG{n}{axis}\PYG{o}{=}\PYG{l+m+mi}{1}\PYG{p}{))} \PYG{o}{/} \PYG{n}{data}\PYG{o}{.}\PYG{n}{shape}\PYG{p}{[}\PYG{l+m+mi}{0}\PYG{p}{])}
+	
+	\PYG{n}{fig}\PYG{p}{,} \PYG{n}{ax} \PYG{o}{=}\PYG{n}{plt}\PYG{o}{.}\PYG{n}{subplots}\PYG{p}{(}\PYG{n}{figsize}\PYG{o}{=}\PYG{p}{(}\PYG{l+m+mi}{15}\PYG{p}{,}\PYG{l+m+mi}{5}\PYG{p}{))}
+	\PYG{n}{ax}\PYG{o}{.}\PYG{n}{plot}\PYG{p}{(}\PYG{n+nb}{range}\PYG{p}{(}\PYG{l+m+mi}{2}\PYG{p}{,}\PYG{n}{k\PYGZus{}max}\PYG{p}{),} \PYG{n}{distortions}\PYG{p}{)}
+	\PYG{n}{ax}\PYG{o}{.}\PYG{n}{set\PYGZus{}title}\PYG{p}{(}\PYG{l+s+s1}{\PYGZsq{}The Elbow Method\PYGZsq{}}\PYG{p}{)}
+	\PYG{n}{ax}\PYG{o}{.}\PYG{n}{set\PYGZus{}xlabel}\PYG{p}{(}\PYG{l+s+s1}{\PYGZsq{}Número de clusters\PYGZsq{}}\PYG{p}{)}
+	\PYG{n}{ax}\PYG{o}{.}\PYG{n}{set\PYGZus{}ylabel}\PYG{p}{(}\PYG{l+s+s1}{\PYGZsq{}Distortions\PYGZsq{}}\PYG{p}{)}
+	\PYG{n}{plt}\PYG{o}{.}\PYG{n}{show}\PYG{p}{()}
+\PYG{n}{calcular\PYGZus{}k\PYGZus{}hierarchical}\PYG{p}{(}\PYG{n}{data\PYGZus{}caso1}\PYG{p}{,}\PYG{l+m+mi}{15}\PYG{p}{)}
+\end{Verbatim}

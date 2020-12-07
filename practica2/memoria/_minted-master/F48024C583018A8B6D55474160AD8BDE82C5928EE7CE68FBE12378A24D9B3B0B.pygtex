@@ -1,0 +1,23 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+ \PYG{k}{def} \PYG{n+nf}{calcular\PYGZus{}k\PYGZus{}SC}\PYG{p}{(}\PYG{n}{data}\PYG{p}{,}\PYG{n}{k\PYGZus{}max}\PYG{p}{):}
+	\PYG{n}{costs}\PYG{o}{=}\PYG{p}{[[]} \PYG{k}{for} \PYG{n}{i} \PYG{o+ow}{in} \PYG{n+nb}{range}\PYG{p}{(}\PYG{l+m+mi}{2}\PYG{p}{)]}
+	\PYG{k}{for} \PYG{n}{i} \PYG{o+ow}{in} \PYG{n+nb}{range}\PYG{p}{(}\PYG{l+m+mi}{2}\PYG{p}{,}\PYG{n}{k\PYGZus{}max}\PYG{p}{):}
+	\PYG{n}{resultado} \PYG{o}{=} \PYG{n}{KMeans}\PYG{p}{(}\PYG{n}{n\PYGZus{}clusters}\PYG{o}{=} \PYG{n}{i}\PYG{p}{,} \PYG{n}{random\PYGZus{}state}\PYG{o}{=}\PYG{l+m+mi}{150}\PYG{p}{)}\PYG{o}{.}\PYG{n}{fit}\PYG{p}{(}\PYG{n}{data}\PYG{p}{)}
+	
+	\PYG{n}{silhouette}\PYG{p}{,} \PYG{n}{calinski} \PYG{o}{=} \PYG{n}{measures\PYGZus{}silhoutte\PYGZus{}calinski}\PYG{p}{(}\PYG{n}{data}\PYG{p}{,} \PYG{n}{resultado}\PYG{o}{.}\PYG{n}{labels\PYGZus{}}\PYG{p}{)}
+	
+	\PYG{n}{costs}\PYG{p}{[}\PYG{l+m+mi}{0}\PYG{p}{]}\PYG{o}{.}\PYG{n}{append}\PYG{p}{(}\PYG{n}{silhouette}\PYG{p}{)}
+	\PYG{n}{costs}\PYG{p}{[}\PYG{l+m+mi}{1}\PYG{p}{]}\PYG{o}{.}\PYG{n}{append}\PYG{p}{(}\PYG{n}{calinski}\PYG{p}{)}
+	
+	\PYG{n}{fig}\PYG{p}{,} \PYG{p}{(}\PYG{n}{ax1}\PYG{p}{,} \PYG{n}{ax2}\PYG{p}{)} \PYG{o}{=}\PYG{n}{plt}\PYG{o}{.}\PYG{n}{subplots}\PYG{p}{(}\PYG{l+m+mi}{1}\PYG{p}{,}\PYG{l+m+mi}{2}\PYG{p}{,}\PYG{n}{figsize}\PYG{o}{=}\PYG{p}{(}\PYG{l+m+mi}{15}\PYG{p}{,}\PYG{l+m+mi}{5}\PYG{p}{))}
+	\PYG{n}{ax1}\PYG{o}{.}\PYG{n}{plot}\PYG{p}{(}\PYG{n+nb}{range}\PYG{p}{(}\PYG{l+m+mi}{2}\PYG{p}{,}\PYG{n}{k\PYGZus{}max}\PYG{p}{),} \PYG{n}{costs}\PYG{p}{[}\PYG{l+m+mi}{0}\PYG{p}{])}
+	\PYG{n}{ax1}\PYG{o}{.}\PYG{n}{set\PYGZus{}xlabel}\PYG{p}{(}\PYG{l+s+s1}{\PYGZsq{}Número de clusters\PYGZsq{}}\PYG{p}{)}
+	\PYG{n}{ax1}\PYG{o}{.}\PYG{n}{set\PYGZus{}ylabel}\PYG{p}{(}\PYG{l+s+s1}{\PYGZsq{}Silhouette\PYGZsq{}}\PYG{p}{)}
+	
+	\PYG{n}{ax2}\PYG{o}{.}\PYG{n}{plot}\PYG{p}{(}\PYG{n+nb}{range}\PYG{p}{(}\PYG{l+m+mi}{2}\PYG{p}{,}\PYG{n}{k\PYGZus{}max}\PYG{p}{),} \PYG{n}{costs}\PYG{p}{[}\PYG{l+m+mi}{1}\PYG{p}{])}
+	\PYG{n}{ax2}\PYG{o}{.}\PYG{n}{set\PYGZus{}xlabel}\PYG{p}{(}\PYG{l+s+s1}{\PYGZsq{}Número de clusters\PYGZsq{}}\PYG{p}{)}
+	\PYG{n}{ax2}\PYG{o}{.}\PYG{n}{set\PYGZus{}ylabel}\PYG{p}{(}\PYG{l+s+s1}{\PYGZsq{}Calinski\PYGZsq{}}\PYG{p}{)}
+	\PYG{n}{plt}\PYG{o}{.}\PYG{n}{show}\PYG{p}{()}
+	
+\PYG{n}{calcular\PYGZus{}k\PYGZus{}SC}\PYG{p}{(}\PYG{n}{data\PYGZus{}caso1}\PYG{p}{,}\PYG{l+m+mi}{20}\PYG{p}{)}
+\end{Verbatim}

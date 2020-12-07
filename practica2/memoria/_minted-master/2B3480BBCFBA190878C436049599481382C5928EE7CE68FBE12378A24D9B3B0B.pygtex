@@ -1,0 +1,4 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+	\PYG{n}{data\PYGZus{}caso3} \PYG{o}{=} \PYG{n}{to\PYGZus{}matrix}\PYG{p}{(}\PYG{n}{caso3}\PYG{p}{,} \PYG{n}{cols}\PYG{p}{)}
+	\PYG{n}{data\PYGZus{}caso3} \PYG{o}{=} \PYG{n}{norm}\PYG{p}{(}\PYG{n}{data\PYGZus{}caso3}\PYG{p}{)}
+\end{Verbatim}

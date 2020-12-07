@@ -1,0 +1,11 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{k}{def} \PYG{n+nf}{k\PYGZus{}means}\PYG{p}{(}\PYG{n}{data}\PYG{p}{,}\PYG{n}{k}\PYG{p}{):}
+	\PYG{n}{kmeans} \PYG{o}{=} \PYG{n}{KMeans}\PYG{p}{(}\PYG{n}{n\PYGZus{}clusters}\PYG{o}{=} \PYG{n}{k}\PYG{p}{,} \PYG{n}{random\PYGZus{}state}\PYG{o}{=}\PYG{l+m+mi}{200}\PYG{p}{)}\PYG{o}{.}\PYG{n}{fit}\PYG{p}{(}\PYG{n}{data}\PYG{p}{)}
+	
+	\PYG{n}{silhouette}\PYG{p}{,} \PYG{n}{calinski} \PYG{o}{=} \PYG{n}{measures\PYGZus{}silhoutte\PYGZus{}calinski}\PYG{p}{(}\PYG{n}{data}\PYG{p}{,} \PYG{n}{kmeans}\PYG{o}{.}\PYG{n}{labels\PYGZus{}}\PYG{p}{)}
+	
+	\PYG{n+nb}{print}\PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{}Silhouette: }\PYG{l+s+si}{\PYGZob{}:3f\PYGZcb{}}\PYG{l+s+s2}{\PYGZdq{}}\PYG{o}{.}\PYG{n}{format}\PYG{p}{(}\PYG{n}{silhouette}\PYG{p}{))}
+	\PYG{n+nb}{print}\PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{}Calinsky: }\PYG{l+s+si}{\PYGZob{}:3f\PYGZcb{}}\PYG{l+s+s2}{\PYGZdq{}}\PYG{o}{.}\PYG{n}{format}\PYG{p}{(}\PYG{n}{calinski}\PYG{p}{))}
+	
+	\PYG{k}{return} \PYG{n}{kmeans}
+\end{Verbatim}
