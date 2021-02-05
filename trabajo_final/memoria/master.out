@@ -1,0 +1,19 @@
+\BOOKMARK [1][-]{section.1}{Descripci\363n y an\341lisis del problema}{}% 1
+\BOOKMARK [1][-]{section.2}{Algoritmos}{}% 2
+\BOOKMARK [2][-]{subsection.2.1}{Redes Neuronales convolucionales}{section.2}% 3
+\BOOKMARK [2][-]{subsection.2.2}{Arquitectura LeNet-5}{section.2}% 4
+\BOOKMARK [2][-]{subsection.2.3}{Arquitectura VGGNet}{section.2}% 5
+\BOOKMARK [2][-]{subsection.2.4}{Transfer Learning}{section.2}% 6
+\BOOKMARK [1][-]{section.3}{Estudio experimental}{}% 7
+\BOOKMARK [2][-]{subsection.3.1}{LeNet-5}{section.3}% 8
+\BOOKMARK [3][-]{subsubsection.3.1.1}{Lectura de los datos y preprocesamiento}{subsection.3.1}% 9
+\BOOKMARK [3][-]{subsubsection.3.1.2}{Construcci\363n del modelo}{subsection.3.1}% 10
+\BOOKMARK [3][-]{subsubsection.3.1.3}{Resultados}{subsection.3.1}% 11
+\BOOKMARK [2][-]{subsection.3.2}{Otras estructuras de CNNs sencillas}{section.3}% 12
+\BOOKMARK [3][-]{subsubsection.3.2.1}{Doble capa convolucional}{subsection.3.2}% 13
+\BOOKMARK [3][-]{subsubsection.3.2.2}{Triple capa convolucional}{subsection.3.2}% 14
+\BOOKMARK [2][-]{subsection.3.3}{VGG16}{section.3}% 15
+\BOOKMARK [3][-]{subsubsection.3.3.1}{Sin Data Augmentation}{subsection.3.3}% 16
+\BOOKMARK [3][-]{subsubsection.3.3.2}{Con Data Augmentation}{subsection.3.3}% 17
+\BOOKMARK [2][-]{subsection.3.4}{Tabla comparativa de resultados}{section.3}% 18
+\BOOKMARK [1][-]{section.4}{Planteamiento de futuro}{}% 19

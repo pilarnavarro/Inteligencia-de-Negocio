@@ -1,0 +1,12 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{n}{optimizer} \PYG{o}{=} \PYG{n}{RMSprop}\PYG{p}{(}\PYG{n}{lr} \PYG{o}{=} \PYG{l+m+mf}{0.001}\PYG{p}{,} \PYG{n}{rho} \PYG{o}{=} \PYG{l+m+mf}{0.9}\PYG{p}{,} \PYG{n}{epsilon}\PYG{o}{=}\PYG{l+m+mf}{1e\PYGZhy{}08}\PYG{p}{,} \PYG{n}{decay} \PYG{o}{=}\PYG{l+m+mf}{0.0}\PYG{p}{)}
+
+\PYG{n}{model}\PYG{o}{.}\PYG{n}{compile}\PYG{p}{(}\PYG{n}{optimizer} \PYG{o}{=} \PYG{n}{optimizer}\PYG{p}{,} \PYG{n}{loss} \PYG{o}{=} \PYG{l+s+s1}{\PYGZsq{}categorical\PYGZus{}crossentropy\PYGZsq{}}\PYG{p}{,}
+\PYG{n}{metrics} \PYG{o}{=} \PYG{p}{[}\PYG{l+s+s1}{\PYGZsq{}accuracy\PYGZsq{}}\PYG{p}{])}
+
+\PYG{n}{learning\PYGZus{}rate\PYGZus{}reduction} \PYG{o}{=} \PYG{n}{ReduceLROnPlateau}\PYG{p}{(}\PYG{n}{monitor}\PYG{o}{=}\PYG{l+s+s1}{\PYGZsq{}val\PYGZus{}loss\PYGZsq{}}\PYG{p}{,}
+	\PYG{n}{patience}\PYG{o}{=}\PYG{l+m+mi}{3}\PYG{p}{,}
+	\PYG{n}{verbose}\PYG{o}{=}\PYG{l+m+mi}{1}\PYG{p}{,}
+	\PYG{n}{factor}\PYG{o}{=}\PYG{l+m+mf}{0.5}\PYG{p}{,}
+	\PYG{n}{min\PYGZus{}lr}\PYG{o}{=}\PYG{l+m+mf}{0.00001}\PYG{p}{)}
+\end{Verbatim}

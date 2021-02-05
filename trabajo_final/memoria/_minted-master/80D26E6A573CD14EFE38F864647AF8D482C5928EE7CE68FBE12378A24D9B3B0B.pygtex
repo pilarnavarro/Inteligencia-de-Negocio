@@ -1,0 +1,5 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{c+c1}{\PYGZsh{} Padding the input to make it 32x32. Specification of LeNET}
+\PYG{n}{x\PYGZus{}train} \PYG{o}{=} \PYG{n}{np}\PYG{o}{.}\PYG{n}{pad}\PYG{p}{(}\PYG{n}{x\PYGZus{}train}\PYG{p}{,} \PYG{p}{[(}\PYG{l+m+mi}{0}\PYG{p}{,} \PYG{l+m+mi}{0}\PYG{p}{),} \PYG{p}{(}\PYG{l+m+mi}{2}\PYG{p}{,} \PYG{l+m+mi}{2}\PYG{p}{),} \PYG{p}{(}\PYG{l+m+mi}{2}\PYG{p}{,} \PYG{l+m+mi}{2}\PYG{p}{),} \PYG{p}{(}\PYG{l+m+mi}{0}\PYG{p}{,} \PYG{l+m+mi}{0}\PYG{p}{)],} \PYG{l+s+s2}{\PYGZdq{}constant\PYGZdq{}}\PYG{p}{)}
+\PYG{n}{x\PYGZus{}test} \PYG{o}{=} \PYG{n}{np}\PYG{o}{.}\PYG{n}{pad}\PYG{p}{(}\PYG{n}{x\PYGZus{}test}\PYG{p}{,} \PYG{p}{[(}\PYG{l+m+mi}{0}\PYG{p}{,} \PYG{l+m+mi}{0}\PYG{p}{),} \PYG{p}{(}\PYG{l+m+mi}{2}\PYG{p}{,} \PYG{l+m+mi}{2}\PYG{p}{),} \PYG{p}{(}\PYG{l+m+mi}{2}\PYG{p}{,} \PYG{l+m+mi}{2}\PYG{p}{),} \PYG{p}{(}\PYG{l+m+mi}{0}\PYG{p}{,} \PYG{l+m+mi}{0}\PYG{p}{)],} \PYG{l+s+s2}{\PYGZdq{}constant\PYGZdq{}}\PYG{p}{)}
+\end{Verbatim}

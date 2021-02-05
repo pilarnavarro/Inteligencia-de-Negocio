@@ -1,0 +1,12 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{n}{x\PYGZus{}train}\PYG{p}{,} \PYG{n}{y\PYGZus{}train} \PYG{o}{=} \PYG{n}{mndata}\PYG{o}{.}\PYG{n}{load\PYGZus{}training}\PYG{p}{()}
+\PYG{n}{x\PYGZus{}test}\PYG{p}{,} \PYG{n}{y\PYGZus{}test} \PYG{o}{=} \PYG{n}{mndata}\PYG{o}{.}\PYG{n}{load\PYGZus{}testing}\PYG{p}{()}
+
+\PYG{n}{x\PYGZus{}train} \PYG{o}{=} \PYG{n}{np}\PYG{o}{.}\PYG{n}{asarray}\PYG{p}{(}\PYG{n}{x\PYGZus{}train}\PYG{p}{)}
+\PYG{n}{y\PYGZus{}train} \PYG{o}{=} \PYG{n}{np}\PYG{o}{.}\PYG{n}{asarray}\PYG{p}{(}\PYG{n}{y\PYGZus{}train}\PYG{p}{)}
+\PYG{n}{x\PYGZus{}test} \PYG{o}{=} \PYG{n}{np}\PYG{o}{.}\PYG{n}{asarray}\PYG{p}{(}\PYG{n}{x\PYGZus{}test}\PYG{p}{)}
+\PYG{n}{y\PYGZus{}test} \PYG{o}{=} \PYG{n}{np}\PYG{o}{.}\PYG{n}{asarray}\PYG{p}{(}\PYG{n}{y\PYGZus{}test}\PYG{p}{)}
+
+\PYG{n}{x\PYGZus{}train} \PYG{o}{=} \PYG{n}{x\PYGZus{}train}\PYG{o}{.}\PYG{n}{reshape}\PYG{p}{((}\PYG{n+nb}{len}\PYG{p}{(}\PYG{n}{x\PYGZus{}train}\PYG{p}{),}\PYG{l+m+mi}{28}\PYG{p}{,}\PYG{l+m+mi}{28}\PYG{p}{))}
+\PYG{n}{x\PYGZus{}test} \PYG{o}{=} \PYG{n}{x\PYGZus{}test}\PYG{o}{.}\PYG{n}{reshape}\PYG{p}{((}\PYG{n+nb}{len}\PYG{p}{(}\PYG{n}{x\PYGZus{}test}\PYG{p}{),}\PYG{l+m+mi}{28}\PYG{p}{,}\PYG{l+m+mi}{28}\PYG{p}{))}
+\end{Verbatim}

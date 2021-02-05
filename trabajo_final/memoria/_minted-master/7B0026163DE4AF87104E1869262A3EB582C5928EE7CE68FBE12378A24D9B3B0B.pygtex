@@ -1,0 +1,5 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{c+c1}{\PYGZsh{}label encoding}
+\PYG{n}{y\PYGZus{}train} \PYG{o}{=} \PYG{n}{to\PYGZus{}categorical}\PYG{p}{(}\PYG{n}{y\PYGZus{}train}\PYG{p}{,} \PYG{n}{num\PYGZus{}classes}\PYG{o}{=}\PYG{l+m+mi}{10}\PYG{p}{)}
+\PYG{n}{y\PYGZus{}test} \PYG{o}{=} \PYG{n}{to\PYGZus{}categorical}\PYG{p}{(}\PYG{n}{y\PYGZus{}test}\PYG{p}{,} \PYG{n}{num\PYGZus{}classes}\PYG{o}{=}\PYG{l+m+mi}{10}\PYG{p}{)}
+\end{Verbatim}

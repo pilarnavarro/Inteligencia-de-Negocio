@@ -1,0 +1,6 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{n}{history} \PYG{o}{=} \PYG{n}{model}\PYG{o}{.}\PYG{n}{fit}\PYG{p}{(}\PYG{n}{datagen}\PYG{o}{.}\PYG{n}{flow}\PYG{p}{(}\PYG{n}{x\PYGZus{}train}\PYG{p}{,}\PYG{n}{y\PYGZus{}train}\PYG{p}{,} \PYG{n}{batch\PYGZus{}size}\PYG{o}{=}\PYG{n}{batch\PYGZus{}size}\PYG{p}{),} \PYG{n}{epochs} \PYG{o}{=} \PYG{l+m+mi}{50}\PYG{p}{,}
+	\PYG{n}{steps\PYGZus{}per\PYGZus{}epoch} \PYG{o}{=} \PYG{n}{x\PYGZus{}train}\PYG{o}{.}\PYG{n}{shape}\PYG{p}{[}\PYG{l+m+mi}{0}\PYG{p}{]} \PYG{o}{//} \PYG{n}{batch\PYGZus{}size}\PYG{p}{,}
+	\PYG{n}{validation\PYGZus{}data} \PYG{o}{=} \PYG{p}{(}\PYG{n}{x\PYGZus{}val}\PYG{p}{,} \PYG{n}{y\PYGZus{}val}\PYG{p}{),}
+	\PYG{n}{callbacks} \PYG{o}{=} \PYG{n}{callbacks1}\PYG{p}{)}
+\end{Verbatim}

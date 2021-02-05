@@ -1,0 +1,40 @@
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\babel@toc {spanish}{}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {1}Descripción y análisis del problema}{2}{section.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2}Algoritmos}{3}{section.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.1}Redes Neuronales convolucionales}{3}{subsection.2.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.2}Arquitectura LeNet-5}{7}{subsection.2.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.3}Arquitectura VGGNet}{9}{subsection.2.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.4}Transfer Learning}{11}{subsection.2.4}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3}Estudio experimental}{13}{section.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.1}LeNet-5}{13}{subsection.3.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {3.1.1}Lectura de los datos y preprocesamiento}{13}{subsubsection.3.1.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {3.1.2}Construcción del modelo}{14}{subsubsection.3.1.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {3.1.3}Resultados}{15}{subsubsection.3.1.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.2}Otras estructuras de CNNs sencillas}{16}{subsection.3.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {3.2.1}Doble capa convolucional}{16}{subsubsection.3.2.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {3.2.2}Triple capa convolucional}{20}{subsubsection.3.2.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.3}VGG16}{24}{subsection.3.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {3.3.1}Sin Data Augmentation}{24}{subsubsection.3.3.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {3.3.2}Con Data Augmentation}{27}{subsubsection.3.3.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.4}Tabla comparativa de resultados}{28}{subsection.3.4}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4}Planteamiento de futuro}{28}{section.4}%

@@ -1,0 +1,42 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{k}{def} \PYG{n+nf}{get\PYGZus{}newtriplecnn}\PYG{p}{():}
+	\PYG{k}{return} \PYG{n}{Sequential}\PYG{p}{([}
+		\PYG{n}{Conv2D}\PYG{p}{(}\PYG{l+m+mi}{32}\PYG{p}{,} \PYG{n}{kernel\PYGZus{}size}\PYG{o}{=}\PYG{p}{(}\PYG{l+m+mi}{3}\PYG{p}{,} \PYG{l+m+mi}{3}\PYG{p}{),} \PYG{n}{activation}\PYG{o}{=}\PYG{l+s+s1}{\PYGZsq{}relu\PYGZsq{}}\PYG{p}{,} \PYG{n}{padding}\PYG{o}{=}\PYG{l+s+s1}{\PYGZsq{}same\PYGZsq{}}\PYG{p}{,}
+		\PYG{n}{input\PYGZus{}shape} \PYG{o}{=} \PYG{p}{(}\PYG{l+m+mi}{28}\PYG{p}{,}\PYG{l+m+mi}{28}\PYG{p}{,}\PYG{l+m+mi}{1}\PYG{p}{)),}
+		\PYG{n}{Conv2D}\PYG{p}{(}\PYG{l+m+mi}{32}\PYG{p}{,} \PYG{n}{kernel\PYGZus{}size}\PYG{o}{=}\PYG{p}{(}\PYG{l+m+mi}{3}\PYG{p}{,} \PYG{l+m+mi}{3}\PYG{p}{),} \PYG{n}{activation}\PYG{o}{=}\PYG{l+s+s1}{\PYGZsq{}relu\PYGZsq{}}\PYG{p}{,} \PYG{n}{padding}\PYG{o}{=}\PYG{l+s+s1}{\PYGZsq{}same\PYGZsq{}}\PYG{p}{),}
+		\PYG{n}{BatchNormalization}\PYG{p}{(),}
+		\PYG{n}{MaxPool2D}\PYG{p}{(}\PYG{n}{pool\PYGZus{}size}\PYG{o}{=}\PYG{p}{(}\PYG{l+m+mi}{2}\PYG{p}{,} \PYG{l+m+mi}{2}\PYG{p}{)),}
+		\PYG{n}{Dropout}\PYG{p}{(}\PYG{l+m+mf}{0.25}\PYG{p}{),}
+		
+		\PYG{n}{Conv2D}\PYG{p}{(}\PYG{l+m+mi}{64}\PYG{p}{,} \PYG{n}{kernel\PYGZus{}size}\PYG{o}{=}\PYG{p}{(}\PYG{l+m+mi}{3}\PYG{p}{,} \PYG{l+m+mi}{3}\PYG{p}{),} \PYG{n}{activation}\PYG{o}{=}\PYG{l+s+s1}{\PYGZsq{}relu\PYGZsq{}}\PYG{p}{,} \PYG{n}{padding}\PYG{o}{=}\PYG{l+s+s1}{\PYGZsq{}same\PYGZsq{}}\PYG{p}{),}
+		\PYG{n}{Conv2D}\PYG{p}{(}\PYG{l+m+mi}{64}\PYG{p}{,} \PYG{n}{kernel\PYGZus{}size}\PYG{o}{=}\PYG{p}{(}\PYG{l+m+mi}{3}\PYG{p}{,} \PYG{l+m+mi}{3}\PYG{p}{),} \PYG{n}{activation}\PYG{o}{=}\PYG{l+s+s1}{\PYGZsq{}relu\PYGZsq{}}\PYG{p}{,} \PYG{n}{padding}\PYG{o}{=}\PYG{l+s+s1}{\PYGZsq{}same\PYGZsq{}} \PYG{p}{),}
+		\PYG{n}{BatchNormalization}\PYG{p}{(),}
+		\PYG{n}{MaxPool2D}\PYG{p}{(}\PYG{n}{pool\PYGZus{}size}\PYG{o}{=}\PYG{p}{(}\PYG{l+m+mi}{2}\PYG{p}{,} \PYG{l+m+mi}{2}\PYG{p}{)),}
+		\PYG{n}{Dropout}\PYG{p}{(}\PYG{l+m+mf}{0.25}\PYG{p}{),}
+		
+		\PYG{n}{Conv2D}\PYG{p}{(}\PYG{l+m+mi}{128}\PYG{p}{,} \PYG{n}{kernel\PYGZus{}size}\PYG{o}{=}\PYG{p}{(}\PYG{l+m+mi}{3}\PYG{p}{,} \PYG{l+m+mi}{3}\PYG{p}{),} \PYG{n}{activation}\PYG{o}{=}\PYG{l+s+s1}{\PYGZsq{}relu\PYGZsq{}}\PYG{p}{,} \PYG{n}{padding}\PYG{o}{=}\PYG{l+s+s1}{\PYGZsq{}same\PYGZsq{}} \PYG{p}{),}
+		\PYG{n}{Conv2D}\PYG{p}{(}\PYG{l+m+mi}{128}\PYG{p}{,} \PYG{n}{kernel\PYGZus{}size}\PYG{o}{=}\PYG{p}{(}\PYG{l+m+mi}{3}\PYG{p}{,} \PYG{l+m+mi}{3}\PYG{p}{),} \PYG{n}{activation}\PYG{o}{=}\PYG{l+s+s1}{\PYGZsq{}relu\PYGZsq{}}\PYG{p}{,} \PYG{n}{padding}\PYG{o}{=}\PYG{l+s+s1}{\PYGZsq{}same\PYGZsq{}} \PYG{p}{),}
+		\PYG{n}{BatchNormalization}\PYG{p}{(),}
+		\PYG{n}{MaxPool2D}\PYG{p}{(}\PYG{n}{pool\PYGZus{}size}\PYG{o}{=}\PYG{p}{(}\PYG{l+m+mi}{2}\PYG{p}{,} \PYG{l+m+mi}{2}\PYG{p}{)),}
+		\PYG{n}{Dropout}\PYG{p}{(}\PYG{l+m+mf}{0.25}\PYG{p}{),}
+		
+		
+		\PYG{n}{Flatten}\PYG{p}{(),}
+		
+		\PYG{n}{Dense}\PYG{p}{(}\PYG{l+m+mi}{512}\PYG{p}{,} \PYG{n}{activation}\PYG{o}{=}\PYG{l+s+s1}{\PYGZsq{}relu\PYGZsq{}}\PYG{p}{),}
+		\PYG{n}{BatchNormalization}\PYG{p}{(),}
+		\PYG{n}{Dropout}\PYG{p}{(}\PYG{l+m+mf}{0.5}\PYG{p}{),}
+		
+		\PYG{n}{Dense}\PYG{p}{(}\PYG{l+m+mi}{256}\PYG{p}{,} \PYG{n}{activation}\PYG{o}{=}\PYG{l+s+s1}{\PYGZsq{}relu\PYGZsq{}}\PYG{p}{),}
+		\PYG{n}{BatchNormalization}\PYG{p}{(),}
+		\PYG{n}{Dropout}\PYG{p}{(}\PYG{l+m+mf}{0.4}\PYG{p}{),}
+		
+		
+		\PYG{n}{Dense}\PYG{p}{(}\PYG{l+m+mi}{64}\PYG{p}{,} \PYG{n}{activation}\PYG{o}{=}\PYG{l+s+s1}{\PYGZsq{}relu\PYGZsq{}}\PYG{p}{),}
+		\PYG{n}{BatchNormalization}\PYG{p}{(),}
+		\PYG{n}{Dropout}\PYG{p}{(}\PYG{l+m+mf}{0.3}\PYG{p}{),}
+		
+		\PYG{n}{Dense}\PYG{p}{(}\PYG{l+m+mi}{10}\PYG{p}{,} \PYG{n}{activation} \PYG{o}{=} \PYG{l+s+s2}{\PYGZdq{}softmax\PYGZdq{}}\PYG{p}{)}
+
+\PYG{p}{])}
+\end{Verbatim}

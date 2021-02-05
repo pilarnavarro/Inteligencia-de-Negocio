@@ -1,0 +1,29 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{c+c1}{\PYGZsh{}Data Augmentation}
+\PYG{n}{datagen} \PYG{o}{=} \PYG{n}{ImageDataGenerator}\PYG{p}{(}
+\PYG{c+c1}{\PYGZsh{} set input mean to 0 over the dataset}
+\PYG{n}{featurewise\PYGZus{}center}\PYG{o}{=}\PYG{k+kc}{False}\PYG{p}{,}
+\PYG{c+c1}{\PYGZsh{} set each sample mean to 0}
+\PYG{n}{samplewise\PYGZus{}center}\PYG{o}{=}\PYG{k+kc}{False}\PYG{p}{,}
+\PYG{c+c1}{\PYGZsh{} divide inputs by std of the dataset}
+\PYG{n}{featurewise\PYGZus{}std\PYGZus{}normalization}\PYG{o}{=}\PYG{k+kc}{False}\PYG{p}{,}
+\PYG{c+c1}{\PYGZsh{} divide each input by its std}
+\PYG{n}{samplewise\PYGZus{}std\PYGZus{}normalization}\PYG{o}{=}\PYG{k+kc}{False}\PYG{p}{,}
+\PYG{c+c1}{\PYGZsh{} apply ZCA whitening}
+\PYG{n}{zca\PYGZus{}whitening}\PYG{o}{=}\PYG{k+kc}{False}\PYG{p}{,}
+\PYG{c+c1}{\PYGZsh{} randomly rotate images in the range (degrees, 0 to 180)}
+\PYG{n}{rotation\PYGZus{}range}\PYG{o}{=}\PYG{l+m+mi}{10}\PYG{p}{,}
+\PYG{c+c1}{\PYGZsh{} Randomly zoom image}
+\PYG{n}{zoom\PYGZus{}range} \PYG{o}{=} \PYG{l+m+mf}{0.1}\PYG{p}{,}
+\PYG{c+c1}{\PYGZsh{} randomly shift images horizontally (fraction of total width)}
+\PYG{n}{width\PYGZus{}shift\PYGZus{}range}\PYG{o}{=}\PYG{l+m+mf}{0.1}\PYG{p}{,}
+\PYG{c+c1}{\PYGZsh{} randomly shift images vertically (fraction of total height)}
+\PYG{n}{height\PYGZus{}shift\PYGZus{}range}\PYG{o}{=}\PYG{l+m+mf}{0.1}\PYG{p}{,}
+\PYG{c+c1}{\PYGZsh{} randomly flip images}
+\PYG{n}{horizontal\PYGZus{}flip}\PYG{o}{=}\PYG{k+kc}{False}\PYG{p}{,}
+\PYG{c+c1}{\PYGZsh{} randomly flip images}
+\PYG{n}{vertical\PYGZus{}flip}\PYG{o}{=}\PYG{k+kc}{False}\PYG{p}{)}
+
+
+\PYG{n}{datagen}\PYG{o}{.}\PYG{n}{fit}\PYG{p}{(}\PYG{n}{x\PYGZus{}train}\PYG{p}{)}
+\end{Verbatim}

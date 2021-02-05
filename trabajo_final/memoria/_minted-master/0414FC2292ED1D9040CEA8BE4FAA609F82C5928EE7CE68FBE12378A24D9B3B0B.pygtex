@@ -1,0 +1,6 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{n}{callbacks1} \PYG{o}{=} \PYG{p}{[}
+	\PYG{n}{EarlyStopping}\PYG{p}{(}\PYG{n}{monitor} \PYG{o}{=} \PYG{l+s+s1}{\PYGZsq{}val\PYGZus{}loss\PYGZsq{}}\PYG{p}{,} \PYG{n}{patience} \PYG{o}{=} \PYG{l+m+mi}{6}\PYG{p}{,} \PYG{n}{restore\PYGZus{}best\PYGZus{}weights}\PYG{o}{=}\PYG{k+kc}{True}\PYG{p}{),}
+	\PYG{n}{ReduceLROnPlateau}\PYG{p}{(}\PYG{n}{monitor} \PYG{o}{=} \PYG{l+s+s1}{\PYGZsq{}val\PYGZus{}loss\PYGZsq{}}\PYG{p}{,} \PYG{n}{patience} \PYG{o}{=} \PYG{l+m+mi}{3}\PYG{p}{)}
+\PYG{p}{]}
+\end{Verbatim}

@@ -1,0 +1,4 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+	\PYG{n}{x\PYGZus{}train} \PYG{n}{shape}\PYG{p}{:}  \PYG{p}{(}\PYG{l+m+mi}{60000}\PYG{p}{,} \PYG{l+m+mi}{32}\PYG{p}{,} \PYG{l+m+mi}{32}\PYG{p}{,} \PYG{l+m+mi}{3}\PYG{p}{)}
+	\PYG{n}{x\PYGZus{}test} \PYG{n}{shape}\PYG{p}{:}  \PYG{p}{(}\PYG{l+m+mi}{10000}\PYG{p}{,} \PYG{l+m+mi}{32}\PYG{p}{,} \PYG{l+m+mi}{32}\PYG{p}{,} \PYG{l+m+mi}{3}\PYG{p}{)}
+\end{Verbatim}

@@ -1,0 +1,3 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{n}{model}\PYG{o}{.}\PYG{n}{layers}\PYG{p}{[}\PYG{l+m+mi}{0}\PYG{p}{]}\PYG{o}{.}\PYG{n}{trainable} \PYG{o}{=} \PYG{k+kc}{True}
+\end{Verbatim}
