@@ -1,0 +1,11 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+ \PYG{n}{knn}\PYG{o}{=}\PYG{n}{KNeighborsClassifier}\PYG{p}{()}
+ \PYG{n}{bagging\PYGZus{}knn}\PYG{o}{=} \PYG{n}{BaggingClassifier}\PYG{p}{(}\PYG{n}{knn}\PYG{p}{,}\PYG{n}{n\PYGZus{}estimators}\PYG{o}{=}\PYG{l+m+mi}{22}\PYG{p}{,} \PYG{n}{max\PYGZus{}samples}\PYG{o}{=}\PYG{l+m+mf}{1.0}\PYG{p}{,}
+  \PYG{n}{max\PYGZus{}features}\PYG{o}{=}\PYG{l+m+mf}{0.6}\PYG{p}{,} \PYG{n}{random\PYGZus{}state}\PYG{o}{=}\PYG{l+m+mi}{10}\PYG{p}{)}
+ \PYG{n}{bagging\PYGZus{}knn}\PYG{o}{.}\PYG{n}{fit}\PYG{p}{(}\PYG{n}{df\PYGZus{}train\PYGZus{}norm}\PYG{p}{,}\PYG{n}{df\PYGZus{}train\PYGZus{}obj}\PYG{p}{)}
+ \PYG{n}{pred}\PYG{o}{=}\PYG{n}{bagging\PYGZus{}knn}\PYG{o}{.}\PYG{n}{predict}\PYG{p}{(}\PYG{n}{df\PYGZus{}test\PYGZus{}norm}\PYG{p}{)}
+ \PYG{n}{ids}\PYG{o}{=}\PYG{n}{df\PYGZus{}test\PYGZus{}orig}\PYG{p}{[}\PYG{l+s+s2}{\PYGZdq{}id\PYGZdq{}}\PYG{p}{]}
+
+ \PYG{n}{df\PYGZus{}result} \PYG{o}{=} \PYG{n}{pd}\PYG{o}{.}\PYG{n}{DataFrame}\PYG{p}{(\PYGZob{}}\PYG{l+s+s1}{\PYGZsq{}id\PYGZsq{}}\PYG{p}{:} \PYG{n}{ids}\PYG{p}{,} \PYG{l+s+s1}{\PYGZsq{}Precio\PYGZus{}cat\PYGZsq{}}\PYG{p}{:} \PYG{n}{pred}\PYG{p}{\PYGZcb{})}
+ \PYG{n}{df\PYGZus{}result}\PYG{o}{.}\PYG{n}{to\PYGZus{}csv}\PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{}resultados\PYGZus{}3.csv\PYGZdq{}}\PYG{p}{,} \PYG{n}{index}\PYG{o}{=}\PYG{k+kc}{False}\PYG{p}{)}
+\end{Verbatim}

@@ -1,0 +1,5 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{n}{imputer}\PYG{o}{=}\PYG{n}{impute}\PYG{o}{.}\PYG{n}{SimpleImputer}\PYG{p}{(}\PYG{n}{strategy}\PYG{o}{=}\PYG{l+s+s2}{\PYGZdq{}most\PYGZus{}frequent\PYGZdq{}}\PYG{p}{)}
+\PYG{n}{values} \PYG{o}{=} \PYG{n}{imputer}\PYG{o}{.}\PYG{n}{fit\PYGZus{}transform}\PYG{p}{([}\PYG{n}{df\PYGZus{}train}\PYG{o}{.}\PYG{n}{asientos}\PYG{o}{.}\PYG{n}{values}\PYG{p}{])}
+\PYG{n}{df\PYGZus{}train}\PYG{o}{.}\PYG{n}{asientos}\PYG{o}{.}\PYG{n}{update}\PYG{p}{(}\PYG{n}{pd}\PYG{o}{.}\PYG{n}{Series}\PYG{p}{(}\PYG{n}{values}\PYG{p}{[}\PYG{l+m+mi}{0}\PYG{p}{]))}
+\end{Verbatim}

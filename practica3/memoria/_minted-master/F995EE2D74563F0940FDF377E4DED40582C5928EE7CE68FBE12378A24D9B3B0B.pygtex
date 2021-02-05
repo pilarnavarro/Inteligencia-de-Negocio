@@ -1,0 +1,15 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+ \PYG{k}{def} \PYG{n+nf}{tune\PYGZus{}gradient\PYGZus{}boosting}\PYG{p}{(}\PYG{n}{max\PYGZus{}value}\PYG{p}{):}
+	 \PYG{n}{acc}\PYG{o}{=}\PYG{p}{[]}
+	 \PYG{k}{for} \PYG{n}{i} \PYG{o+ow}{in} \PYG{n+nb}{range}\PYG{p}{(}\PYG{l+m+mi}{1}\PYG{p}{,}\PYG{n}{max\PYGZus{}value}\PYG{p}{):}
+		 \PYG{n}{gradient}\PYG{o}{=}\PYG{n}{GradientBoostingClassifier}\PYG{p}{(}\PYG{n}{max\PYGZus{}depth}\PYG{o}{=}\PYG{n}{i}\PYG{p}{,}
+		 \PYG{n}{random\PYGZus{}state}\PYG{o}{=}\PYG{l+m+mi}{10}\PYG{p}{,}\PYG{n}{subsample}\PYG{o}{=}\PYG{l+m+mf}{0.7}\PYG{p}{)}
+		 \PYG{n}{acc}\PYG{o}{.}\PYG{n}{append}\PYG{p}{(}\PYG{n}{cross\PYGZus{}validation}\PYG{p}{(}\PYG{n}{gradient}\PYG{p}{,}\PYG{n}{df\PYGZus{}train\PYGZus{}norm}\PYG{p}{,}\PYG{n}{df\PYGZus{}train\PYGZus{}obj}\PYG{p}{))}
+	
+	 \PYG{n}{fig}\PYG{p}{,} \PYG{n}{ax} \PYG{o}{=}\PYG{n}{plt}\PYG{o}{.}\PYG{n}{subplots}\PYG{p}{(}\PYG{n}{figsize}\PYG{o}{=}\PYG{p}{(}\PYG{l+m+mi}{15}\PYG{p}{,}\PYG{l+m+mi}{5}\PYG{p}{))}
+	 \PYG{n}{ax}\PYG{o}{.}\PYG{n}{plot}\PYG{p}{(}\PYG{n+nb}{range}\PYG{p}{(}\PYG{l+m+mi}{1}\PYG{p}{,}\PYG{n}{max\PYGZus{}value}\PYG{p}{),} \PYG{n}{acc}\PYG{p}{)}
+	 \PYG{n}{ax}\PYG{o}{.}\PYG{n}{set\PYGZus{}title}\PYG{p}{(}\PYG{l+s+s1}{\PYGZsq{}Gradient Boosting\PYGZsq{}}\PYG{p}{)}
+	 \PYG{n}{ax}\PYG{o}{.}\PYG{n}{set\PYGZus{}xlabel}\PYG{p}{(}\PYG{l+s+s1}{\PYGZsq{}Max depth\PYGZsq{}}\PYG{p}{)}
+	 \PYG{n}{ax}\PYG{o}{.}\PYG{n}{set\PYGZus{}ylabel}\PYG{p}{(}\PYG{l+s+s1}{\PYGZsq{}Accuracy\PYGZsq{}}\PYG{p}{)}
+	 \PYG{n}{plt}\PYG{o}{.}\PYG{n}{show}\PYG{p}{()}
+\end{Verbatim}

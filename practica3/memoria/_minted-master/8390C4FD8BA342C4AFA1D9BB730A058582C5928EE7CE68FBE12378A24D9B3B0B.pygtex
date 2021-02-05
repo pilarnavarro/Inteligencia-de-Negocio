@@ -1,0 +1,4 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+  \PYG{n}{gradient}\PYG{o}{=}\PYG{n}{GradientBoostingClassifier}\PYG{p}{(}\PYG{n}{n\PYGZus{}estimators}\PYG{o}{=}\PYG{l+m+mi}{450}\PYG{p}{,} \PYG{n}{learning\PYGZus{}rate}\PYG{o}{=}\PYG{l+m+mf}{0.1}\PYG{p}{,} \PYG{n}{random\PYGZus{}state}\PYG{o}{=}\PYG{l+m+mi}{10}\PYG{p}{,}
+  \PYG{n}{max\PYGZus{}features}\PYG{o}{=}\PYG{l+s+s1}{\PYGZsq{}auto\PYGZsq{}}\PYG{p}{,}\PYG{n}{subsample}\PYG{o}{=}\PYG{l+m+mf}{0.5}\PYG{p}{,}\PYG{n}{max\PYGZus{}depth}\PYG{o}{=}\PYG{l+m+mi}{8}\PYG{p}{)}
+\end{Verbatim}

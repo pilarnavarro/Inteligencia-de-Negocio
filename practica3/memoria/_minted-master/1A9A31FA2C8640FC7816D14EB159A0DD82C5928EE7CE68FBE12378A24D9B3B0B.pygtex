@@ -1,0 +1,9 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+  \PYG{n}{smote}\PYG{o}{=}\PYG{n}{SMOTETomek}\PYG{p}{(}\PYG{n}{random\PYGZus{}state}\PYG{o}{=}\PYG{l+m+mi}{10}\PYG{p}{)}
+  \PYG{n}{df\PYGZus{}train\PYGZus{}over}\PYG{p}{,} \PYG{n}{df\PYGZus{}train\PYGZus{}obj\PYGZus{}over} \PYG{o}{=} \PYG{n}{smote}\PYG{o}{.}\PYG{n}{fit\PYGZus{}resample}\PYG{p}{(}\PYG{n}{df\PYGZus{}train\PYGZus{}num}\PYG{p}{,} \PYG{n}{df\PYGZus{}train\PYGZus{}obj}\PYG{p}{)}
+  \PYG{n}{df\PYGZus{}train\PYGZus{}over\PYGZus{}rpl}\PYG{p}{,} \PYG{n}{df\PYGZus{}train\PYGZus{}obj\PYGZus{}over\PYGZus{}rpl} \PYG{o}{=}
+  \PYG{n}{smote}\PYG{o}{.}\PYG{n}{fit\PYGZus{}resample}\PYG{p}{(}\PYG{n}{df\PYGZus{}train\PYGZus{}num\PYGZus{}rpl}\PYG{p}{,} \PYG{n}{df\PYGZus{}train\PYGZus{}obj\PYGZus{}replaced}\PYG{p}{)}
+  \PYG{n}{Counter}\PYG{p}{(}\PYG{n}{df\PYGZus{}train\PYGZus{}obj\PYGZus{}over}\PYG{p}{)}
+
+  \PYG{n}{Counter}\PYG{p}{(\PYGZob{}}\PYG{l+m+mi}{1}\PYG{p}{:} \PYG{l+m+mi}{1810}\PYG{p}{,} \PYG{l+m+mi}{2}\PYG{p}{:} \PYG{l+m+mi}{1763}\PYG{p}{,} \PYG{l+m+mi}{3}\PYG{p}{:} \PYG{l+m+mi}{1716}\PYG{p}{,} \PYG{l+m+mi}{4}\PYG{p}{:} \PYG{l+m+mi}{1752}\PYG{p}{,} \PYG{l+m+mi}{5}\PYG{p}{:} \PYG{l+m+mi}{1818}\PYG{p}{\PYGZcb{})}
+\end{Verbatim}

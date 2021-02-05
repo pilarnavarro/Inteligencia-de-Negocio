@@ -1,0 +1,10 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+  \PYG{n}{orest}\PYG{o}{=}\PYG{n}{RandomForestClassifier}\PYG{p}{(}\PYG{n}{random\PYGZus{}state}\PYG{o}{=}\PYG{l+m+mi}{10}\PYG{p}{)}
+  \PYG{n}{cross\PYGZus{}validation}\PYG{p}{(}\PYG{n}{forest}\PYG{p}{,} \PYG{n}{df\PYGZus{}train\PYGZus{}over}\PYG{p}{,}\PYG{n}{df\PYGZus{}train\PYGZus{}obj\PYGZus{}over}\PYG{p}{,}\PYG{k+kc}{True}\PYG{p}{)}
+  \PYG{n}{forest}\PYG{o}{.}\PYG{n}{fit}\PYG{p}{(}\PYG{n}{df\PYGZus{}train\PYGZus{}over}\PYG{p}{,}\PYG{n}{df\PYGZus{}train\PYGZus{}obj\PYGZus{}over}\PYG{p}{)}
+  \PYG{n}{pred}\PYG{o}{=}\PYG{n}{forest}\PYG{o}{.}\PYG{n}{predict}\PYG{p}{(}\PYG{n}{df\PYGZus{}test\PYGZus{}num}\PYG{p}{)}
+  \PYG{n}{ids}\PYG{o}{=}\PYG{n}{df\PYGZus{}test\PYGZus{}orig}\PYG{p}{[}\PYG{l+s+s2}{\PYGZdq{}id\PYGZdq{}}\PYG{p}{]}
+
+  \PYG{n}{df\PYGZus{}result} \PYG{o}{=} \PYG{n}{pd}\PYG{o}{.}\PYG{n}{DataFrame}\PYG{p}{(\PYGZob{}}\PYG{l+s+s1}{\PYGZsq{}id\PYGZsq{}}\PYG{p}{:} \PYG{n}{ids}\PYG{p}{,} \PYG{l+s+s1}{\PYGZsq{}Precio\PYGZus{}cat\PYGZsq{}}\PYG{p}{:} \PYG{n}{pred}\PYG{p}{\PYGZcb{})}
+  \PYG{n}{df\PYGZus{}result}\PYG{o}{.}\PYG{n}{to\PYGZus{}csv}\PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{}resultados\PYGZus{}14.csv\PYGZdq{}}\PYG{p}{,} \PYG{n}{index}\PYG{o}{=}\PYG{k+kc}{False}\PYG{p}{)}
+\end{Verbatim}

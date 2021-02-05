@@ -1,0 +1,7 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+ \PYG{n}{nombre}\PYG{p}{[}\PYG{l+s+s1}{\PYGZsq{}nombre\PYGZsq{}}\PYG{p}{]} \PYG{o}{=} \PYG{n}{nombre}\PYG{p}{[}\PYG{l+s+s1}{\PYGZsq{}nombre\PYGZsq{}}\PYG{p}{]}\PYG{o}{.}\PYG{n}{map}\PYG{p}{(}\PYG{n}{marca}\PYG{p}{)}
+ \PYG{n}{nombre}\PYG{o}{=}\PYG{n}{nombre}\PYG{o}{.}\PYG{n}{drop\PYGZus{}duplicates}\PYG{p}{()}
+ \PYG{n}{df\PYGZus{}train}\PYG{p}{[}\PYG{l+s+s1}{\PYGZsq{}nombre\PYGZsq{}}\PYG{p}{]}\PYG{o}{=}\PYG{n}{df\PYGZus{}train}\PYG{p}{[}\PYG{l+s+s1}{\PYGZsq{}nombre\PYGZsq{}}\PYG{p}{]}\PYG{o}{.}\PYG{n}{map}\PYG{p}{(}\PYG{n}{marca}\PYG{p}{)}
+ \PYG{n}{df\PYGZus{}train\PYGZus{}replaced}\PYG{p}{[}\PYG{l+s+s1}{\PYGZsq{}nombre\PYGZsq{}}\PYG{p}{]}\PYG{o}{=}\PYG{n}{df\PYGZus{}train\PYGZus{}replaced}\PYG{p}{[}\PYG{l+s+s1}{\PYGZsq{}nombre\PYGZsq{}}\PYG{p}{]}\PYG{o}{.}\PYG{n}{map}\PYG{p}{(}\PYG{n}{marca}\PYG{p}{)}
+ \PYG{n}{df\PYGZus{}test}\PYG{p}{[}\PYG{l+s+s1}{\PYGZsq{}nombre\PYGZsq{}}\PYG{p}{]}\PYG{o}{=}\PYG{n}{df\PYGZus{}test}\PYG{p}{[}\PYG{l+s+s1}{\PYGZsq{}nombre\PYGZsq{}}\PYG{p}{]}\PYG{o}{.}\PYG{n}{map}\PYG{p}{(}\PYG{n}{marca}\PYG{p}{)}
+\end{Verbatim}

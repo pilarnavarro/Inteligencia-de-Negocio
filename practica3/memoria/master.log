@@ -1,0 +1,2866 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.7.18)  4 JAN 2021 12:24
+entering extended mode
+ \write18 enabled.
+ %&-line parsing enabled.
+**master.tex
+(./master.tex
+LaTeX2e <2020-02-02> patch level 2
+L3 programming layer <2020-02-14>
+(/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2019/12/20 v1.4l Standard LaTeX document class
+(/usr/share/texlive/texmf-dist/tex/latex/base/size11.clo
+File: size11.clo 2019/12/20 v1.4l Standard LaTeX file (size option)
+)
+\c@part=\count167
+\c@section=\count168
+\c@subsection=\count169
+\c@subsubsection=\count170
+\c@paragraph=\count171
+\c@subparagraph=\count172
+\c@figure=\count173
+\c@table=\count174
+\abovecaptionskip=\skip47
+\belowcaptionskip=\skip48
+\bibindent=\dimen134
+)
+(/usr/share/texlive/texmf-dist/tex/latex/base/inputenc.sty
+Package: inputenc 2018/08/11 v1.3c Input encoding file
+\inpenc@prehook=\toks14
+\inpenc@posthook=\toks15
+)
+(/usr/share/texlive/texmf-dist/tex/generic/babel/babel.sty
+Package: babel 2020/02/14 3.40 The Babel package
+
+(/usr/share/texlive/texmf-dist/tex/generic/babel/switch.def
+File: switch.def 2020/02/14 3.40 Babel switching mechanism
+)
+(/usr/share/texlive/texmf-dist/tex/generic/babel-spanish/spanish.ldf
+Language: spanish.ldf 2016/03/03 v5.0p Spanish support from the babel system
+
+(/usr/share/texlive/texmf-dist/tex/generic/babel/babel.def
+File: babel.def 2020/02/14 3.40 Babel common definitions
+\babel@savecnt=\count175
+\U@D=\dimen135
+
+(/usr/share/texlive/texmf-dist/tex/generic/babel/txtbabel.def)
+\bbl@readstream=\read2
+\bbl@dirlevel=\count176
+)
+\es@quottoks=\toks16
+\es@quotdepth=\count177
+Package babel Info: Making " an active character on input line 561.
+Package babel Info: Making . an active character on input line 662.
+Package babel Info: Making < an active character on input line 707.
+Package babel Info: Making > an active character on input line 707.
+))
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.tex
+\pgfutil@everybye=\toks17
+\pgfutil@tempdima=\dimen136
+\pgfutil@tempdimb=\dimen137
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-common-lists.t
+ex)) (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
+\pgfutil@abb=\box45
+(/usr/share/texlive/texmf-dist/tex/latex/ms/everyshi.sty
+Package: everyshi 2001/05/15 v3.00 EveryShipout Package (MS)
+))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/pgf.revision.tex)
+Package: pgfrcs 2020/01/08 v3.1.5b (3.1.5b)
+))
+Package: pgf 2020/01/08 v3.1.5b (3.1.5b)
+
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/basiclayer/pgfcore.sty
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2019/11/30 v1.2a Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks18
+)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2019/11/30 v1.4a Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 105.
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen138
+\Gin@req@width=\dimen139
+)
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/systemlayer/pgfsys.sty
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex
+Package: pgfsys 2020/01/08 v3.1.5b (3.1.5b)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
+\pgfkeys@pathtoks=\toks19
+\pgfkeys@temptoks=\toks20
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeysfiltered.code.t
+ex
+\pgfkeys@tmptoks=\toks21
+))
+\pgf@x=\dimen140
+\pgf@y=\dimen141
+\pgf@xa=\dimen142
+\pgf@ya=\dimen143
+\pgf@xb=\dimen144
+\pgf@yb=\dimen145
+\pgf@xc=\dimen146
+\pgf@yc=\dimen147
+\pgf@xd=\dimen148
+\pgf@yd=\dimen149
+\w@pgf@writea=\write3
+\r@pgf@reada=\read3
+\c@pgf@counta=\count178
+\c@pgf@countb=\count179
+\c@pgf@countc=\count180
+\c@pgf@countd=\count181
+\t@pgf@toka=\toks22
+\t@pgf@tokb=\toks23
+\t@pgf@tokc=\toks24
+\pgf@sys@id@count=\count182
+ (/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
+File: pgf.cfg 2020/01/08 v3.1.5b (3.1.5b)
+)
+Driver file for pgf: pgfsys-pdftex.def
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-pdftex.def
+File: pgfsys-pdftex.def 2020/01/08 v3.1.5b (3.1.5b)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-common-pdf.de
+f
+File: pgfsys-common-pdf.def 2020/01/08 v3.1.5b (3.1.5b)
+)))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.
+tex
+File: pgfsyssoftpath.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgfsyssoftpath@smallbuffer@items=\count183
+\pgfsyssoftpath@bigbuffer@items=\count184
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.code.
+tex
+File: pgfsysprotocol.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+)) (/usr/share/texlive/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
+Package xcolor Info: Model `RGB' extended on input line 1364.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1366.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1367.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcore.code.tex
+Package: pgfcore 2020/01/08 v3.1.5b (3.1.5b)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
+\pgfmath@dimen=\dimen150
+\pgfmath@count=\count185
+\pgfmath@box=\box46
+\pgfmath@toks=\toks25
+\pgfmath@stack@operand=\toks26
+\pgfmath@stack@operation=\toks27
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic.code
+.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.trigonomet
+ric.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.random.cod
+e.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.comparison
+.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.base.code.
+tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.round.code
+.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.misc.code.
+tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integerari
+thmetics.code.tex)))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
+\c@pgfmathroundto@lastzeros=\count186
+))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfint.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.code.te
+x
+File: pgfcorepoints.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgf@picminx=\dimen151
+\pgf@picmaxx=\dimen152
+\pgf@picminy=\dimen153
+\pgf@picmaxy=\dimen154
+\pgf@pathminx=\dimen155
+\pgf@pathmaxx=\dimen156
+\pgf@pathminy=\dimen157
+\pgf@pathmaxy=\dimen158
+\pgf@xx=\dimen159
+\pgf@xy=\dimen160
+\pgf@yx=\dimen161
+\pgf@yy=\dimen162
+\pgf@zx=\dimen163
+\pgf@zy=\dimen164
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathconstruct.
+code.tex
+File: pgfcorepathconstruct.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgf@path@lastx=\dimen165
+\pgf@path@lasty=\dimen166
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusage.code
+.tex
+File: pgfcorepathusage.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgf@shorten@end@additional=\dimen167
+\pgf@shorten@start@additional=\dimen168
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.code.te
+x
+File: pgfcorescopes.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgfpic=\box47
+\pgf@hbox=\box48
+\pgf@layerbox@main=\box49
+\pgf@picture@serial@count=\count187
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicstate.c
+ode.tex
+File: pgfcoregraphicstate.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgflinewidth=\dimen169
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransformation
+s.code.tex
+File: pgfcoretransformations.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgf@pt@x=\dimen170
+\pgf@pt@y=\dimen171
+\pgf@pt@temp=\dimen172
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.code.tex
+File: pgfcorequick.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreobjects.code.t
+ex
+File: pgfcoreobjects.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathprocessing
+.code.tex
+File: pgfcorepathprocessing.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearrows.code.te
+x
+File: pgfcorearrows.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgfarrowsep=\dimen173
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex
+File: pgfcoreshade.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgf@max=\dimen174
+\pgf@sys@shading@range@num=\count188
+\pgf@shadingcount=\count189
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.code.tex
+File: pgfcoreimage.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreexternal.code.
+tex
+File: pgfcoreexternal.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgfexternal@startupbox=\box50
+))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorelayers.code.te
+x
+File: pgfcorelayers.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransparency.c
+ode.tex
+File: pgfcoretransparency.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepatterns.code.
+tex
+File: pgfcorepatterns.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorerdf.code.tex
+File: pgfcorerdf.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+)))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.code.tex
+File: pgfmoduleshapes.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgfnodeparttextbox=\box51
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmoduleplot.code.tex
+File: pgfmoduleplot.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-0-65
+.sty
+Package: pgfcomp-version-0-65 2020/01/08 v3.1.5b (3.1.5b)
+\pgf@nodesepstart=\dimen175
+\pgf@nodesepend=\dimen176
+)
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-1-18
+.sty
+Package: pgfcomp-version-1-18 2020/01/08 v3.1.5b (3.1.5b)
+)) (/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgffor.sty
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgfkeys.sty
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex))
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/math/pgfmath.sty
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex
+Package: pgffor 2020/01/08 v3.1.5b (3.1.5b)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)
+\pgffor@iter=\dimen177
+\pgffor@skip=\dimen178
+\pgffor@stack=\toks28
+\pgffor@toks=\toks29
+))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.code.tex
+Package: tikz 2020/01/08 v3.1.5b (3.1.5b)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothandlers
+.code.tex
+File: pgflibraryplothandlers.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgf@plot@mark@count=\count190
+\pgfplotmarksize=\dimen179
+)
+\tikz@lastx=\dimen180
+\tikz@lasty=\dimen181
+\tikz@lastxsaved=\dimen182
+\tikz@lastysaved=\dimen183
+\tikz@lastmovetox=\dimen184
+\tikz@lastmovetoy=\dimen185
+\tikzleveldistance=\dimen186
+\tikzsiblingdistance=\dimen187
+\tikz@figbox=\box52
+\tikz@figbox@bg=\box53
+\tikz@tempbox=\box54
+\tikz@tempbox@bg=\box55
+\tikztreelevel=\count191
+\tikznumberofchildren=\count192
+\tikznumberofcurrentchild=\count193
+\tikz@fig@count=\count194
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.code.tex
+File: pgfmodulematrix.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgfmatrixcurrentrow=\count195
+\pgfmatrixcurrentcolumn=\count196
+\pgf@matrix@numberofcolumns=\count197
+)
+\tikz@expandcount=\count198
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibrarytopaths.code.tex
+File: tikzlibrarytopaths.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+)))
+(/usr/share/texlive/texmf-dist/tex/latex/tikz-cd/tikz-cd.sty
+Package: tikz-cd 2018/11/19 v0.9f Commutative diagrams with TikZ
+
+(/usr/share/texlive/texmf-dist/tex/generic/tikz-cd/tikzlibrarycd.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibrarymatrix.code.tex
+File: tikzlibrarymatrix.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibraryquotes.code.tex
+File: tikzlibraryquotes.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryarrows.meta.
+code.tex
+File: pgflibraryarrows.meta.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgfarrowinset=\dimen188
+\pgfarrowlength=\dimen189
+\pgfarrowwidth=\dimen190
+\pgfarrowlinewidth=\dimen191
+)))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibrarybabel.code.tex
+File: tikzlibrarybabel.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/biblatex/biblatex.sty
+Package: biblatex 2019/12/01 v3.14 programmable bibliographies (PK/MW)
+
+(/usr/share/texlive/texmf-dist/tex/latex/pdftexcmds/pdftexcmds.sty
+Package: pdftexcmds 2019/11/24 v0.31 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+(/usr/share/texlive/texmf-dist/tex/generic/infwarerr/infwarerr.sty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/iftex/iftex.sty
+Package: iftex 2019/11/07 v1.0c TeX engine tests
+)
+(/usr/share/texlive/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
+Package: ltxcmds 2019/12/15 v1.24 LaTeX kernel commands for general use (HO)
+)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2019/09/21 v2.5h e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count199
+)
+(/usr/share/texlive/texmf-dist/tex/latex/kvoptions/kvoptions.sty
+Package: kvoptions 2019/11/29 v3.13 Key value format for package options (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/kvsetkeys/kvsetkeys.sty
+Package: kvsetkeys 2019/12/15 v1.18 Key value parser (HO)
+))
+(/usr/share/texlive/texmf-dist/tex/latex/logreq/logreq.sty
+Package: logreq 2010/08/04 v1.0 xml request logger
+\lrq@indent=\count266
+
+(/usr/share/texlive/texmf-dist/tex/latex/logreq/logreq.def
+File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
+))
+(/usr/share/texlive/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip16
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+\c@tabx@nest=\count267
+\c@listtotal=\count268
+\c@listcount=\count269
+\c@liststart=\count270
+\c@liststop=\count271
+\c@citecount=\count272
+\c@citetotal=\count273
+\c@multicitecount=\count274
+\c@multicitetotal=\count275
+\c@instcount=\count276
+\c@maxnames=\count277
+\c@minnames=\count278
+\c@maxitems=\count279
+\c@minitems=\count280
+\c@citecounter=\count281
+\c@maxcitecounter=\count282
+\c@savedcitecounter=\count283
+\c@uniquelist=\count284
+\c@uniquename=\count285
+\c@refsection=\count286
+\c@refsegment=\count287
+\c@maxextratitle=\count288
+\c@maxextratitleyear=\count289
+\c@maxextraname=\count290
+\c@maxextradate=\count291
+\c@maxextraalpha=\count292
+\c@abbrvpenalty=\count293
+\c@highnamepenalty=\count294
+\c@lownamepenalty=\count295
+\c@maxparens=\count296
+\c@parenlevel=\count297
+\blx@tempcnta=\count298
+\blx@tempcntb=\count299
+\blx@tempcntc=\count300
+\blx@maxsection=\count301
+\blx@maxsegment@0=\count302
+\blx@notetype=\count303
+\blx@parenlevel@text=\count304
+\blx@parenlevel@foot=\count305
+\blx@sectionciteorder@0=\count306
+\blx@entrysetcounter=\count307
+\labelnumberwidth=\skip49
+\labelalphawidth=\skip50
+\biblabelsep=\skip51
+\bibitemsep=\skip52
+\bibnamesep=\skip53
+\bibinitsep=\skip54
+\bibparsep=\skip55
+\bibhang=\skip56
+\blx@bcfin=\read4
+\blx@bcfout=\write4
+\blx@langwohyphens=\language85
+\c@mincomprange=\count308
+\c@maxcomprange=\count309
+\c@mincompwidth=\count310
+Package biblatex Info: Trying to load biblatex default data model...
+Package biblatex Info: ... file 'blx-dm.def' found.
+
+(/usr/share/texlive/texmf-dist/tex/latex/biblatex/blx-dm.def
+File: blx-dm.def 2019/12/01 v3.14 biblatex localization (PK/MW)
+)
+Package biblatex Info: Trying to load biblatex citestyle data model...
+Package biblatex Info: ... file 'alphabetic.dbx' not found.
+Package biblatex Info: Trying to load biblatex custom data model...
+Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
+\c@afterword=\count311
+\c@savedafterword=\count312
+\c@annotator=\count313
+\c@savedannotator=\count314
+\c@author=\count315
+\c@savedauthor=\count316
+\c@bookauthor=\count317
+\c@savedbookauthor=\count318
+\c@commentator=\count319
+\c@savedcommentator=\count320
+\c@editor=\count321
+\c@savededitor=\count322
+\c@editora=\count323
+\c@savededitora=\count324
+\c@editorb=\count325
+\c@savededitorb=\count326
+\c@editorc=\count327
+\c@savededitorc=\count328
+\c@foreword=\count329
+\c@savedforeword=\count330
+\c@holder=\count331
+\c@savedholder=\count332
+\c@introduction=\count333
+\c@savedintroduction=\count334
+\c@namea=\count335
+\c@savednamea=\count336
+\c@nameb=\count337
+\c@savednameb=\count338
+\c@namec=\count339
+\c@savednamec=\count340
+\c@translator=\count341
+\c@savedtranslator=\count342
+\c@shortauthor=\count343
+\c@savedshortauthor=\count344
+\c@shorteditor=\count345
+\c@savedshorteditor=\count346
+\c@labelname=\count347
+\c@savedlabelname=\count348
+\c@institution=\count349
+\c@savedinstitution=\count350
+\c@lista=\count351
+\c@savedlista=\count352
+\c@listb=\count353
+\c@savedlistb=\count354
+\c@listc=\count355
+\c@savedlistc=\count356
+\c@listd=\count357
+\c@savedlistd=\count358
+\c@liste=\count359
+\c@savedliste=\count360
+\c@listf=\count361
+\c@savedlistf=\count362
+\c@location=\count363
+\c@savedlocation=\count364
+\c@organization=\count365
+\c@savedorganization=\count366
+\c@origlocation=\count367
+\c@savedoriglocation=\count368
+\c@origpublisher=\count369
+\c@savedorigpublisher=\count370
+\c@publisher=\count371
+\c@savedpublisher=\count372
+\c@language=\count373
+\c@savedlanguage=\count374
+\c@origlanguage=\count375
+\c@savedoriglanguage=\count376
+\c@pageref=\count377
+\c@savedpageref=\count378
+\shorthandwidth=\skip57
+\shortjournalwidth=\skip58
+\shortserieswidth=\skip59
+\shorttitlewidth=\skip60
+\shortauthorwidth=\skip61
+\shorteditorwidth=\skip62
+\locallabelnumberwidth=\skip63
+\locallabelalphawidth=\skip64
+\localshorthandwidth=\skip65
+\localshortjournalwidth=\skip66
+\localshortserieswidth=\skip67
+\localshorttitlewidth=\skip68
+\localshortauthorwidth=\skip69
+\localshorteditorwidth=\skip70
+Package biblatex Info: Trying to load compatibility code...
+Package biblatex Info: ... file 'blx-compat.def' found.
+
+(/usr/share/texlive/texmf-dist/tex/latex/biblatex/blx-compat.def
+File: blx-compat.def 2019/12/01 v3.14 biblatex compatibility (PK/MW)
+)
+Package biblatex Info: Trying to load BibTeX backend compatibility...
+Package biblatex Info: ... file 'blx-bibtex.def' found.
+
+(/usr/share/texlive/texmf-dist/tex/latex/biblatex/blx-bibtex.def
+File: blx-bibtex.def 2019/12/01 v3.14 biblatex compatibility (PK/MW)
+
+
+Package biblatex Warning: Using fall-back BibTeX(8) backend:
+(biblatex)                functionality may be reduced/unavailable.
+
+)
+Package biblatex Info: Trying to load generic definitions...
+Package biblatex Info: ... file 'biblatex.def' found.
+ (/usr/share/texlive/texmf-dist/tex/latex/biblatex/biblatex.def
+File: biblatex.def 2019/12/01 v3.14 biblatex compatibility (PK/MW)
+\c@textcitecount=\count379
+\c@textcitetotal=\count380
+\c@textcitemaxnames=\count381
+\c@biburlbigbreakpenalty=\count382
+\c@biburlbreakpenalty=\count383
+\c@biburlnumpenalty=\count384
+\c@biburlucpenalty=\count385
+\c@biburllcpenalty=\count386
+\biburlbigskip=\muskip17
+\biburlnumskip=\muskip18
+\biburlucskip=\muskip19
+\biburllcskip=\muskip20
+\c@smartand=\count387
+)
+Package biblatex Info: Trying to load bibliography style 'numeric'...
+Package biblatex Info: ... file 'numeric.bbx' found.
+
+(/usr/share/texlive/texmf-dist/tex/latex/biblatex/bbx/numeric.bbx
+File: numeric.bbx 2019/12/01 v3.14 biblatex bibliography style (PK/MW)
+Package biblatex Info: Trying to load bibliography style 'standard'...
+Package biblatex Info: ... file 'standard.bbx' found.
+
+(/usr/share/texlive/texmf-dist/tex/latex/biblatex/bbx/standard.bbx
+File: standard.bbx 2019/12/01 v3.14 biblatex bibliography style (PK/MW)
+\c@bbx:relatedcount=\count388
+\c@bbx:relatedtotal=\count389
+))
+Package biblatex Info: Trying to load citation style 'alphabetic'...
+Package biblatex Info: ... file 'alphabetic.cbx' found.
+
+(/usr/share/texlive/texmf-dist/tex/latex/biblatex/cbx/alphabetic.cbx
+File: alphabetic.cbx 2019/12/01 v3.14 biblatex citation style (PK/MW)
+Package biblatex Info: Redefining '\cite'.
+Package biblatex Info: Redefining '\parencite'.
+Package biblatex Info: Redefining '\footcite'.
+Package biblatex Info: Redefining '\footcitetext'.
+Package biblatex Info: Redefining '\smartcite'.
+Package biblatex Info: Redefining '\textcite'.
+Package biblatex Info: Redefining '\textcites'.
+Package biblatex Info: Redefining '\cites'.
+Package biblatex Info: Redefining '\parencites'.
+Package biblatex Info: Redefining '\smartcites'.
+)
+Package biblatex Info: Trying to load configuration file...
+Package biblatex Info: ... file 'biblatex.cfg' found.
+
+(/usr/share/texlive/texmf-dist/tex/latex/biblatex/biblatex.cfg
+File: biblatex.cfg 
+))
+(/usr/share/texlive/texmf-dist/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count390
+\float@exts=\toks30
+\float@box=\box56
+\@float@everytoks=\toks31
+\@floatcapt=\box57
+)
+(/usr/share/texlive/texmf-dist/tex/latex/tikz-3dplot/tikz-3dplot.sty
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibrarycalc.code.tex
+File: tikzlibrarycalc.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibrary3d.code.tex
+File: tikzlibrary3d.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibraryarrows.code.tex
+File: tikzlibraryarrows.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryarrows.code.
+tex
+File: pgflibraryarrows.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\arrowsize=\dimen192
+))) (/usr/share/texlive/texmf-dist/tex/latex/appendix/appendix.sty
+Package: appendix 2020/02/08 v1.2c extra appendix facilities
+\c@@pps=\count391
+\c@@ppsavesec=\count392
+\c@@ppsaveapp=\count393
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibrarypatterns.code.tex
+File: tikzlibrarypatterns.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibrarypatterns.cod
+e.tex
+File: pgflibrarypatterns.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+)) (/usr/share/texlive/texmf-dist/tex/latex/pgfplots/pgfplots.sty
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplots.revision.tex)
+Package: pgfplots 2018/03/28 v1.16 Data Visualization (1.16)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplots.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplotscore.code.tex
+\t@pgfplots@toka=\toks32
+\t@pgfplots@tokb=\toks33
+\t@pgfplots@tokc=\toks34
+\pgfplots@tmpa=\dimen193
+\c@pgfplots@coordindex=\count394
+\c@pgfplots@scanlineindex=\count395
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/sys/pgfplotssysgeneric.code
+.tex))
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/libs/pgfplotslibrary.code.t
+ex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/oldpgfcompatib/pgfplotsoldp
+gfsupp_loader.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryfpu.code.tex
+))
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/util/pgfplotsutil.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotslists
+tructure.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotslists
+tructureext.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsarray
+.code.tex
+\c@pgfplotsarray@tmp=\count396
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsmatri
+x.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/numtable/pgfplotstableshare
+d.code.tex
+\c@pgfplotstable@counta=\count397
+\t@pgfplotstable@a=\toks35
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsdeque
+.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/util/pgfplotsbinary.code.te
+x
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/util/pgfplotsbinary.data.co
+de.tex))
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/util/pgfplotsutil.verb.code
+.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/libs/pgflibrarypgfplots.sur
+fshading.code.tex
+\c@pgfplotslibrarysurf@no=\count398
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/sys/pgflibrarypgfplots.surf
+shading.pgfsys-pdftex.def)))
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/util/pgfplotscolormap.code.
+tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/util/pgfplotscolor.code.tex
+))
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplotsstackedplots.code.t
+ex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplotsplothandlers.code.t
+ex
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplotsmeshplothandler.cod
+e.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplotsmeshplotimage.code.
+tex)))
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplots.scaling.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplotscoordprocessing.cod
+e.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplots.errorbars.code.tex
+) (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplots.markers.code.tex
+) (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplotsticks.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplots.paths.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibrarydecorations.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmoduledecorations.cod
+e.tex
+\pgfdecoratedcompleteddistance=\dimen194
+\pgfdecoratedremainingdistance=\dimen195
+\pgfdecoratedinputsegmentcompleteddistance=\dimen196
+\pgfdecoratedinputsegmentremainingdistance=\dimen197
+\pgf@decorate@distancetomove=\dimen198
+\pgf@decorate@repeatstate=\count399
+\pgfdecorationsegmentamplitude=\dimen199
+\pgfdecorationsegmentlength=\dimen256
+)
+\tikz@lib@dec@box=\box58
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibrarydecorations.pathmorphing.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/decorations/pgflibrary
+decorations.pathmorphing.code.tex))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibrarydecorations.pathreplacing.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/decorations/pgflibrary
+decorations.pathreplacing.code.tex))
+\pgfplots@numplots=\count400
+\pgfplots@xmin@reg=\dimen257
+\pgfplots@xmax@reg=\dimen258
+\pgfplots@ymin@reg=\dimen259
+\pgfplots@ymax@reg=\dimen260
+\pgfplots@zmin@reg=\dimen261
+\pgfplots@zmax@reg=\dimen262
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibraryplotmarks.code.tex
+File: tikzlibraryplotmarks.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryplotmarks.co
+de.tex
+File: pgflibraryplotmarks.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+)))
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/frontendlayer/libraries/tikzlibrar
+yexternal.code.tex
+(/usr/share/texlive/texmf-dist/tex/latex/atveryend/atveryend.sty
+Package: atveryend 2019-12-11 v1.11 Hooks at the very end of document (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zexternalshared.code.tex))
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2020/01/20 v2.17e AMS math features
+\@mathmargin=\skip71
+
+For additional information on amsmath, use the `?' option.
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01 AMS text
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks36
+\ex@=\dimen263
+))
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen264
+)
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 2016/03/08 v2.02 operator names
+)
+\inf@bad=\count401
+LaTeX Info: Redefining \frac on input line 227.
+\uproot@=\count402
+\leftroot@=\count403
+LaTeX Info: Redefining \overline on input line 389.
+\classnum@=\count404
+\DOTSCASE@=\count405
+LaTeX Info: Redefining \ldots on input line 486.
+LaTeX Info: Redefining \dots on input line 489.
+LaTeX Info: Redefining \cdots on input line 610.
+\Mathstrutbox@=\box59
+\strutbox@=\box60
+\big@size=\dimen265
+LaTeX Font Info:    Redeclaring font encoding OML on input line 733.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 734.
+\macc@depth=\count406
+\c@MaxMatrixCols=\count407
+\dotsspace@=\muskip21
+\c@parentequation=\count408
+\dspbrk@lvl=\count409
+\tag@help=\toks37
+\row@=\count410
+\column@=\count411
+\maxfields@=\count412
+\andhelp@=\toks38
+\eqnshift@=\dimen266
+\alignsep@=\dimen267
+\tagshift@=\dimen268
+\tagwidth@=\dimen269
+\totwidth@=\dimen270
+\lineht@=\dimen271
+\@envbody=\toks39
+\multlinegap=\skip72
+\multlinetaggap=\skip73
+\mathdisplay@stack=\toks40
+LaTeX Info: Redefining \[ on input line 2859.
+LaTeX Info: Redefining \] on input line 2860.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/amscls/amsthm.sty
+Package: amsthm 2017/10/31 v2.20.4
+\thm@style=\toks41
+\thm@bodyfont=\toks42
+\thm@headfont=\toks43
+\thm@notefont=\toks44
+\thm@headpunct=\toks45
+\thm@preskip=\skip74
+\thm@postskip=\skip75
+\thm@headsep=\skip76
+\dth@everypar=\toks46
+)
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+))
+(/usr/share/texlive/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2020/01/03 v3.4h Customizing captions (AR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2020/01/03 v1.8h caption3 kernel (AR)
+Package caption3 Info: TeX engine: e-TeX on input line 61.
+\captionmargin=\dimen272
+\captionmargin@=\dimen273
+\captionwidth=\dimen274
+\caption@tempdima=\dimen275
+\caption@indent=\dimen276
+\caption@parindent=\dimen277
+\caption@hangindent=\dimen278
+Package caption Info: Standard document class detected.
+)
+\c@caption@flags=\count413
+\c@continuedfloat=\count414
+Package caption Info: float package is loaded.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/caption/subcaption.sty
+Package: subcaption 2020/01/22 v1.3d Sub-captions (AR)
+\c@subfigure=\count415
+\c@subtable=\count416
+)
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2020/01/14 v7.00d Hypertext links for LaTeX
+
+(/usr/share/texlive/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty
+Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pdfescape/pdfescape.sty
+Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/hycolor/hycolor.sty
+Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/letltxmacro/letltxmacro.sty
+Package: letltxmacro 2019/12/03 v1.6 Let assignment for LaTeX macros (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/auxhook/auxhook.sty
+Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
+)
+\@linkdim=\dimen279
+\Hy@linkcounter=\count417
+\Hy@pagecounter=\count418
+
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2020/01/14 v7.00d Hyperref: PDFDocEncoding definition (HO)
+Now handling font encoding PD1 ...
+... no UTF-8 mapping file for font encoding PD1
+)
+(/usr/share/texlive/texmf-dist/tex/generic/intcalc/intcalc.sty
+Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/etexcmds/etexcmds.sty
+Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
+)
+\Hy@SavedSpaceFactor=\count419
+\pdfmajorversion=\count420
+Package hyperref Info: Hyper figures OFF on input line 4547.
+Package hyperref Info: Link nesting OFF on input line 4552.
+Package hyperref Info: Hyper index ON on input line 4555.
+Package hyperref Info: Plain pages OFF on input line 4562.
+Package hyperref Info: Backreferencing OFF on input line 4567.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4800.
+\c@Hy@tempcnt=\count421
+LaTeX Info: Redefining \url on input line 5159.
+\XeTeXLinkMargin=\dimen280
+
+(/usr/share/texlive/texmf-dist/tex/generic/bitset/bitset.sty
+Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty
+Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
+)
+))
+\Fld@menulength=\count422
+\Field@Width=\dimen281
+\Fld@charsize=\dimen282
+Package hyperref Info: Hyper figures OFF on input line 6430.
+Package hyperref Info: Link nesting OFF on input line 6435.
+Package hyperref Info: Hyper index ON on input line 6438.
+Package hyperref Info: backreferencing OFF on input line 6445.
+Package hyperref Info: Link coloring OFF on input line 6450.
+Package hyperref Info: Link coloring with OCG OFF on input line 6455.
+Package hyperref Info: PDF/A mode OFF on input line 6460.
+LaTeX Info: Redefining \ref on input line 6500.
+LaTeX Info: Redefining \pageref on input line 6504.
+
+(/usr/share/texlive/texmf-dist/tex/generic/atbegshi/atbegshi.sty
+Package: atbegshi 2019/12/05 v1.19 At begin shipout hook (HO)
+)
+\Hy@abspage=\count423
+\c@Item=\count424
+\c@Hfootnote=\count425
+)
+Package hyperref Info: Driver (autodetected): hpdftex.
+
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hpdftex.def
+File: hpdftex.def 2020/01/14 v7.00d Hyperref driver for pdfTeX
+\Fld@listcount=\count426
+\c@bookmark@seq@number=\count427
+
+(/usr/share/texlive/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
+Package: rerunfilecheck 2019/12/05 v1.9 Rerun checks for auxiliary files (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
+Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
+)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+86.
+)
+\Hy@SectionHShift=\skip77
+)
+Package hyperref Info: Option `colorlinks' set `true' on input line 32.
+
+(/usr/share/texlive/texmf-dist/tex/latex/minted/minted.sty
+Package: minted 2017/07/19 v2.5 Yet another Pygments shim for LaTeX
+
+(/usr/share/texlive/texmf-dist/tex/latex/fvextra/fvextra.sty
+Package: fvextra 2019/02/04 v1.4 fvextra - extensions and patches for fancyvrb
+
+(/usr/share/texlive/texmf-dist/tex/latex/fancyvrb/fancyvrb.sty
+Package: fancyvrb 2020/01/13 v3.5 verbatim text (tvz,hv)
+\FV@CodeLineNo=\count428
+\FV@InFile=\read5
+\FV@TabBox=\box61
+\c@FancyVerbLine=\count429
+\FV@StepNumber=\count430
+\FV@OutFile=\write5
+)
+(/usr/share/texlive/texmf-dist/tex/latex/upquote/upquote.sty
+Package: upquote 2012/04/19 v1.3 upright-quote and grave-accent glyphs in verba
+tim
+)
+(/usr/share/texlive/texmf-dist/tex/latex/lineno/lineno.sty
+Package: lineno 2005/11/02 line numbers on paragraphs v4.41
+\linenopenalty=\count431
+\output=\toks47
+\linenoprevgraf=\count432
+\linenumbersep=\dimen283
+\linenumberwidth=\dimen284
+\c@linenumber=\count433
+\c@pagewiselinenumber=\count434
+\c@LN@truepage=\count435
+\c@internallinenumber=\count436
+\c@internallinenumbers=\count437
+\quotelinenumbersep=\dimen285
+\bframerule=\dimen286
+\bframesep=\dimen287
+\bframebox=\box62
+LaTeX Info: Redefining \\ on input line 3056.
+)
+\c@FV@TrueTabGroupLevel=\count438
+\c@FV@TrueTabCounter=\count439
+\FV@TabBox@Group=\box63
+\FV@TmpLength=\skip78
+\c@FV@HighlightLinesStart=\count440
+\c@FV@HighlightLinesStop=\count441
+\FV@LoopCount=\count442
+\FV@NCharsBox=\box64
+\FV@BreakIndent=\dimen288
+\FV@BreakIndentNChars=\count443
+\FV@BreakSymbolSepLeft=\dimen289
+\FV@BreakSymbolSepLeftNChars=\count444
+\FV@BreakSymbolSepRight=\dimen290
+\FV@BreakSymbolSepRightNChars=\count445
+\FV@BreakSymbolIndentLeft=\dimen291
+\FV@BreakSymbolIndentLeftNChars=\count446
+\FV@BreakSymbolIndentRight=\dimen292
+\FV@BreakSymbolIndentRightNChars=\count447
+\c@FancyVerbLineBreakLast=\count448
+\FV@LineBox=\box65
+\FV@LineIndentBox=\box66
+\FV@LineWidth=\dimen293
+)
+(/usr/share/texlive/texmf-dist/tex/latex/tools/calc.sty
+Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count449
+\calc@Bcount=\count450
+\calc@Adimen=\dimen294
+\calc@Bdimen=\dimen295
+\calc@Askip=\skip79
+\calc@Bskip=\skip80
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count451
+\calc@Cskip=\skip81
+)
+(/usr/share/texlive/texmf-dist/tex/latex/tools/shellesc.sty
+Package: shellesc 2019/11/08 v1.0c unified shell escape interface for LaTeX
+Package shellesc Info: Unrestricted shell escape enabled on input line 75.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/ifplatform/ifplatform.sty
+Package: ifplatform 2017/10/13 v0.4a Testing for the operating system
+
+(/usr/share/texlive/texmf-dist/tex/generic/catchfile/catchfile.sty
+Package: catchfile 2019/12/09 v1.8 Catch the contents of a file (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/iftex/ifluatex.sty
+Package: ifluatex 2019/10/25 v1.5 ifluatex legacy package. Use iftex instead.
+)
+runsystem(uname -s > "master.w18")...executed.
+
+ (./master.w18)
+runsystem(rm -- "master.w18")...executed.
+
+)
+(/usr/share/texlive/texmf-dist/tex/generic/xstring/xstring.sty
+(/usr/share/texlive/texmf-dist/tex/generic/xstring/xstring.tex
+\integerpart=\count452
+\decimalpart=\count453
+)
+Package: xstring 2019/02/06 v1.83 String manipulations (CT)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/framed/framed.sty
+Package: framed 2011/10/22 v 0.96: framed or shaded text with page breaks
+\OuterFrameSep=\skip82
+\fb@frw=\dimen296
+\fb@frh=\dimen297
+\FrameRule=\dimen298
+\FrameSep=\dimen299
+)
+\minted@appexistsfile=\read6
+\minted@bgbox=\box67
+\minted@code=\write6
+\c@minted@FancyVerbLineTemp=\count454
+\c@minted@pygmentizecounter=\count455
+\@float@every@listing=\toks48
+\c@listing=\count456
+)
+runsystem(mkdir -p _minted-master)...executed.
+
+
+(/usr/share/texlive/texmf-dist/tex/latex/tools/dcolumn.sty
+Package: dcolumn 2014/10/28 v1.06 decimal alignment package (DPC)
+
+(/usr/share/texlive/texmf-dist/tex/latex/tools/array.sty
+Package: array 2019/08/31 v2.4l Tabular extension package (FMi)
+\col@sep=\dimen300
+\ar@mcellbox=\box68
+\extrarowheight=\dimen301
+\NC@list=\toks49
+\extratabsurround=\skip83
+\backup@length=\skip84
+\ar@cellbox=\box69
+))
+(/usr/share/texlive/texmf-dist/tex/latex/tools/verbatim.sty
+Package: verbatim 2019/11/10 v1.5r LaTeX2e package for verbatim enhancements
+\every@verbatim=\toks50
+\verbatim@line=\toks51
+\verbatim@in@stream=\read7
+)
+(/usr/share/texlive/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
+Package: fancyhdr 2019/01/31 v3.10 Extensive control of page headers and footer
+s
+\f@nch@headwidth=\skip85
+\f@nch@O@elh=\skip86
+\f@nch@O@erh=\skip87
+\f@nch@O@olh=\skip88
+\f@nch@O@orh=\skip89
+\f@nch@O@elf=\skip90
+\f@nch@O@erf=\skip91
+\f@nch@O@olf=\skip92
+\f@nch@O@orf=\skip93
+)
+(/usr/share/texlive/texmf-dist/tex/latex/tools/afterpage.sty
+Package: afterpage 2014/10/28 v1.08 After-Page Package (DPC)
+\AP@output=\toks52
+\AP@partial=\box70
+\AP@footins=\box71
+)
+(/usr/share/texlive/texmf-dist/tex/latex/tools/longtable.sty
+Package: longtable 2020/01/07 v4.13 Multi-page Table package (DPC)
+\LTleft=\skip94
+\LTright=\skip95
+\LTpre=\skip96
+\LTpost=\skip97
+\LTchunksize=\count457
+\LTcapwidth=\dimen302
+\LT@head=\box72
+\LT@firsthead=\box73
+\LT@foot=\box74
+\LT@lastfoot=\box75
+\LT@cols=\count458
+\LT@rows=\count459
+\c@LT@tables=\count460
+\c@LT@chunks=\count461
+\LT@p@ftn=\toks53
+)
+(/usr/share/texlive/texmf-dist/tex/latex/colortbl/colortbl.sty
+Package: colortbl 2020/01/04 v1.0e Color table columns (DPC)
+\everycr=\toks54
+\minrowclearance=\skip98
+)
+(/usr/share/texlive/texmf-dist/tex/latex/footmisc/footmisc.sty
+Package: footmisc 2011/06/06 v5.5b a miscellany of footnote facilities
+\FN@temptoken=\toks55
+\footnotemargin=\dimen303
+\c@pp@next@reset=\count462
+Package footmisc Info: Declaring symbol style bringhurst on input line 855.
+Package footmisc Info: Declaring symbol style chicago on input line 863.
+Package footmisc Info: Declaring symbol style wiley on input line 872.
+Package footmisc Info: Declaring symbol style lamport-robust on input line 883.
+
+Package footmisc Info: Declaring symbol style lamport* on input line 903.
+Package footmisc Info: Declaring symbol style lamport*-robust on input line 924
+.
+)
+
+Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
+less on input line 111.
+
+
+Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
+less on input line 112.
+
+(/usr/share/texlive/texmf-dist/tex/latex/pdfpages/pdfpages.sty
+Package: pdfpages 2020/01/28 v0.5q Insert pages of external PDF documents (AM)
+
+(/usr/share/texlive/texmf-dist/tex/latex/eso-pic/eso-pic.sty
+Package: eso-pic 2018/04/12 v2.0h eso-pic (RN)
+)
+\AM@pagewidth=\dimen304
+\AM@pageheight=\dimen305
+
+(/usr/share/texlive/texmf-dist/tex/latex/pdfpages/pppdftex.def
+File: pppdftex.def 2020/01/28 v0.5q Pdfpages driver for pdfTeX (AM)
+)
+\AM@pagebox=\box76
+\AM@global@opts=\toks56
+\AM@pagecnt=\count463
+\AM@toc@title=\toks57
+\c@AM@survey=\count464
+\AM@templatesizebox=\box77
+)
+(/usr/share/texlive/texmf-dist/tex/latex/geometry/geometry.sty
+Package: geometry 2020/01/02 v5.9 Page Geometry
+
+(/usr/share/texlive/texmf-dist/tex/generic/iftex/ifvtex.sty
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+)
+\Gm@cnth=\count465
+\Gm@cntv=\count466
+\c@Gm@tempcnt=\count467
+\Gm@bindingoffset=\dimen306
+\Gm@wd@mp=\dimen307
+\Gm@odd@mp=\dimen308
+\Gm@even@mp=\dimen309
+\Gm@layoutwidth=\dimen310
+\Gm@layoutheight=\dimen311
+\Gm@layouthoffset=\dimen312
+\Gm@layoutvoffset=\dimen313
+\Gm@dimlist=\toks58
+)
+
+Package biblatex Warning: 'babel/polyglossia' detected but 'csquotes' missing.
+(biblatex)                Loading 'csquotes' recommended.
+
+\@quotelevel=\count468
+\@quotereset=\count469
+runsystem(which pygmentize && touch master.aex)...executed.
+
+runsystem(rm master.aex)...executed.
+
+(/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdfmode.def
+File: l3backend-pdfmode.def 2020-02-03 L3 backend support: PDF mode
+\l__kernel_color_stack_int=\count470
+\l__pdf_internal_box=\box78
+)
+(./master.aux
+LaTeX Info: Redefining \. on input line 31.
+LaTeX Info: Redefining \% on input line 31.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+)
+\openout1 = `master.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 150.
+LaTeX Font Info:    ... okay on input line 150.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 150.
+LaTeX Font Info:    ... okay on input line 150.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 150.
+LaTeX Font Info:    ... okay on input line 150.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 150.
+LaTeX Font Info:    ... okay on input line 150.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 150.
+LaTeX Font Info:    ... okay on input line 150.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 150.
+LaTeX Font Info:    ... okay on input line 150.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 150.
+LaTeX Font Info:    ... okay on input line 150.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 150.
+LaTeX Font Info:    ... okay on input line 150.
+LaTeX Info: Redefining \. on input line 150.
+LaTeX Info: Redefining \% on input line 150.
+ ABD: EveryShipout initializing macros
+(/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count471
+\scratchdimen=\dimen314
+\scratchbox=\box79
+\nofMPsegments=\count472
+\nofMParguments=\count473
+\everyMPshowfont=\toks59
+\MPscratchCnt=\count474
+\MPscratchDim=\dimen315
+\MPnumerator=\count475
+\makeMPintoPDFobject=\count476
+\everyMPtoPDFconversion=\toks60
+) (/usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
+
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+Package biblatex Info: Trying to load language 'spanish'...
+Package biblatex Info: ... file 'spanish.lbx' found.
+
+(/usr/share/texlive/texmf-dist/tex/latex/biblatex/lbx/spanish.lbx
+File: spanish.lbx 2019/12/01 v3.14 biblatex localization (PK/MW)
+)
+Package biblatex Info: Input encoding 'utf8' detected.
+Package biblatex Info: Automatic encoding selection.
+(biblatex)             Assuming data encoding 'utf8'.
+Package biblatex Info: Input encoding 'utf8' specified.
+Package biblatex Info: Data encoding 'utf8' specified.
+(biblatex)             No need to reencode data.
+\openout4 = `master-blx.bib'.
+
+Package biblatex Info: Trying to load bibliographic data...
+Package biblatex Info: ... file 'master.bbl' found.
+
+(./master.bbl)
+Package biblatex Info: Reference section=0 on input line 150.
+Package biblatex Info: Reference segment=0 on input line 150.
+
+
+Package pgfplots Warning: running in backwards compatibility mode (unsuitable t
+ick labels; missing features). Consider writing \pgfplotsset{compat=1.16} into 
+your preamble.
+ on input line 150.
+
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: hyperref package is loaded.
+Package caption Info: longtable package is loaded.
+(/usr/share/texlive/texmf-dist/tex/latex/caption/ltcaption.sty
+Package: ltcaption 2018/08/26 v1.4a longtable captions (AR)
+)
+Package caption Info: End \AtBeginDocument code.
+\AtBeginShipoutBox=\box80
+Package hyperref Info: Link coloring ON on input line 150.
+
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
+Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
+
+(/usr/share/texlive/texmf-dist/tex/latex/refcount/refcount.sty
+Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
+Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
+)
+\c@section@level=\count477
+)
+LaTeX Info: Redefining \ref on input line 150.
+LaTeX Info: Redefining \pageref on input line 150.
+LaTeX Info: Redefining \nameref on input line 150.
+
+(./master.out) (./master.out)
+\@outlinefile=\write7
+\openout7 = `master.out'.
+
+
+(/usr/share/texlive/texmf-dist/tex/latex/pdflscape/pdflscape.sty
+Package: pdflscape 2019/12/05 v0.12 Display of landscape pages in PDF (HO)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/lscape.sty
+Package: lscape 2000/10/22 v3.01 Landscape Pages (DPC)
+)
+Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
+)
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(72.26999pt, 452.9679pt, 72.26999pt)
+* v-part:(T,H,B)=(72.26999pt, 700.50687pt, 72.26999pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=452.9679pt
+* \textheight=700.50687pt
+* \oddsidemargin=0.0pt
+* \evensidemargin=0.0pt
+* \topmargin=-43.0pt
+* \headheight=18.0pt
+* \headsep=25.0pt
+* \topskip=11.0pt
+* \footskip=30.0pt
+* \marginparwidth=50.0pt
+* \marginparsep=10.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+(./portrait/portrait.tex
+\centeroffset=\skip99
+<img/logo_ugr.jpg, id=380, 777.90625pt x 231.86626pt>
+File: img/logo_ugr.jpg Graphic file (type jpg)
+<use img/logo_ugr.jpg>
+Package pdftex.def Info: img/logo_ugr.jpg  used on input line 12.
+(pdftex.def)             Requested size: 407.66833pt x 121.51578pt.
+
+
+LaTeX Font Warning: Font shape `OT1/cmr/bx/sc' undefined
+(Font)              using `OT1/cmr/bx/n' instead on input line 15.
+
+LaTeX Font Info:    Trying to load font information for U+msa on input line 24.
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 24.
+
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+<img/etsiit_logo.png, id=381, 110.814pt x 40.4712pt>
+File: img/etsiit_logo.png Graphic file (type png)
+<use img/etsiit_logo.png>
+Package pdftex.def Info: img/etsiit_logo.png  used on input line 34.
+(pdftex.def)             Requested size: 135.89174pt x 49.63045pt.
+ [1
+
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./img/logo_ugr.jpg> <./img
+/etsiit_logo.png>])
+<img/resultados.png, id=394, 952.55875pt x 785.93625pt>
+File: img/resultados.png Graphic file (type png)
+<use img/resultados.png>
+Package pdftex.def Info: img/resultados.png  used on input line 163.
+(pdftex.def)             Requested size: 452.9679pt x 373.74333pt.
+pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
+been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.167 \newpage
+               [1 <./img/resultados.png>] (./master.toc
+LaTeX Info: Redefining \. on input line 2.
+LaTeX Info: Redefining \% on input line 2.
+LaTeX Info: Redefining \. on input line 72.
+LaTeX Info: Redefining \% on input line 72.
+ [2]
+LaTeX Info: Redefining \. on input line 140.
+LaTeX Info: Redefining \% on input line 140.
+ [3])
+\tf@toc=\write8
+\openout8 = `master.toc'.
+
+LaTeX Info: Redefining \. on input line 170.
+LaTeX Info: Redefining \% on input line 170.
+ [4]
+\openout6 = `master.pyg'.
+
+
+(./_minted-master/default-pyg-prefix.pygstyle)
+(./_minted-master/default.pygstyle)
+(./_minted-master/57DC078F5834FF16D0D43AB021F7401A82C5928EE7CE68FBE12378A24D9B3
+B0B.pygtex)
+<img/train.png, id=507, 521.95pt x 463.7325pt>
+File: img/train.png Graphic file (type png)
+<use img/train.png>
+Package pdftex.def Info: img/train.png  used on input line 177.
+(pdftex.def)             Requested size: 226.48395pt x 201.2196pt.
+<img/test.png, id=508, 505.89pt x 425.59pt>
+File: img/test.png Graphic file (type png)
+<use img/test.png>
+Package pdftex.def Info: img/test.png  used on input line 184.
+(pdftex.def)             Requested size: 226.48395pt x 190.53313pt.
+\openout6 = `master.pyg'.
+
+
+(./_minted-master/7E3AE4839AB0826F4BFACF8B56A8B3E982C5928EE7CE68FBE12378A24D9B3
+B0B.pygtex)
+<img/train2.png, id=509, 622.325pt x 296.10625pt>
+File: img/train2.png Graphic file (type png)
+<use img/train2.png>
+Package pdftex.def Info: img/train2.png  used on input line 194.
+(pdftex.def)             Requested size: 362.37569pt x 172.41946pt.
+LaTeX Info: Redefining \. on input line 198.
+LaTeX Info: Redefining \% on input line 198.
+ [5 <./img/train.png> <./img/test.png>]
+\openout6 = `master.pyg'.
+
+
+(./_minted-master/F4DE29C7626D4462A2279E3DAF6AC93682C5928EE7CE68FBE12378A24D9B3
+B0B.pygtex)
+\openout5 = `master.pyg'.
+
+
+(./_minted-master/620AE9AC8ECF2AFEE46B3C8995ABE7CB82C5928EE7CE68FBE12378A24D9B3
+B0B.pygtex)
+\openout6 = `master.pyg'.
+
+
+(./_minted-master/A3A9F5123D2B9E324783C3E282675A3682C5928EE7CE68FBE12378A24D9B3
+B0B.pygtex)
+\openout6 = `master.pyg'.
+
+
+(./_minted-master/7A40B0E416BB1663D0A0CE0792448B9382C5928EE7CE68FBE12378A24D9B3
+B0B.pygtex)
+\openout6 = `master.pyg'.
+
+
+(./_minted-master/AF8B169A5BE6C5CA7609FBB63698F76282C5928EE7CE68FBE12378A24D9B3
+B0B.pygtex)
+\openout6 = `master.pyg'.
+
+
+(./_minted-master/4FC8EAA57685C22EB2D2565C86B02A2882C5928EE7CE68FBE12378A24D9B3
+B0B.pygtex)
+\openout5 = `master.pyg'.
+
+
+(./_minted-master/23A6902ADF0D79824A7756B2C31349EC82C5928EE7CE68FBE12378A24D9B3
+B0B.pygtex
+LaTeX Font Info:    Font shape `OT1/cmtt/bx/n' in size <10.95> not available
+(Font)              Font shape `OT1/cmtt/m/n' tried instead on input line 8.
+)
+\openout6 = `master.pyg'.
+
+
+(./_minted-master/5B4F65168F533D1C0BBCD55A5419518982C5928EE7CE68FBE12378A24D9B3
+B0B.pygtex)
+\openout6 = `master.pyg'.
+
+
+(./_minted-master/B014801AD76F1800E634922E6042307282C5928EE7CE68FBE12378A24D9B3
+B0B.pygtex)
+\openout6 = `master.pyg'.
+
+
+(./_minted-master/869003D71C38066B66331BE17119BC4A82C5928EE7CE68FBE12378A24D9B3
+B0B.pygtex)
+\openout6 = `master.pyg'.
+
+
+(./_minted-master/B99E75300F39EDC4F94E78ADCAAD62FF82C5928EE7CE68FBE12378A24D9B3
+B0B.pygtex)
+\openout6 = `master.pyg'.
+
+
+(./_minted-master/88E3CA438AB76BF6FA85ECA54C3F8F6C82C5928EE7CE68FBE12378A24D9B3
+B0B.pygtex)
+\openout5 = `master.pyg'.
+
+
+(./_minted-master/BBFB96D47EAE5008671864378FA2172D82C5928EE7CE68FBE12378A24D9B3
+B0B.pygtex
+LaTeX Info: Redefining \. on input line 1.
+LaTeX Info: Redefining \% on input line 1.
+ [6 <./img/train2.png>])
+\openout6 = `master.pyg'.
+
+
+(./_minted-master/FBDE4CA699985AD94A46941864E4B2DA82C5928EE7CE68FBE12378A24D9B3
+B0B.pygtex)
+\openout5 = `master.pyg'.
+
+
+(./_minted-master/D996B40A970915AF0DBAA87A663368CA82C5928EE7CE68FBE12378A24D9B3
+B0B.pygtex)
+<img/alg1.png, id=529, 529.98pt x 307.1475pt>
+File: img/alg1.png Graphic file (type png)
+<use img/alg1.png>
+Package pdftex.def Info: img/alg1.png  used on input line 264.
+(pdftex.def)             Requested size: 226.48395pt x 131.26004pt.
+LaTeX Info: Redefining \. on input line 268.
+LaTeX Info: Redefining \% on input line 268.
+ [7]
+\openout5 = `master.pyg'.
+
+
+(./_minted-master/5737C813F1CDBA959DAA73B2BDCDECFF82C5928EE7CE68FBE12378A24D9B3
+B0B.pygtex)
+Overfull \hbox (9.50044pt too wide) in paragraph at lines 285--292
+[][]
+ []
+
+\openout6 = `master.pyg'.
+
+
+(./_minted-master/09AD1391CEA5E93307E6ECF1E095E2BD82C5928EE7CE68FBE12378A24D9B3
+B0B.pygtex)
+\openout6 = `master.pyg'.
+
+
+(./_minted-master/80C845495DF87B886BC114455E65599E82C5928EE7CE68FBE12378A24D9B3
+B0B.pygtex)
+\openout6 = `master.pyg'.
+
+
+(./_minted-master/7A40B0E416BB1663D0A0CE0792448B9382C5928EE7CE68FBE12378A24D9B3
+B0B.pygtex)
+\openout6 = `master.pyg'.
+
+
+(./_minted-master/AF8B169A5BE6C5CA7609FBB63698F76282C5928EE7CE68FBE12378A24D9B3
+B0B.pygtex)
+\openout6 = `master.pyg'.
+
+
+(./_minted-master/ED0AC256E81A698C49BB16CAC27E88D682C5928EE7CE68FBE12378A24D9B3
+B0B.pygtex)
+LaTeX Info: Redefining \. on input line 317.
+LaTeX Info: Redefining \% on input line 317.
+ [8 <./img/alg1.png>]
+\openout6 = `master.pyg'.
+
+
+(./_minted-master/ED0AC256E81A698C49BB16CAC27E88D682C5928EE7CE68FBE12378A24D9B3
+B0B.pygtex)
+\openout5 = `master.pyg'.
+
+
+(./_minted-master/677D84AD7F2B48EAC3AA57694B1B7F6982C5928EE7CE68FBE12378A24D9B3
+B0B.pygtex)
+<img/forest1.png, id=541, 1260.71pt x 449.68pt>
+File: img/forest1.png Graphic file (type png)
+<use img/forest1.png>
+Package pdftex.def Info: img/forest1.png  used on input line 342.
+(pdftex.def)             Requested size: 317.07614pt x 113.09215pt.
+LaTeX Info: Redefining \. on input line 346.
+LaTeX Info: Redefining \% on input line 346.
+ [9]
+\openout5 = `master.pyg'.
+
+
+(./_minted-master/5B8D8D306C9D02C327CD45BC8B2B81D982C5928EE7CE68FBE12378A24D9B3
+B0B.pygtex)
+<img/forest2.png, id=548, 1217.54875pt x 463.7325pt>
+File: img/forest2.png Graphic file (type png)
+<use img/forest2.png>
+Package pdftex.def Info: img/forest2.png  used on input line 364.
+(pdftex.def)             Requested size: 317.07614pt x 120.76573pt.
+\openout5 = `master.pyg'.
+
+
+(./_minted-master/42DC23590D9C64F73407FA29509DA15882C5928EE7CE68FBE12378A24D9B3
+B0B.pygtex)
+<img/forest3.png, id=549, 1275.76625pt x 452.69125pt>
+File: img/forest3.png Graphic file (type png)
+<use img/forest3.png>
+Package pdftex.def Info: img/forest3.png  used on input line 387.
+(pdftex.def)             Requested size: 317.07614pt x 112.5094pt.
+LaTeX Info: Redefining \. on input line 391.
+LaTeX Info: Redefining \% on input line 391.
+ [10 <./img/forest1.png> <./img/forest2.png>]
+\openout5 = `master.pyg'.
+
+
+(./_minted-master/67539B572CF8ED3353184898A561F29582C5928EE7CE68FBE12378A24D9B3
+B0B.pygtex)
+<img/forest4.png, id=558, 1254.6875pt x 444.66125pt>
+File: img/forest4.png Graphic file (type png)
+<use img/forest4.png>
+Package pdftex.def Info: img/forest4.png  used on input line 409.
+(pdftex.def)             Requested size: 317.07614pt x 112.37276pt.
+\openout5 = `master.pyg'.
+
+
+(./_minted-master/F926DFC23D21EDB175E90B6288598B9B82C5928EE7CE68FBE12378A24D9B3
+B0B.pygtex)
+<img/forst5.png, id=559, 1219.55624pt x 441.65pt>
+File: img/forst5.png Graphic file (type png)
+<use img/forst5.png>
+Package pdftex.def Info: img/forst5.png  used on input line 433.
+(pdftex.def)             Requested size: 317.07614pt x 114.82628pt.
+LaTeX Info: Redefining \. on input line 437.
+LaTeX Info: Redefining \% on input line 437.
+ [11 <./img/forest3.png> <./img/forest4.png>]
+\openout6 = `master.pyg'.
+
+
+(./_minted-master/5A8924583F18A39BD7449038F0CE077282C5928EE7CE68FBE12378A24D9B3
+B0B.pygtex)
+\openout6 = `master.pyg'.
+
+
+(./_minted-master/5A8924583F18A39BD7449038F0CE077282C5928EE7CE68FBE12378A24D9B3
+B0B.pygtex)
+\openout5 = `master.pyg'.
+
+
+(./_minted-master/3D74357F1E9AD381D9C0D68AF953737482C5928EE7CE68FBE12378A24D9B3
+B0B.pygtex)
+\openout5 = `master.pyg'.
+
+
+(./_minted-master/8C5AB20103AD544CD87F7357571E22F782C5928EE7CE68FBE12378A24D9B3
+B0B.pygtex)
+\openout6 = `master.pyg'.
+
+
+(./_minted-master/3415F9A37FF10D79D6DCDA3377EA6DE382C5928EE7CE68FBE12378A24D9B3
+B0B.pygtex)
+\openout5 = `master.pyg'.
+
+
+(./_minted-master/C501411CEF26DAF2BEFBD35BD0F4DE2882C5928EE7CE68FBE12378A24D9B3
+B0B.pygtex)
+Overfull \hbox (70.56682pt too wide) in paragraph at lines 465--471
+ [] 
+ []
+
+LaTeX Info: Redefining \. on input line 481.
+LaTeX Info: Redefining \% on input line 481.
+[12 <./img/forst5.png>]
+\openout6 = `master.pyg'.
+
+
+(./_minted-master/4BCAD938E72BC94F3BEFEE0C2566B29682C5928EE7CE68FBE12378A24D9B3
+B0B.pygtex)
+\openout6 = `master.pyg'.
+
+
+(./_minted-master/ED0AC256E81A698C49BB16CAC27E88D682C5928EE7CE68FBE12378A24D9B3
+B0B.pygtex)
+\openout5 = `master.pyg'.
+
+
+(./_minted-master/6624EB90F9378999146401AE954EEC1A82C5928EE7CE68FBE12378A24D9B3
+B0B.pygtex
+LaTeX Info: Redefining \. on input line 8.
+LaTeX Info: Redefining \% on input line 8.
+ [13])
+<img/knn.png, id=581, 1246.6575pt x 507.8975pt>
+File: img/knn.png Graphic file (type png)
+<use img/knn.png>
+Package pdftex.def Info: img/knn.png  used on input line 528.
+(pdftex.def)             Requested size: 362.37569pt x 147.63524pt.
+\openout6 = `master.pyg'.
+
+
+(./_minted-master/1E6C8F5B84CC3CE02861242A3513C4CD82C5928EE7CE68FBE12378A24D9B3
+B0B.pygtex)
+\openout6 = `master.pyg'.
+
+
+(./_minted-master/A8D46B8B7C331FAF878A42C9222F423B82C5928EE7CE68FBE12378A24D9B3
+B0B.pygtex)
+\openout6 = `master.pyg'.
+
+
+(./_minted-master/D8B76090257152EEC223A95B94A34A5382C5928EE7CE68FBE12378A24D9B3
+B0B.pygtex)
+\openout6 = `master.pyg'.
+
+
+(./_minted-master/1E6C8F5B84CC3CE02861242A3513C4CD82C5928EE7CE68FBE12378A24D9B3
+B0B.pygtex)
+\openout6 = `master.pyg'.
+
+
+(./_minted-master/A8D46B8B7C331FAF878A42C9222F423B82C5928EE7CE68FBE12378A24D9B3
+B0B.pygtex)
+<img/bagging1.png, id=582, 679.53876pt x 286.06876pt>
+File: img/bagging1.png Graphic file (type png)
+<use img/bagging1.png>
+Package pdftex.def Info: img/bagging1.png  used on input line 541.
+(pdftex.def)             Requested size: 226.48395pt x 95.34146pt.
+\openout6 = `master.pyg'.
+
+
+(./_minted-master/1E6C8F5B84CC3CE02861242A3513C4CD82C5928EE7CE68FBE12378A24D9B3
+B0B.pygtex)
+\openout6 = `master.pyg'.
+
+
+(./_minted-master/1E6C8F5B84CC3CE02861242A3513C4CD82C5928EE7CE68FBE12378A24D9B3
+B0B.pygtex)
+<img/bagging2.png, id=583, 662.475pt x 361.35pt>
+File: img/bagging2.png Graphic file (type png)
+<use img/bagging2.png>
+Package pdftex.def Info: img/bagging2.png  used on input line 548.
+(pdftex.def)             Requested size: 226.48395pt x 123.53557pt.
+\openout6 = `master.pyg'.
+
+
+(./_minted-master/A8D46B8B7C331FAF878A42C9222F423B82C5928EE7CE68FBE12378A24D9B3
+B0B.pygtex)
+\openout6 = `master.pyg'.
+
+
+(./_minted-master/A8D46B8B7C331FAF878A42C9222F423B82C5928EE7CE68FBE12378A24D9B3
+B0B.pygtex)
+LaTeX Info: Redefining \. on input line 552.
+LaTeX Info: Redefining \% on input line 552.
+ [14 <./img/knn.png> <./img/bagging1.png>]
+\openout6 = `master.pyg'.
+
+
+(./_minted-master/9931D11B69111D3E1F60C43E548E7AE882C5928EE7CE68FBE12378A24D9B3
+B0B.pygtex)
+\openout5 = `master.pyg'.
+
+
+(./_minted-master/CB8C4A33DA3F47548A2330625B5BD1B982C5928EE7CE68FBE12378A24D9B3
+B0B.pygtex)
+\openout6 = `master.pyg'.
+
+
+(./_minted-master/472B087BE6B5D21A6A97F8F5CCD604FD82C5928EE7CE68FBE12378A24D9B3
+B0B.pygtex)
+<img/bagging3.png, id=592, 1216.545pt x 443.6575pt>
+File: img/bagging3.png Graphic file (type png)
+<use img/bagging3.png>
+Package pdftex.def Info: img/bagging3.png  used on input line 577.
+(pdftex.def)             Requested size: 362.37569pt x 132.15051pt.
+\openout5 = `master.pyg'.
+
+
+(./_minted-master/31E873232FF7F64308969A37A3B79ECF82C5928EE7CE68FBE12378A24D9B3
+B0B.pygtex)
+LaTeX Info: Redefining \. on input line 590.
+LaTeX Info: Redefining \% on input line 590.
+ [15 <./img/bagging2.png> <./img/bagging3.png>]
+\openout5 = `master.pyg'.
+
+
+(./_minted-master/851CC53CCEA5ED1F40E7DF2C60C4A43B82C5928EE7CE68FBE12378A24D9B3
+B0B.pygtex)
+Overfull \hbox (70.56682pt too wide) in paragraph at lines 607--614
+[][]
+ []
+
+\openout6 = `master.pyg'.
+
+
+(./_minted-master/2EE8BAC052FBD4B0D55BBDCDCA06BD2182C5928EE7CE68FBE12378A24D9B3
+B0B.pygtex)
+\openout6 = `master.pyg'.
+
+
+(./_minted-master/A8D46B8B7C331FAF878A42C9222F423B82C5928EE7CE68FBE12378A24D9B3
+B0B.pygtex)
+\openout6 = `master.pyg'.
+
+
+(./_minted-master/1FB52757D3D7ABAF2394C57D1AAF386382C5928EE7CE68FBE12378A24D9B3
+B0B.pygtex)
+\openout5 = `master.pyg'.
+
+
+(./_minted-master/F995EE2D74563F0940FDF377E4DED40582C5928EE7CE68FBE12378A24D9B3
+B0B.pygtex
+LaTeX Info: Redefining \. on input line 12.
+LaTeX Info: Redefining \% on input line 12.
+ [16])
+<img/gradient1.png, id=606, 1382.16376pt x 494.84875pt>
+File: img/gradient1.png Graphic file (type png)
+<use img/gradient1.png>
+Package pdftex.def Info: img/gradient1.png  used on input line 642.
+(pdftex.def)             Requested size: 317.07614pt x 113.51834pt.
+<img/gradient2.png, id=607, 1412.27625pt x 512.91624pt>
+File: img/gradient2.png Graphic file (type png)
+<use img/gradient2.png>
+Package pdftex.def Info: img/gradient2.png  used on input line 650.
+(pdftex.def)             Requested size: 317.07614pt x 115.15855pt.
+\openout6 = `master.pyg'.
+
+
+(./_minted-master/182ED4077ADB638BF0DB72D93C8E5B1482C5928EE7CE68FBE12378A24D9B3
+B0B.pygtex)
+\openout6 = `master.pyg'.
+
+
+(./_minted-master/FC71B2FF71D91BE7707C9D013251335D82C5928EE7CE68FBE12378A24D9B3
+B0B.pygtex)
+\openout6 = `master.pyg'.
+
+
+(./_minted-master/6DFACE44ACA81278E433B8270B1D874982C5928EE7CE68FBE12378A24D9B3
+B0B.pygtex)
+\openout6 = `master.pyg'.
+
+
+(./_minted-master/2ECB40D7DA1C6C22449659708494180982C5928EE7CE68FBE12378A24D9B3
+B0B.pygtex)
+Overfull \hbox (8.27449pt too wide) in paragraph at lines 659--660
+\OT1/cmr/m/n/10.95 gu-nos va-lo-res alea-to-rios ($0\OML/cmm/m/it/10.95 :\OT1/c
+mr/m/n/10.95 2\OML/cmm/m/it/10.95 ; \OT1/cmr/m/n/10.95 0\OML/cmm/m/it/10.95 :\O
+T1/cmr/m/n/10.95 3\OML/cmm/m/it/10.95 ; \OT1/cmr/m/n/10.95 0\OML/cmm/m/it/10.95
+ :\OT1/cmr/m/n/10.95 5\OML/cmm/m/it/10.95 ; \OT1/cmr/m/n/10.95 0\OML/cmm/m/it/1
+0.95 :\OT1/cmr/m/n/10.95 15\OML/cmm/m/it/10.95 ; \OT1/cmr/m/n/10.95 0\OML/cmm/m
+/it/10.95 :\OT1/cmr/m/n/10.95 25$), sien-do 0.2 el m^^Sas ade-cua-do: [] 
+ []
+
+\openout5 = `master.pyg'.
+
+
+(./_minted-master/C8F77FD795CEFAFFB1C56F8CB83B876982C5928EE7CE68FBE12378A24D9B3
+B0B.pygtex)
+\openout5 = `master.pyg'.
+
+
+(./_minted-master/BD37008EF365C41D9F1A752E23E3057F82C5928EE7CE68FBE12378A24D9B3
+B0B.pygtex
+LaTeX Info: Redefining \. on input line 4.
+LaTeX Info: Redefining \% on input line 4.
+ [17 <./img/gradient1.png> <./img/gradient2.png>])
+\openout6 = `master.pyg'.
+
+
+(./_minted-master/C74E8AE0FF758E82970B887F5BC0582182C5928EE7CE68FBE12378A24D9B3
+B0B.pygtex)
+Overfull \hbox (70.56682pt too wide) in paragraph at lines 698--705
+ [] 
+ []
+
+\openout6 = `master.pyg'.
+
+
+(./_minted-master/1E6C8F5B84CC3CE02861242A3513C4CD82C5928EE7CE68FBE12378A24D9B3
+B0B.pygtex)
+\openout6 = `master.pyg'.
+
+
+(./_minted-master/EDDEDB109B151CA4FC68451F3AF83D9B82C5928EE7CE68FBE12378A24D9B3
+B0B.pygtex)
+\openout6 = `master.pyg'.
+
+
+(./_minted-master/DF63AD24CAD3DFE28DCFCC9368A7D77082C5928EE7CE68FBE12378A24D9B3
+B0B.pygtex)
+\openout5 = `master.pyg'.
+
+
+(./_minted-master/6B561D2F86FF87253A182A9AEDAC10DE82C5928EE7CE68FBE12378A24D9B3
+B0B.pygtex
+LaTeX Info: Redefining \. on input line 1.
+LaTeX Info: Redefining \% on input line 1.
+ [18])
+\openout6 = `master.pyg'.
+
+
+(./_minted-master/9B2D4162EC30A8D06216769061F7247E82C5928EE7CE68FBE12378A24D9B3
+B0B.pygtex)
+<img/extra1.png, id=622, 1432.35126pt x 499.8675pt>
+File: img/extra1.png Graphic file (type png)
+<use img/extra1.png>
+Package pdftex.def Info: img/extra1.png  used on input line 736.
+(pdftex.def)             Requested size: 407.66833pt x 142.2654pt.
+\openout5 = `master.pyg'.
+
+
+(./_minted-master/7C893AADC8AA0C6791725DAB13F996A382C5928EE7CE68FBE12378A24D9B3
+B0B.pygtex)
+\openout5 = `master.pyg'.
+
+
+(./_minted-master/E2229E5D7617912F8BE08E6B2A999AFC82C5928EE7CE68FBE12378A24D9B3
+B0B.pygtex
+LaTeX Info: Redefining \. on input line 15.
+LaTeX Info: Redefining \% on input line 15.
+ [19 <./img/extra1.png>])
+<img/extra2.png, id=629, 1417.295pt x 490.83376pt>
+File: img/extra2.png Graphic file (type png)
+<use img/extra2.png>
+Package pdftex.def Info: img/extra2.png  used on input line 770.
+(pdftex.def)             Requested size: 407.66833pt x 141.17726pt.
+\openout6 = `master.pyg'.
+
+
+(./_minted-master/C786B62B7300CB4333074558545D9CED82C5928EE7CE68FBE12378A24D9B3
+B0B.pygtex)
+\openout6 = `master.pyg'.
+
+
+(./_minted-master/C5B478519D9D4B7BC048716E17BD2FA082C5928EE7CE68FBE12378A24D9B3
+B0B.pygtex)
+Overfull \hbox (70.56682pt too wide) in paragraph at lines 785--794
+ [] 
+ []
+
+LaTeX Info: Redefining \. on input line 802.
+LaTeX Info: Redefining \% on input line 802.
+[20 <./img/extra2.png>]
+\openout5 = `master.pyg'.
+
+
+(./_minted-master/B92B5FD2FE1A2F01BF703FBCFE95547A82C5928EE7CE68FBE12378A24D9B3
+B0B.pygtex)
+\openout6 = `master.pyg'.
+
+
+(./_minted-master/4E0A9FAB948355CC89DBD1B90AD2AF4382C5928EE7CE68FBE12378A24D9B3
+B0B.pygtex)
+<img/nn1.png, id=637, 1411.2725pt x 501.875pt>
+File: img/nn1.png Graphic file (type png)
+<use img/nn1.png>
+Package pdftex.def Info: img/nn1.png  used on input line 824.
+(pdftex.def)             Requested size: 407.66833pt x 144.97333pt.
+\openout5 = `master.pyg'.
+
+
+(./_minted-master/5442244FE2B8C683B925B7FE2E8E55DA82C5928EE7CE68FBE12378A24D9B3
+B0B.pygtex
+LaTeX Info: Redefining \. on input line 5.
+LaTeX Info: Redefining \% on input line 5.
+ [21 <./img/nn1.png>])
+\openout5 = `master.pyg'.
+
+
+(./_minted-master/E89808A97EB391E8EF29F77D6D3D6E0682C5928EE7CE68FBE12378A24D9B3
+B0B.pygtex)
+\openout5 = `master.pyg'.
+
+
+(./_minted-master/717387D6EDD3484B8BD10BE4D62C26B182C5928EE7CE68FBE12378A24D9B3
+B0B.pygtex)
+LaTeX Info: Redefining \. on input line 866.
+LaTeX Info: Redefining \% on input line 866.
+ [22]
+Overfull \hbox (70.56682pt too wide) in paragraph at lines 870--880
+ [] 
+ []
+
+\openout6 = `master.pyg'.
+
+
+(./_minted-master/AF4B2A43842782B1F346173C2BDB0C2882C5928EE7CE68FBE12378A24D9B3
+B0B.pygtex)
+\openout5 = `master.pyg'.
+
+
+(./_minted-master/C1DFC93C590E16235DD19EECFCF3C0D782C5928EE7CE68FBE12378A24D9B3
+B0B.pygtex)
+\openout5 = `master.pyg'.
+
+
+(./_minted-master/C6C320BC944B28DAE11C4D57363C215A82C5928EE7CE68FBE12378A24D9B3
+B0B.pygtex
+LaTeX Info: Redefining \. on input line 7.
+LaTeX Info: Redefining \% on input line 7.
+ [23])
+\openout5 = `master.pyg'.
+
+
+(./_minted-master/DFACF5783D19979CDB2ABC78250B10CC82C5928EE7CE68FBE12378A24D9B3
+B0B.pygtex)
+\openout5 = `master.pyg'.
+
+
+(./_minted-master/F301B95D89826C9D671CC59A9F46A68882C5928EE7CE68FBE12378A24D9B3
+B0B.pygtex)
+\openout6 = `master.pyg'.
+
+
+(./_minted-master/246BE91619491FBE545A4F00A37D79AD82C5928EE7CE68FBE12378A24D9B3
+B0B.pygtex)
+LaTeX Info: Redefining \. on input line 939.
+LaTeX Info: Redefining \% on input line 939.
+ [24]
+Overfull \hbox (70.56682pt too wide) in paragraph at lines 944--955
+ [] 
+ []
+
+\openout5 = `master.pyg'.
+
+
+(./_minted-master/5F4FDD135D69402C656E5C9D14A86E8682C5928EE7CE68FBE12378A24D9B3
+B0B.pygtex)
+\openout6 = `master.pyg'.
+
+
+(./_minted-master/7A40B0E416BB1663D0A0CE0792448B9382C5928EE7CE68FBE12378A24D9B3
+B0B.pygtex)
+\openout6 = `master.pyg'.
+
+
+(./_minted-master/09AD1391CEA5E93307E6ECF1E095E2BD82C5928EE7CE68FBE12378A24D9B3
+B0B.pygtex)
+\openout5 = `master.pyg'.
+
+
+(./_minted-master/57D2DA9EC02FF957A561A7BF9F0C9E0B82C5928EE7CE68FBE12378A24D9B3
+B0B.pygtex
+LaTeX Info: Redefining \. on input line 9.
+LaTeX Info: Redefining \% on input line 9.
+ [25])
+<img/onehot1.png, id=664, 1088.065pt x 247.92625pt>
+File: img/onehot1.png Graphic file (type png)
+<use img/onehot1.png>
+Package pdftex.def Info: img/onehot1.png  used on input line 1017.
+(pdftex.def)             Requested size: 452.9679pt x 103.21281pt.
+LaTeX Info: Redefining \. on input line 1024.
+LaTeX Info: Redefining \% on input line 1024.
+ [26 <./img/onehot1.png>]
+<img/onehot2.png, id=671, 1153.30875pt x 341.275pt>
+File: img/onehot2.png Graphic file (type png)
+<use img/onehot2.png>
+Package pdftex.def Info: img/onehot2.png  used on input line 1027.
+(pdftex.def)             Requested size: 452.9679pt x 134.03925pt.
+\openout5 = `master.pyg'.
+
+
+(./_minted-master/21924ED1B433899C8142C674680ECC7582C5928EE7CE68FBE12378A24D9B3
+B0B.pygtex)
+\openout6 = `master.pyg'.
+
+
+(./_minted-master/8DDFA1A38489528F49AE6E66E1B4B06482C5928EE7CE68FBE12378A24D9B3
+B0B.pygtex)
+\openout6 = `master.pyg'.
+
+
+(./_minted-master/4905B6FC939BA35CBBBB8208E14E306682C5928EE7CE68FBE12378A24D9B3
+B0B.pygtex)
+\openout5 = `master.pyg'.
+
+
+(./_minted-master/94A5AAC699B335A7B5B067C151C88B6882C5928EE7CE68FBE12378A24D9B3
+B0B.pygtex)
+\openout6 = `master.pyg'.
+
+
+(./_minted-master/8DDFA1A38489528F49AE6E66E1B4B06482C5928EE7CE68FBE12378A24D9B3
+B0B.pygtex)
+\openout6 = `master.pyg'.
+
+
+(./_minted-master/4905B6FC939BA35CBBBB8208E14E306682C5928EE7CE68FBE12378A24D9B3
+B0B.pygtex)
+\openout5 = `master.pyg'.
+
+
+(./_minted-master/D45B996766B8C440E3BDC48921CD808982C5928EE7CE68FBE12378A24D9B3
+B0B.pygtex
+Overfull \hbox (12.37793pt too wide) in paragraph at lines 1056--1
+[]\OT1/cmr/m/n/10.95 Por otra par-te, pa-ra el un-der-sam-pling usa-mos Edi-ted
+-Nea-rest-Neigh-bours tam-bi^^Sen de [],
+ []
+
+)
+LaTeX Info: Redefining \. on input line 1069.
+LaTeX Info: Redefining \% on input line 1069.
+ [27 <./img/onehot2.png>]
+\openout6 = `master.pyg'.
+
+
+(./_minted-master/ED0AC256E81A698C49BB16CAC27E88D682C5928EE7CE68FBE12378A24D9B3
+B0B.pygtex)
+\openout5 = `master.pyg'.
+
+
+(./_minted-master/3DCD16EF769215C3A613CB8D30C06B6982C5928EE7CE68FBE12378A24D9B3
+B0B.pygtex
+LaTeX Info: Redefining \. on input line 5.
+LaTeX Info: Redefining \% on input line 5.
+ [28])
+<img/svc1.png, id=684, 1193.45876pt x 422.57875pt>
+File: img/svc1.png Graphic file (type png)
+<use img/svc1.png>
+Package pdftex.def Info: img/svc1.png  used on input line 1132.
+(pdftex.def)             Requested size: 407.66833pt x 144.34546pt.
+\openout5 = `master.pyg'.
+
+
+(./_minted-master/C857063BE76F67D4041FBEA33F68C6C882C5928EE7CE68FBE12378A24D9B3
+B0B.pygtex)
+LaTeX Info: Redefining \. on input line 1151.
+LaTeX Info: Redefining \% on input line 1151.
+ [29 <./img/svc1.png>]
+Overfull \hbox (65.09181pt too wide) in paragraph at lines 1155--1160
+ [] 
+ []
+
+\openout5 = `master.pyg'.
+
+
+(./_minted-master/C8594CC1E8BA244BFBEF52BE6B95FC7A82C5928EE7CE68FBE12378A24D9B3
+B0B.pygtex)
+Overfull \hbox (65.09181pt too wide) in paragraph at lines 1184--1190
+ [] 
+ []
+
+\openout5 = `master.pyg'.
+
+
+(./_minted-master/603BF1E5BC784AFA47F317306CDF839A82C5928EE7CE68FBE12378A24D9B3
+B0B.pygtex
+LaTeX Info: Redefining \. on input line 1.
+LaTeX Info: Redefining \% on input line 1.
+ [30])
+\openout6 = `master.pyg'.
+
+
+(./_minted-master/43B19C469A3566490EEB2BB11E68089482C5928EE7CE68FBE12378A24D9B3
+B0B.pygtex)
+<img/knn3.png, id=698, 1174.3875pt x 429.605pt>
+File: img/knn3.png Graphic file (type png)
+<use img/knn3.png>
+Package pdftex.def Info: img/knn3.png  used on input line 1218.
+(pdftex.def)             Requested size: 407.66833pt x 149.12506pt.
+\openout5 = `master.pyg'.
+
+
+(./_minted-master/F98563091F17622143B8273B9A78A35782C5928EE7CE68FBE12378A24D9B3
+B0B.pygtex
+LaTeX Info: Redefining \. on input line 8.
+LaTeX Info: Redefining \% on input line 8.
+ [31 <./img/knn3.png>])
+\openout6 = `master.pyg'.
+
+
+(./_minted-master/EB62576699E1AF13AC27A6B6B58790C182C5928EE7CE68FBE12378A24D9B3
+B0B.pygtex)
+Overfull \hbox (65.09181pt too wide) in paragraph at lines 1251--1258
+ [] 
+ []
+
+LaTeX Info: Redefining \. on input line 1275.
+LaTeX Info: Redefining \% on input line 1275.
+[32]
+\openout5 = `master.pyg'.
+
+
+(./_minted-master/72F1DD7C50ECCACD84E33521AFF26C3C82C5928EE7CE68FBE12378A24D9B3
+B0B.pygtex)
+\openout6 = `master.pyg'.
+
+
+(./_minted-master/06A2C3C2B59432309FA61BC2D3FCA34482C5928EE7CE68FBE12378A24D9B3
+B0B.pygtex)
+Overfull \hbox (65.09181pt too wide) in paragraph at lines 1297--1305
+[][]
+ []
+
+LaTeX Info: Redefining \. on input line 1317.
+LaTeX Info: Redefining \% on input line 1317.
+[33]
+\openout5 = `master.pyg'.
+
+
+(./_minted-master/BBEB23905A63F73DEEB5E649D2D5B8F082C5928EE7CE68FBE12378A24D9B3
+B0B.pygtex)
+\openout6 = `master.pyg'.
+
+
+(./_minted-master/221A2AD02E2F4187BC330CB34388E41182C5928EE7CE68FBE12378A24D9B3
+B0B.pygtex)
+<img/extra3.png, id=715, 1192.455pt x 409.53pt>
+File: img/extra3.png Graphic file (type png)
+<use img/extra3.png>
+Package pdftex.def Info: img/extra3.png  used on input line 1337.
+(pdftex.def)             Requested size: 407.66833pt x 140.00697pt.
+\openout6 = `master.pyg'.
+
+
+(./_minted-master/697A65F55985148CFEA784856214177182C5928EE7CE68FBE12378A24D9B3
+B0B.pygtex)
+\openout5 = `master.pyg'.
+
+
+(./_minted-master/3286E956B90AEAD98A4CDC9E026BAADF82C5928EE7CE68FBE12378A24D9B3
+B0B.pygtex)
+\openout6 = `master.pyg'.
+
+
+(./_minted-master/1024937135259B2BDF39FE90E61AAEEC82C5928EE7CE68FBE12378A24D9B3
+B0B.pygtex)
+\openout5 = `master.pyg'.
+
+
+(./_minted-master/F9EFD395CC7C30D125D9E82126EA46BC82C5928EE7CE68FBE12378A24D9B3
+B0B.pygtex
+LaTeX Info: Redefining \. on input line 1.
+LaTeX Info: Redefining \% on input line 1.
+ [34 <./img/extra3.png>])
+Overfull \hbox (70.56682pt too wide) in paragraph at lines 1369--1377
+[][]
+ []
+
+\openout6 = `master.pyg'.
+
+
+(./_minted-master/4905B6FC939BA35CBBBB8208E14E306682C5928EE7CE68FBE12378A24D9B3
+B0B.pygtex)
+\openout6 = `master.pyg'.
+
+
+(./_minted-master/54DF541D7FE478B686CE00BC232C0EF382C5928EE7CE68FBE12378A24D9B3
+B0B.pygtex)
+\openout5 = `master.pyg'.
+
+
+(./_minted-master/CBE9D12450172D29001E71B2907605F882C5928EE7CE68FBE12378A24D9B3
+B0B.pygtex
+LaTeX Info: Redefining \. on input line 7.
+LaTeX Info: Redefining \% on input line 7.
+ [35])
+Overfull \hbox (70.56682pt too wide) in paragraph at lines 1419--1426
+ [] 
+ []
+
+\openout5 = `master.pyg'.
+
+
+(./_minted-master/42E164168EBB0B87B1F7A3C86D9EC0D582C5928EE7CE68FBE12378A24D9B3
+B0B.pygtex)
+\openout5 = `master.pyg'.
+
+
+(./_minted-master/74867FAFC90DAF4A1E3DEC6D6E6B400782C5928EE7CE68FBE12378A24D9B3
+B0B.pygtex
+LaTeX Info: Redefining \. on input line 6.
+LaTeX Info: Redefining \% on input line 6.
+ [36])
+<img/nombre.png, id=733, 436.63126pt x 216.81pt>
+File: img/nombre.png Graphic file (type png)
+<use img/nombre.png>
+Package pdftex.def Info: img/nombre.png  used on input line 1453.
+(pdftex.def)             Requested size: 226.48395pt x 112.46063pt.
+\openout6 = `master.pyg'.
+
+
+(./_minted-master/4905B6FC939BA35CBBBB8208E14E306682C5928EE7CE68FBE12378A24D9B3
+B0B.pygtex)
+\openout5 = `master.pyg'.
+
+
+(./_minted-master/1A9A31FA2C8640FC7816D14EB159A0DD82C5928EE7CE68FBE12378A24D9B3
+B0B.pygtex)
+\openout6 = `master.pyg'.
+
+
+(./_minted-master/ED0AC256E81A698C49BB16CAC27E88D682C5928EE7CE68FBE12378A24D9B3
+B0B.pygtex)
+LaTeX Info: Redefining \. on input line 1490.
+LaTeX Info: Redefining \% on input line 1490.
+ [37 <./img/nombre.png>]
+\openout5 = `master.pyg'.
+
+
+(./_minted-master/21D7F5A661D801DE78E34F463D14FBE882C5928EE7CE68FBE12378A24D9B3
+B0B.pygtex)
+Overfull \hbox (65.09181pt too wide) in paragraph at lines 1512--1519
+ [] 
+ []
+
+LaTeX Info: Redefining \. on input line 1529.
+LaTeX Info: Redefining \% on input line 1529.
+[38]
+\openout6 = `master.pyg'.
+
+
+(./_minted-master/888051706676568A1E8764225B5B262E82C5928EE7CE68FBE12378A24D9B3
+B0B.pygtex)
+\openout6 = `master.pyg'.
+
+
+(./_minted-master/4B8E6A96471295D639FE292925C9168082C5928EE7CE68FBE12378A24D9B3
+B0B.pygtex)
+\openout6 = `master.pyg'.
+
+
+(./_minted-master/7C268290AEC923D011553B3860CA2F6882C5928EE7CE68FBE12378A24D9B3
+B0B.pygtex)
+\openout6 = `master.pyg'.
+
+
+(./_minted-master/4F5F694D71C786CFE03084AFE1BFBBC882C5928EE7CE68FBE12378A24D9B3
+B0B.pygtex)
+\openout5 = `master.pyg'.
+
+
+(./_minted-master/7B867F99EBFE11EB0FDB6832ED8A202782C5928EE7CE68FBE12378A24D9B3
+B0B.pygtex)
+Overfull \hbox (59.6168pt too wide) in paragraph at lines 1546--1552
+ [] 
+ []
+
+\openout6 = `master.pyg'.
+
+
+(./_minted-master/A7234EA475DB77546F34836AC34AD25C82C5928EE7CE68FBE12378A24D9B3
+B0B.pygtex)
+\openout6 = `master.pyg'.
+
+
+(./_minted-master/F70E10193A85E5BEC552EADD9A78E48882C5928EE7CE68FBE12378A24D9B3
+B0B.pygtex)
+\openout6 = `master.pyg'.
+
+
+(./_minted-master/4F5F694D71C786CFE03084AFE1BFBBC882C5928EE7CE68FBE12378A24D9B3
+B0B.pygtex)
+\openout5 = `master.pyg'.
+
+
+(./_minted-master/CF5C756EFEB0AE262DA130A413929C4582C5928EE7CE68FBE12378A24D9B3
+B0B.pygtex
+LaTeX Info: Redefining \. on input line 4.
+LaTeX Info: Redefining \% on input line 4.
+ [39])
+Overfull \hbox (59.6168pt too wide) in paragraph at lines 1580--1587
+ [] 
+ []
+
+\openout6 = `master.pyg'.
+
+
+(./_minted-master/1287A6D9B6B7EC8AEADD4795EA6D5B8F82C5928EE7CE68FBE12378A24D9B3
+B0B.pygtex)
+\openout6 = `master.pyg'.
+
+
+(./_minted-master/C786B62B7300CB4333074558545D9CED82C5928EE7CE68FBE12378A24D9B3
+B0B.pygtex)
+\openout5 = `master.pyg'.
+
+
+(./_minted-master/7F33B13C5E759F6E596A94A6AFB6724F82C5928EE7CE68FBE12378A24D9B3
+B0B.pygtex
+LaTeX Info: Redefining \. on input line 16.
+LaTeX Info: Redefining \% on input line 16.
+ [40])
+\openout6 = `master.pyg'.
+
+
+(./_minted-master/B8E1DE750F58553E9BDDFA79F8BC48D782C5928EE7CE68FBE12378A24D9B3
+B0B.pygtex)
+\openout5 = `master.pyg'.
+
+
+(./_minted-master/5EC198B82C2CB055478E7FB7EBF228CC82C5928EE7CE68FBE12378A24D9B3
+B0B.pygtex)
+\openout6 = `master.pyg'.
+
+
+(./_minted-master/5FA4D240215F8E1DE6EF650A0FCDFC8A82C5928EE7CE68FBE12378A24D9B3
+B0B.pygtex)
+\openout6 = `master.pyg'.
+
+
+(./_minted-master/6DFACE44ACA81278E433B8270B1D874982C5928EE7CE68FBE12378A24D9B3
+B0B.pygtex)
+\openout6 = `master.pyg'.
+
+
+(./_minted-master/D255BA52C9958CD18ADBB1078817E2B582C5928EE7CE68FBE12378A24D9B3
+B0B.pygtex)
+\openout6 = `master.pyg'.
+
+
+(./_minted-master/4F5F694D71C786CFE03084AFE1BFBBC882C5928EE7CE68FBE12378A24D9B3
+B0B.pygtex)
+\openout5 = `master.pyg'.
+
+
+(./_minted-master/24135A7CB51CC87A51C07874E6AD0C2B82C5928EE7CE68FBE12378A24D9B3
+B0B.pygtex)
+Overfull \hbox (59.6168pt too wide) in paragraph at lines 1653--1661
+ [] 
+ []
+
+LaTeX Info: Redefining \. on input line 1670.
+LaTeX Info: Redefining \% on input line 1670.
+[41]
+\openout6 = `master.pyg'.
+
+
+(./_minted-master/1C79D5EE5D1AF72D6A95365A823980B082C5928EE7CE68FBE12378A24D9B3
+B0B.pygtex)
+\openout5 = `master.pyg'.
+
+
+(./_minted-master/BD4736A718EB4DF35ADAD3C1DBEB3D0882C5928EE7CE68FBE12378A24D9B3
+B0B.pygtex)
+\openout5 = `master.pyg'.
+
+
+(./_minted-master/D29C1C653A284CE8227830ED14D517F882C5928EE7CE68FBE12378A24D9B3
+B0B.pygtex)
+LaTeX Info: Redefining \. on input line 1703.
+LaTeX Info: Redefining \% on input line 1703.
+ [42]
+Overfull \hbox (65.09181pt too wide) in paragraph at lines 1707--1717
+ [] 
+ []
+
+\openout6 = `master.pyg'.
+
+
+(./_minted-master/BE0FDFE2BEB36119DDE3EFCF900844ED82C5928EE7CE68FBE12378A24D9B3
+B0B.pygtex)
+\openout6 = `master.pyg'.
+
+
+(./_minted-master/5451F40CB3D18E9833AC712FE8791DA182C5928EE7CE68FBE12378A24D9B3
+B0B.pygtex)
+\openout6 = `master.pyg'.
+
+
+(./_minted-master/C786B62B7300CB4333074558545D9CED82C5928EE7CE68FBE12378A24D9B3
+B0B.pygtex)
+\openout6 = `master.pyg'.
+
+
+(./_minted-master/957E7699EE8B951F8A0CEFA9A43787C882C5928EE7CE68FBE12378A24D9B3
+B0B.pygtex)
+\openout6 = `master.pyg'.
+
+
+(./_minted-master/77D818C0D61B0FA550A26D543787704B82C5928EE7CE68FBE12378A24D9B3
+B0B.pygtex)
+\openout6 = `master.pyg'.
+
+
+(./_minted-master/762E92207DA75F308A88298A559DD09782C5928EE7CE68FBE12378A24D9B3
+B0B.pygtex)
+\openout5 = `master.pyg'.
+
+
+(./_minted-master/529F63E98AE0D4B67E2F0C529BA454E582C5928EE7CE68FBE12378A24D9B3
+B0B.pygtex
+LaTeX Info: Redefining \. on input line 9.
+LaTeX Info: Redefining \% on input line 9.
+ [43])
+Overfull \hbox (65.09181pt too wide) in paragraph at lines 1749--1762
+[][]
+ []
+
+\openout6 = `master.pyg'.
+
+
+(./_minted-master/E62FC2EB18E54693586FAE566362D25482C5928EE7CE68FBE12378A24D9B3
+B0B.pygtex)
+\openout6 = `master.pyg'.
+
+
+(./_minted-master/A7234EA475DB77546F34836AC34AD25C82C5928EE7CE68FBE12378A24D9B3
+B0B.pygtex)
+\openout6 = `master.pyg'.
+
+
+(./_minted-master/1D05A1726101256AE4811661393D594882C5928EE7CE68FBE12378A24D9B3
+B0B.pygtex)
+\openout5 = `master.pyg'.
+
+
+(./_minted-master/D11EC2D3BDC0E0A8557BD1CC6BC41FFF82C5928EE7CE68FBE12378A24D9B3
+B0B.pygtex
+LaTeX Info: Redefining \. on input line 5.
+LaTeX Info: Redefining \% on input line 5.
+ [44])
+\openout6 = `master.pyg'.
+
+
+(./_minted-master/EB580E7952BD9950989AAB2BFDEC169A82C5928EE7CE68FBE12378A24D9B3
+B0B.pygtex)
+\openout6 = `master.pyg'.
+
+
+(./_minted-master/B25C7759A1C395977191D2B19E8C731482C5928EE7CE68FBE12378A24D9B3
+B0B.pygtex)
+\openout6 = `master.pyg'.
+
+
+(./_minted-master/6BE325ED40CDDDF18F1DB32F37D1ADDC82C5928EE7CE68FBE12378A24D9B3
+B0B.pygtex)
+\openout6 = `master.pyg'.
+
+
+(./_minted-master/1287A6D9B6B7EC8AEADD4795EA6D5B8F82C5928EE7CE68FBE12378A24D9B3
+B0B.pygtex)
+\openout6 = `master.pyg'.
+
+
+(./_minted-master/6DFACE44ACA81278E433B8270B1D874982C5928EE7CE68FBE12378A24D9B3
+B0B.pygtex)
+Overfull \hbox (41.23921pt too wide) in paragraph at lines 1788--1789
+[]\OT1/cmr/m/n/10.95 , usan-do las fun-cio-nes []
+ []
+
+\openout5 = `master.pyg'.
+
+
+(./_minted-master/15603C090A75FA06BB2D2225B21E093B82C5928EE7CE68FBE12378A24D9B3
+B0B.pygtex)
+Overfull \hbox (65.09181pt too wide) in paragraph at lines 1803--1816
+ [] 
+ []
+
+LaTeX Info: Redefining \. on input line 1826.
+LaTeX Info: Redefining \% on input line 1826.
+[45]
+\openout6 = `master.pyg'.
+
+
+(./_minted-master/519B9C16E6B610F2A526B4F8F3BD13E182C5928EE7CE68FBE12378A24D9B3
+B0B.pygtex)
+\openout6 = `master.pyg'.
+
+
+(./_minted-master/8AEA839CBEB9C80F28EF67F669D40F4E82C5928EE7CE68FBE12378A24D9B3
+B0B.pygtex)
+\openout5 = `master.pyg'.
+
+
+(./_minted-master/8390C4FD8BA342C4AFA1D9BB730A058582C5928EE7CE68FBE12378A24D9B3
+B0B.pygtex
+Overfull \hbox (58.0639pt too wide) in paragraph at lines 1840--1
+[]\OT1/cmr/m/n/10.95 Como ya he-mos he-cho en las en-tre-gas 4, 17 y 22, ana-li
+-za-mos los par^^Same-tros []
+ []
+
+)
+\openout6 = `master.pyg'.
+
+
+(./_minted-master/D43B9A77D1AD191413171359FACC964582C5928EE7CE68FBE12378A24D9B3
+B0B.pygtex)
+\openout6 = `master.pyg'.
+
+
+(./_minted-master/1CE1B1516FCFF58ECBF5D5D468FFADE782C5928EE7CE68FBE12378A24D9B3
+B0B.pygtex)
+LaTeX Info: Redefining \. on input line 1847.
+LaTeX Info: Redefining \% on input line 1847.
+ [46]
+Overfull \hbox (65.09181pt too wide) in paragraph at lines 1852--1863
+ [] 
+ []
+
+LaTeX Info: Redefining \. on input line 1879.
+LaTeX Info: Redefining \% on input line 1879.
+[47]
+Overfull \hbox (2.72516pt too wide) in paragraph at lines 1884--1911
+ [] 
+ []
+
+LaTeX Info: Redefining \. on input line 1918.
+LaTeX Info: Redefining \% on input line 1918.
+[48]
+Underfull \hbox (badness 10000) in paragraph at lines 1921--1922
+[][][]$\OT1/cmtt/m/n/10.95 https : / / scikit-[]learn . org / stable / modules 
+/ generated / sklearn . preprocessing .
+ []
+
+
+Overfull \hbox (137.18555pt too wide) in paragraph at lines 1924--1925
+[][][]$\OT1/cmtt/m/n/10.95 https : / / www . analyticsvidhya . com / blog / 202
+0 / 03 / one-[]hot-[]-[]vs-[]label-[]encoding-[]using-[]scencodingikit-[]learn/
+$[][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1927--1928
+[][][]$\OT1/cmtt/m/n/10.95 https : / / imbalanced-[]learn . readthedocs . io / 
+en / stable / generated / imblearn . over _
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1930--1931
+[][][]$\OT1/cmtt/m/n/10.95 https : / / imbalanced-[]learn . readthedocs . io / 
+en / stable / generated / imblearn .
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1930--1931
+\OT1/cmtt/m/n/10.95 under _ sampling . EditedNearestNeighbours . html # imblear
+n . under _ sampling .
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1937--1938
+[][][]$\OT1/cmtt/m/n/10.95 https : / / scikit-[]learn . org / stable / modules 
+/ generated / sklearn . ensemble .
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1939--1940
+[][][]$\OT1/cmtt/m/n/10.95 https : / / scikit-[]learn . org / stable / modules 
+/ generated / sklearn . ensemble .
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1941--1942
+[][][]$\OT1/cmtt/m/n/10.95 https : / / scikit-[]learn . org / stable / modules 
+/ generated / sklearn . neural _ network .
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1943--1944
+[][][]$\OT1/cmtt/m/n/10.95 https : / / scikit-[]learn . org / stable / modules 
+/ generated / sklearn . ensemble .
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1945--1946
+[][][]$\OT1/cmtt/m/n/10.95 https : / / scikit-[]learn . org / stable / modules 
+/ generated / sklearn . svm . LinearSVC .
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1947--1948
+[][][]$\OT1/cmtt/m/n/10.95 https : / / scikit-[]learn . org / stable / modules 
+/ generated / sklearn . ensemble .
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1949--1950
+[][][]$\OT1/cmtt/m/n/10.95 https : / / scikit-[]learn . org / stable / modules 
+/ generated / sklearn . ensemble .
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1951--1952
+[][][]$\OT1/cmtt/m/n/10.95 https : / / imbalanced-[]learn . readthedocs . io / 
+en / stable / generated / imblearn . over _
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1953--1954
+[][][]$\OT1/cmtt/m/n/10.95 https : / / imbalanced-[]learn . readthedocs . io / 
+en / stable / generated / imblearn .
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1955--1956
+[][][]$\OT1/cmtt/m/n/10.95 https : / / scikit-[]learn . org / stable / modules 
+/ generated / sklearn . ensemble .
+ []
+
+LaTeX Info: Redefining \. on input line 1958.
+LaTeX Info: Redefining \% on input line 1958.
+[49]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1958.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 1958.
+ (./master.aux
+LaTeX Info: Redefining \. on input line 31.
+LaTeX Info: Redefining \% on input line 31.
+)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1958.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1958.
+
+Package rerunfilecheck Info: File `master.out' has not changed.
+(rerunfilecheck)             Checksum: 4725A8A24EAD7A11AC4CF2FC749CC82F;6587.
+
+
+LaTeX Font Warning: Some font shapes were not available, defaults substituted.
+
+
+LaTeX Warning: There were multiply-defined labels.
+
+runsystem(rm master.pyg)...executed.
+
+Package logreq Info: Writing requests to 'master.run.xml'.
+\openout1 = `master.run.xml'.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 43232 strings out of 481239
+ 1023880 string characters out of 5920377
+ 1574248 words of memory out of 5000000
+ 57071 multiletter control sequences out of 15000+600000
+ 540394 words of font info for 54 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 63i,13n,98p,1071b,3809s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></us
+r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/shar
+e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/share/tex
+live/texmf-dist/fonts/type1/public/amsfonts/cm/cmitt10.pfb></usr/share/texlive/
+texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-
+dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fo
+nts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/typ
+e1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/pub
+lic/amsfonts/cm/cmtt10.pfb>
+Output written on master.pdf (50 pages, 1416507 bytes).
+PDF statistics:
+ 938 PDF objects out of 1000 (max. 8388607)
+ 815 compressed objects within 9 object streams
+ 219 named destinations out of 1000 (max. 500000)
+ 892 words of extra memory for PDF output out of 10000 (max. 10000000)
+

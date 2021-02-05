@@ -1,0 +1,17 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{n}{gradient}\PYG{o}{=}\PYG{n}{GradientBoostingClassifier}\PYG{p}{(}\PYG{n}{random\PYGZus{}state}\PYG{o}{=}\PYG{l+m+mi}{10}\PYG{p}{,}\PYG{n}{max\PYGZus{}features}\PYG{o}{=}\PYG{l+s+s1}{\PYGZsq{}auto\PYGZsq{}}\PYG{p}{)}
+\PYG{n}{parameter\PYGZus{}space} \PYG{o}{=} \PYG{p}{\PYGZob{}}
+\PYG{l+s+s1}{\PYGZsq{}n\PYGZus{}estimators\PYGZsq{}}\PYG{p}{:} \PYG{p}{[}\PYG{l+m+mi}{100}\PYG{p}{,}\PYG{l+m+mi}{150}\PYG{p}{,}\PYG{l+m+mi}{200}\PYG{p}{,}\PYG{l+m+mi}{250}\PYG{p}{],}
+\PYG{l+s+s1}{\PYGZsq{}learning\PYGZus{}rate\PYGZsq{}}\PYG{p}{:} \PYG{p}{[}\PYG{l+m+mf}{0.2}\PYG{p}{,}\PYG{l+m+mf}{0.1}\PYG{p}{,}\PYG{l+m+mf}{0.3}\PYG{p}{],}
+\PYG{l+s+s1}{\PYGZsq{}subsample\PYGZsq{}}\PYG{p}{:} \PYG{p}{[}\PYG{l+m+mf}{0.9}\PYG{p}{,} \PYG{l+m+mf}{0.7}\PYG{p}{,}\PYG{l+m+mf}{0.6}\PYG{p}{,}\PYG{l+m+mf}{0.8}\PYG{p}{],}
+\PYG{l+s+s1}{\PYGZsq{}max\PYGZus{}depth\PYGZsq{}}\PYG{p}{:[}\PYG{l+m+mi}{5}\PYG{p}{,}\PYG{l+m+mi}{6}\PYG{p}{],}
+\PYG{p}{\PYGZcb{}}
+
+\PYG{n}{clf}\PYG{o}{=}\PYG{n}{GridSearchCV}\PYG{p}{(}\PYG{n}{gradient}\PYG{p}{,} \PYG{n}{parameter\PYGZus{}space}\PYG{p}{,} \PYG{n}{n\PYGZus{}jobs}\PYG{o}{=\PYGZhy{}}\PYG{l+m+mi}{1}\PYG{p}{,} \PYG{n}{cv}\PYG{o}{=}\PYG{l+m+mi}{5}\PYG{p}{)}
+\PYG{n}{clf}\PYG{o}{.}\PYG{n}{fit}\PYG{p}{(}\PYG{n}{df\PYGZus{}train\PYGZus{}norm}\PYG{p}{,}\PYG{n}{df\PYGZus{}train\PYGZus{}obj}\PYG{p}{)}
+
+\PYG{n+nb}{print}\PYG{p}{(}\PYG{l+s+s1}{\PYGZsq{}Mejores parámetros: \PYGZsq{}}\PYG{p}{,} \PYG{n}{clf}\PYG{o}{.}\PYG{n}{best\PYGZus{}params\PYGZus{}}\PYG{p}{)}
+
+\PYG{n}{Mejores} \PYG{n}{parámetros}\PYG{p}{:}  \PYG{p}{\PYGZob{}}\PYG{l+s+s1}{\PYGZsq{}learning\PYGZus{}rate\PYGZsq{}}\PYG{p}{:} \PYG{l+m+mf}{0.1}\PYG{p}{,} \PYG{l+s+s1}{\PYGZsq{}max\PYGZus{}depth\PYGZsq{}}\PYG{p}{:} \PYG{l+m+mi}{5}\PYG{p}{,} \PYG{l+s+s1}{\PYGZsq{}n\PYGZus{}estimators\PYGZsq{}}\PYG{p}{:} \PYG{l+m+mi}{100}\PYG{p}{,}
+ \PYG{l+s+s1}{\PYGZsq{}subsample\PYGZsq{}}\PYG{p}{:} \PYG{l+m+mf}{0.8}\PYG{p}{\PYGZcb{}}
+\end{Verbatim}

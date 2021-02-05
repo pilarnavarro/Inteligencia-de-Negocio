@@ -1,0 +1,3 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{n}{cross\PYGZus{}validation}\PYG{p}{(}\PYG{n}{gradient}\PYG{p}{,}\PYG{n}{df\PYGZus{}train\PYGZus{}over}\PYG{p}{,}\PYG{n}{df\PYGZus{}train\PYGZus{}obj\PYGZus{}over}\PYG{p}{,}\PYG{k+kc}{True}\PYG{p}{)}
+\end{Verbatim}

@@ -1,0 +1,8 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{n}{estimators} \PYG{o}{=} \PYG{p}{[(}\PYG{l+s+s1}{\PYGZsq{}forest\PYGZsq{}}\PYG{p}{,} \PYG{n}{forest}\PYG{p}{),(}\PYG{l+s+s1}{\PYGZsq{}extra\PYGZus{}trees\PYGZsq{}}\PYG{p}{,} \PYG{n}{extra}\PYG{p}{),(}\PYG{l+s+s1}{\PYGZsq{}gradient\PYGZsq{}}\PYG{p}{,}\PYG{n}{gradient}\PYG{p}{)]}
+
+\PYG{n}{clf} \PYG{o}{=} \PYG{n}{StackingClassifier}\PYG{p}{(}\PYG{n}{estimators}\PYG{o}{=}\PYG{n}{estimators}\PYG{p}{,} \PYG{n}{final\PYGZus{}estimator}\PYG{o}{=}\PYG{n}{forest}\PYG{p}{,}\PYG{n}{cv}\PYG{o}{=}\PYG{l+m+mi}{5}\PYG{p}{)}
+\PYG{n}{cross\PYGZus{}validation}\PYG{p}{(}\PYG{n}{clf}\PYG{p}{,} \PYG{n}{df\PYGZus{}train\PYGZus{}norm}\PYG{p}{,} \PYG{n}{df\PYGZus{}train\PYGZus{}obj}\PYG{p}{,}\PYG{k+kc}{True}\PYG{p}{)}
+
+\PYG{n}{Accuracy}\PYG{p}{:}  \PYG{l+m+mf}{0.8317887016229714}
+\end{Verbatim}

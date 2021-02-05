@@ -1,0 +1,21 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{n}{cols} \PYG{o}{=} \PYG{p}{[}\PYG{n}{col} \PYG{k}{for} \PYG{n}{col} \PYG{o+ow}{in} \PYG{n}{df\PYGZus{}train\PYGZus{}orig}\PYG{o}{.}\PYG{n}{columns} \PYG{k}{if} \PYG{n}{col} \PYG{o+ow}{not} \PYG{o+ow}{in} \PYG{p}{[}\PYG{l+s+s1}{\PYGZsq{}precio\PYGZus{}cat\PYGZsq{}}\PYG{p}{,}\PYG{l+s+s1}{\PYGZsq{}id\PYGZsq{}}\PYG{p}{,}\PYG{l+s+s1}{\PYGZsq{}descuento\PYGZsq{}}\PYG{p}{]]}
+\PYG{n}{categorical}\PYG{o}{=}\PYG{p}{[}\PYG{l+s+s2}{\PYGZdq{}nombre\PYGZdq{}}\PYG{p}{,}\PYG{l+s+s2}{\PYGZdq{}ciudad\PYGZdq{}}\PYG{p}{,}\PYG{l+s+s2}{\PYGZdq{}combustible\PYGZdq{}}\PYG{p}{,}\PYG{l+s+s2}{\PYGZdq{}tipo\PYGZus{}marchas\PYGZdq{}}\PYG{p}{,}
+			\PYG{l+s+s2}{\PYGZdq{}mano\PYGZdq{}}\PYG{p}{,}\PYG{l+s+s2}{\PYGZdq{}consumo\PYGZdq{}}\PYG{p}{,}\PYG{l+s+s2}{\PYGZdq{}motor\PYGZus{}cc\PYGZdq{}}\PYG{p}{,}\PYG{l+s+s2}{\PYGZdq{}potencia\PYGZdq{}}\PYG{p}{]}
+
+\PYG{n}{df\PYGZus{}train\PYGZus{}norm}\PYG{o}{=}\PYG{n}{df\PYGZus{}train\PYGZus{}num}\PYG{o}{.}\PYG{n}{copy}\PYG{p}{()}
+\PYG{n}{df\PYGZus{}test\PYGZus{}norm}\PYG{o}{=}\PYG{n}{df\PYGZus{}test\PYGZus{}num}\PYG{o}{.}\PYG{n}{copy}\PYG{p}{()}
+
+
+\PYG{k}{for} \PYG{n}{atributo} \PYG{o+ow}{in} \PYG{n}{cols}\PYG{p}{:}
+	\PYG{n}{data}\PYG{o}{=}\PYG{n}{pd}\PYG{o}{.}\PYG{n}{read\PYGZus{}csv}\PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{}data/\PYGZdq{}}\PYG{o}{+}\PYG{n}{atributo}\PYG{o}{+}\PYG{l+s+s2}{\PYGZdq{}.csv\PYGZdq{}}\PYG{p}{)}
+	\PYG{n}{data}\PYG{o}{.}\PYG{n}{columns} \PYG{o}{=} \PYG{p}{[}\PYG{n}{col}\PYG{o}{.}\PYG{n}{lower}\PYG{p}{()} \PYG{k}{for} \PYG{n}{col} \PYG{o+ow}{in} \PYG{n}{data}\PYG{p}{]}
+	\PYG{k}{if} \PYG{n}{atributo} \PYG{o+ow}{in} \PYG{n}{categorical}\PYG{p}{:}
+		\PYG{n}{label} \PYG{o}{=} \PYG{n}{LabelEncoder}\PYG{p}{()}\PYG{o}{.}\PYG{n}{fit}\PYG{p}{(}\PYG{n}{data}\PYG{p}{[}\PYG{n}{atributo}\PYG{p}{])}
+		\PYG{n}{data}\PYG{p}{[}\PYG{n}{atributo}\PYG{p}{]}\PYG{o}{=}\PYG{n}{label}\PYG{o}{.}\PYG{n}{transform}\PYG{p}{(}\PYG{n}{data}\PYG{p}{[}\PYG{n}{atributo}\PYG{p}{])}
+	\PYG{n}{scaler} \PYG{o}{=} \PYG{n}{MinMaxScaler}\PYG{p}{()}\PYG{o}{.}\PYG{n}{fit}\PYG{p}{(}\PYG{n}{data}\PYG{o}{.}\PYG{n}{values}\PYG{p}{)}
+	\PYG{n}{train\PYGZus{}values}\PYG{o}{=}\PYG{n}{df\PYGZus{}train\PYGZus{}num}\PYG{p}{[}\PYG{n}{atributo}\PYG{p}{]}\PYG{o}{.}\PYG{n}{values}\PYG{o}{.}\PYG{n}{reshape}\PYG{p}{(}\PYG{o}{\PYGZhy{}}\PYG{l+m+mi}{1}\PYG{p}{,}\PYG{l+m+mi}{1}\PYG{p}{)}
+	\PYG{n}{df\PYGZus{}train\PYGZus{}norm}\PYG{p}{[}\PYG{n}{atributo}\PYG{p}{]}\PYG{o}{=}\PYG{n}{scaler}\PYG{o}{.}\PYG{n}{transform}\PYG{p}{(}\PYG{n}{train\PYGZus{}values}\PYG{p}{)}
+	\PYG{n}{test\PYGZus{}values}\PYG{o}{=}\PYG{n}{df\PYGZus{}test\PYGZus{}num}\PYG{p}{[}\PYG{n}{atributo}\PYG{p}{]}\PYG{o}{.}\PYG{n}{values}\PYG{o}{.}\PYG{n}{reshape}\PYG{p}{(}\PYG{o}{\PYGZhy{}}\PYG{l+m+mi}{1}\PYG{p}{,}\PYG{l+m+mi}{1}\PYG{p}{)}
+	\PYG{n}{df\PYGZus{}test\PYGZus{}norm}\PYG{p}{[}\PYG{n}{atributo}\PYG{p}{]}\PYG{o}{=}\PYG{n}{scaler}\PYG{o}{.}\PYG{n}{transform}\PYG{p}{(}\PYG{n}{test\PYGZus{}values}\PYG{p}{)}
+\end{Verbatim}

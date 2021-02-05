@@ -1,0 +1,14 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{n}{categorical}\PYG{o}{=}\PYG{p}{[}\PYG{l+s+s2}{\PYGZdq{}nombre\PYGZdq{}}\PYG{p}{,}\PYG{l+s+s2}{\PYGZdq{}ciudad\PYGZdq{}}\PYG{p}{,}\PYG{l+s+s2}{\PYGZdq{}combustible\PYGZdq{}}\PYG{p}{,}\PYG{l+s+s2}{\PYGZdq{}tipo\PYGZus{}marchas\PYGZdq{}}\PYG{p}{,}
+		\PYG{l+s+s2}{\PYGZdq{}mano\PYGZdq{}}\PYG{p}{,}\PYG{l+s+s2}{\PYGZdq{}consumo\PYGZdq{}}\PYG{p}{,}\PYG{l+s+s2}{\PYGZdq{}motor\PYGZus{}cc\PYGZdq{}}\PYG{p}{,}\PYG{l+s+s2}{\PYGZdq{}potencia\PYGZdq{}}\PYG{p}{]}
+
+\PYG{n}{df\PYGZus{}train\PYGZus{}num}\PYG{o}{=}\PYG{n}{df\PYGZus{}train}\PYG{o}{.}\PYG{n}{copy}\PYG{p}{()}
+\PYG{n}{df\PYGZus{}test\PYGZus{}num}\PYG{o}{=}\PYG{n}{df\PYGZus{}test}\PYG{o}{.}\PYG{n}{copy}\PYG{p}{()}
+
+\PYG{k}{for} \PYG{n}{atributo} \PYG{o+ow}{in} \PYG{n}{categorical}\PYG{p}{:}
+	\PYG{n}{data}\PYG{o}{=}\PYG{n}{pd}\PYG{o}{.}\PYG{n}{read\PYGZus{}csv}\PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{}data/\PYGZdq{}}\PYG{o}{+}\PYG{n}{atributo}\PYG{o}{+}\PYG{l+s+s2}{\PYGZdq{}.csv\PYGZdq{}}\PYG{p}{)}
+	\PYG{n}{data}\PYG{o}{.}\PYG{n}{columns} \PYG{o}{=} \PYG{p}{[}\PYG{n}{col}\PYG{o}{.}\PYG{n}{lower}\PYG{p}{()} \PYG{k}{for} \PYG{n}{col} \PYG{o+ow}{in} \PYG{n}{data}\PYG{p}{]}
+	\PYG{n}{label} \PYG{o}{=} \PYG{n}{LabelEncoder}\PYG{p}{()}\PYG{o}{.}\PYG{n}{fit}\PYG{p}{(}\PYG{n}{data}\PYG{p}{[}\PYG{n}{atributo}\PYG{p}{])}
+	\PYG{n}{df\PYGZus{}train\PYGZus{}num}\PYG{p}{[}\PYG{n}{atributo}\PYG{p}{]}\PYG{o}{=}\PYG{n}{label}\PYG{o}{.}\PYG{n}{transform}\PYG{p}{(}\PYG{n}{df\PYGZus{}train}\PYG{p}{[}\PYG{n}{atributo}\PYG{p}{])}
+	\PYG{n}{df\PYGZus{}test\PYGZus{}num}\PYG{p}{[}\PYG{n}{atributo}\PYG{p}{]}\PYG{o}{=}\PYG{n}{label}\PYG{o}{.}\PYG{n}{transform}\PYG{p}{(}\PYG{n}{df\PYGZus{}test}\PYG{p}{[}\PYG{n}{atributo}\PYG{p}{])}
+\end{Verbatim}

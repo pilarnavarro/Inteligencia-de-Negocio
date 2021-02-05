@@ -1,0 +1,7 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+  \PYG{n}{gradient}\PYG{o}{=}\PYG{n}{GradientBoostingClassifier}\PYG{p}{(}\PYG{n}{n\PYGZus{}estimators}\PYG{o}{=}\PYG{l+m+mi}{400}\PYG{p}{,} \PYG{n}{learning\PYGZus{}rate}\PYG{o}{=}\PYG{l+m+mf}{0.1}\PYG{p}{,} \PYG{n}{random\PYGZus{}state}\PYG{o}{=}\PYG{l+m+mi}{10}\PYG{p}{,}
+  \PYG{n}{max\PYGZus{}features}\PYG{o}{=}\PYG{l+s+s1}{\PYGZsq{}auto\PYGZsq{}}\PYG{p}{,}\PYG{n}{subsample}\PYG{o}{=}\PYG{l+m+mf}{0.8}\PYG{p}{,}\PYG{n}{max\PYGZus{}depth}\PYG{o}{=}\PYG{l+m+mi}{16}\PYG{p}{)}
+  \PYG{n}{cross\PYGZus{}validation}\PYG{p}{(}\PYG{n}{gradient}\PYG{p}{,}\PYG{n}{df\PYGZus{}train\PYGZus{}over}\PYG{p}{,}\PYG{n}{df\PYGZus{}train\PYGZus{}obj\PYGZus{}over}\PYG{p}{,}\PYG{k+kc}{True}\PYG{p}{)}
+
+  \PYG{n}{Accuracy}\PYG{p}{:}  \PYG{l+m+mf}{0.9461594054193917}
+\end{Verbatim}

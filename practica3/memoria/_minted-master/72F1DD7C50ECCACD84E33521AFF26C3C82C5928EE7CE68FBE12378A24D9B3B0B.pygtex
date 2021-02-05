@@ -1,0 +1,13 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{n}{extra}\PYG{o}{=}\PYG{n}{ExtraTreesClassifier}\PYG{p}{(}\PYG{n}{random\PYGZus{}state}\PYG{o}{=}\PYG{l+m+mi}{10}\PYG{p}{)}
+\PYG{n}{svc}\PYG{o}{=}\PYG{n}{LinearSVC}\PYG{p}{(}\PYG{n}{random\PYGZus{}state}\PYG{o}{=}\PYG{l+m+mi}{10}\PYG{p}{)}
+\PYG{n}{forest}\PYG{o}{=}\PYG{n}{RandomForestClassifier}\PYG{p}{(}\PYG{n}{random\PYGZus{}state}\PYG{o}{=}\PYG{l+m+mi}{10}\PYG{p}{)}
+\PYG{n}{NN}\PYG{o}{=}\PYG{n}{MLPClassifier}\PYG{p}{(}\PYG{n}{random\PYGZus{}state}\PYG{o}{=}\PYG{l+m+mi}{10}\PYG{p}{,}\PYG{n}{max\PYGZus{}iter}\PYG{o}{=}\PYG{l+m+mi}{10000}\PYG{p}{)}
+
+
+\PYG{n}{estimators} \PYG{o}{=} \PYG{p}{[(}\PYG{l+s+s1}{\PYGZsq{}Linear SVC\PYGZsq{}}\PYG{p}{,} \PYG{n}{svc}\PYG{p}{),}
+\PYG{p}{(}\PYG{l+s+s1}{\PYGZsq{}forest\PYGZsq{}}\PYG{p}{,} \PYG{n}{forest}\PYG{p}{),(}\PYG{l+s+s1}{\PYGZsq{}extra\PYGZus{}trees\PYGZsq{}}\PYG{p}{,} \PYG{n}{extra}\PYG{p}{),(}\PYG{l+s+s1}{\PYGZsq{}Red Neuronal\PYGZsq{}}\PYG{p}{,}\PYG{n}{NN}\PYG{p}{)]}
+
+\PYG{n}{clf} \PYG{o}{=} \PYG{n}{StackingClassifier}\PYG{p}{(}\PYG{n}{estimators}\PYG{o}{=}\PYG{n}{estimators}\PYG{p}{,} \PYG{n}{final\PYGZus{}estimator}\PYG{o}{=}\PYG{n}{forest}\PYG{p}{,}\PYG{n}{cv}\PYG{o}{=}\PYG{l+m+mi}{5}\PYG{p}{,}\PYG{n}{n\PYGZus{}jobs}\PYG{o}{=}\PYG{l+m+mi}{6}\PYG{p}{)}
+\PYG{n}{cross\PYGZus{}validation}\PYG{p}{(}\PYG{n}{clf}\PYG{p}{,} \PYG{n}{df\PYGZus{}train\PYGZus{}over}\PYG{p}{,} \PYG{n}{df\PYGZus{}train\PYGZus{}obj\PYGZus{}over}\PYG{p}{,}\PYG{k+kc}{True}\PYG{p}{)}
+\end{Verbatim}

@@ -1,0 +1,8 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{k}{def} \PYG{n+nf}{cross\PYGZus{}validation}\PYG{p}{(}\PYG{n}{clf}\PYG{p}{,}\PYG{n}{x}\PYG{p}{,}\PYG{n}{y}\PYG{p}{,}\PYG{n}{mostrar}\PYG{o}{=}\PYG{k+kc}{False}\PYG{p}{):}
+	\PYG{n}{scores}\PYG{o}{=}\PYG{n}{cross\PYGZus{}val\PYGZus{}score}\PYG{p}{(}\PYG{n}{clf}\PYG{p}{,}\PYG{n}{x}\PYG{p}{,}\PYG{n}{y}\PYG{p}{,}\PYG{n}{scoring}\PYG{o}{=}\PYG{l+s+s1}{\PYGZsq{}accuracy\PYGZsq{}}\PYG{p}{,}\PYG{n}{cv}\PYG{o}{=}\PYG{l+m+mi}{5}\PYG{p}{)}
+	\PYG{n}{accuracy}\PYG{o}{=}\PYG{n}{np}\PYG{o}{.}\PYG{n}{mean}\PYG{p}{(}\PYG{n}{scores}\PYG{p}{)}
+	\PYG{k}{if} \PYG{n}{mostrar}\PYG{p}{:}
+		\PYG{n+nb}{print}\PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{}Accuracy: \PYGZdq{}}\PYG{p}{,} \PYG{n}{accuracy}\PYG{p}{)}
+	\PYG{k}{return} \PYG{n}{accuracy}
+\end{Verbatim}

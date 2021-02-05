@@ -1,0 +1,36 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{n}{categorical}\PYG{o}{=}\PYG{p}{[}\PYG{l+s+s2}{\PYGZdq{}nombre\PYGZdq{}}\PYG{p}{,}\PYG{l+s+s2}{\PYGZdq{}ciudad\PYGZdq{}}\PYG{p}{,}\PYG{l+s+s2}{\PYGZdq{}combustible\PYGZdq{}}\PYG{p}{,}\PYG{l+s+s2}{\PYGZdq{}tipo\PYGZus{}marchas\PYGZdq{}}\PYG{p}{,}
+\PYG{l+s+s2}{\PYGZdq{}mano\PYGZdq{}}\PYG{p}{,}\PYG{l+s+s2}{\PYGZdq{}consumo\PYGZdq{}}\PYG{p}{,}\PYG{l+s+s2}{\PYGZdq{}motor\PYGZus{}cc\PYGZdq{}}\PYG{p}{,}\PYG{l+s+s2}{\PYGZdq{}potencia\PYGZdq{}}\PYG{p}{]}
+\PYG{n}{cols} \PYG{o}{=} \PYG{p}{[}\PYG{n}{col} \PYG{k}{for} \PYG{n}{col} \PYG{o+ow}{in} \PYG{n}{df\PYGZus{}train}\PYG{o}{.}\PYG{n}{columns} \PYG{k}{if} \PYG{n}{col} \PYG{o+ow}{not} \PYG{o+ow}{in} \PYG{n}{categorical}\PYG{p}{]}
+
+\PYG{n}{df\PYGZus{}train\PYGZus{}num}\PYG{o}{=}\PYG{n}{df\PYGZus{}train\PYGZus{}norm}\PYG{o}{.}\PYG{n}{copy}\PYG{p}{()}
+\PYG{n}{df\PYGZus{}train\PYGZus{}num\PYGZus{}rpl}\PYG{o}{=}\PYG{n}{df\PYGZus{}train\PYGZus{}norm\PYGZus{}rpl}\PYG{o}{.}\PYG{n}{copy}\PYG{p}{()}
+\PYG{n}{df\PYGZus{}test\PYGZus{}num}\PYG{o}{=}\PYG{n}{df\PYGZus{}test\PYGZus{}norm}\PYG{o}{.}\PYG{n}{copy}\PYG{p}{()}
+
+\PYG{n}{df\PYGZus{}train\PYGZus{}num}\PYG{o}{=}\PYG{n}{np}\PYG{o}{.}\PYG{n}{array}\PYG{p}{(}\PYG{n}{df\PYGZus{}train\PYGZus{}num}\PYG{p}{[}\PYG{n}{cols}\PYG{p}{])}
+\PYG{n}{df\PYGZus{}train\PYGZus{}num\PYGZus{}rpl}\PYG{o}{=}\PYG{n}{np}\PYG{o}{.}\PYG{n}{array}\PYG{p}{(}\PYG{n}{df\PYGZus{}train\PYGZus{}num\PYGZus{}rpl}\PYG{p}{[}\PYG{n}{cols}\PYG{p}{])}
+\PYG{n}{df\PYGZus{}test\PYGZus{}num}\PYG{o}{=}\PYG{n}{np}\PYG{o}{.}\PYG{n}{array}\PYG{p}{(}\PYG{n}{df\PYGZus{}test\PYGZus{}num}\PYG{p}{[}\PYG{n}{cols}\PYG{p}{])}
+
+\PYG{k}{for} \PYG{n}{atributo} \PYG{o+ow}{in} \PYG{n}{categorical}\PYG{p}{:}
+	\PYG{n}{data}\PYG{o}{=}\PYG{n}{pd}\PYG{o}{.}\PYG{n}{read\PYGZus{}csv}\PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{}data/\PYGZdq{}}\PYG{o}{+}\PYG{n}{atributo}\PYG{o}{+}\PYG{l+s+s2}{\PYGZdq{}.csv\PYGZdq{}}\PYG{p}{)}
+	\PYG{n}{data}\PYG{o}{.}\PYG{n}{columns} \PYG{o}{=} \PYG{p}{[}\PYG{n}{col}\PYG{o}{.}\PYG{n}{lower}\PYG{p}{()} \PYG{k}{for} \PYG{n}{col} \PYG{o+ow}{in} \PYG{n}{data}\PYG{p}{]}
+	\PYG{n}{enc} \PYG{o}{=} \PYG{n}{OneHotEncoder}\PYG{p}{()}\PYG{o}{.}\PYG{n}{fit}\PYG{p}{(}\PYG{n}{data}\PYG{p}{[}\PYG{n}{atributo}\PYG{p}{]}\PYG{o}{.}\PYG{n}{values}\PYG{o}{.}\PYG{n}{reshape}\PYG{p}{(}\PYG{o}{\PYGZhy{}}\PYG{l+m+mi}{1}\PYG{p}{,}\PYG{l+m+mi}{1}\PYG{p}{))}
+	
+	\PYG{c+c1}{\PYGZsh{}Conjunto de entrenamiento con ambos preprocesamientos}
+	\PYG{n}{enc\PYGZus{}train}\PYG{o}{=}\PYG{n}{enc}\PYG{o}{.}\PYG{n}{transform}\PYG{p}{(}\PYG{n}{df\PYGZus{}train}\PYG{p}{[}\PYG{n}{atributo}\PYG{p}{]}\PYG{o}{.}\PYG{n}{values}\PYG{o}{.}\PYG{n}{reshape}\PYG{p}{(}\PYG{o}{\PYGZhy{}}\PYG{l+m+mi}{1}\PYG{p}{,}\PYG{l+m+mi}{1}\PYG{p}{))}\PYG{o}{.}\PYG{n}{toarray}\PYG{p}{()}
+	\PYG{n}{df\PYGZus{}train\PYGZus{}num}\PYG{o}{=}\PYG{n}{np}\PYG{o}{.}\PYG{n}{hstack}\PYG{p}{((}\PYG{n}{df\PYGZus{}train\PYGZus{}num}\PYG{p}{,}\PYG{n}{enc\PYGZus{}train}\PYG{p}{))}
+	
+	\PYG{n}{enc\PYGZus{}train\PYGZus{}rpl}\PYG{o}{=}
+	\PYG{n}{enc}\PYG{o}{.}\PYG{n}{transform}\PYG{p}{(}\PYG{n}{df\PYGZus{}train\PYGZus{}replaced}\PYG{p}{[}\PYG{n}{atributo}\PYG{p}{]}\PYG{o}{.}\PYG{n}{values}\PYG{o}{.}\PYG{n}{reshape}\PYG{p}{(}\PYG{o}{\PYGZhy{}}\PYG{l+m+mi}{1}\PYG{p}{,}\PYG{l+m+mi}{1}\PYG{p}{))}\PYG{o}{.}\PYG{n}{toarray}\PYG{p}{()}
+	
+	\PYG{n}{df\PYGZus{}train\PYGZus{}num\PYGZus{}rpl}\PYG{o}{=}\PYG{n}{np}\PYG{o}{.}\PYG{n}{hstack}\PYG{p}{((}\PYG{n}{df\PYGZus{}train\PYGZus{}num\PYGZus{}rpl}\PYG{p}{,}\PYG{n}{enc\PYGZus{}train\PYGZus{}rpl}\PYG{p}{))}
+	
+	
+	\PYG{c+c1}{\PYGZsh{}Conjunto de test}
+	\PYG{n}{enc\PYGZus{}test}\PYG{o}{=}\PYG{n}{enc}\PYG{o}{.}\PYG{n}{transform}\PYG{p}{(}\PYG{n}{df\PYGZus{}test}\PYG{p}{[}\PYG{n}{atributo}\PYG{p}{]}\PYG{o}{.}\PYG{n}{values}\PYG{o}{.}\PYG{n}{reshape}\PYG{p}{(}\PYG{o}{\PYGZhy{}}\PYG{l+m+mi}{1}\PYG{p}{,}\PYG{l+m+mi}{1}\PYG{p}{))}\PYG{o}{.}\PYG{n}{toarray}\PYG{p}{()}
+	\PYG{n}{df\PYGZus{}test\PYGZus{}num}\PYG{o}{=}\PYG{n}{np}\PYG{o}{.}\PYG{n}{hstack}\PYG{p}{((}\PYG{n}{df\PYGZus{}test\PYGZus{}num}\PYG{p}{,}\PYG{n}{enc\PYGZus{}test}\PYG{p}{))}
+
+\PYG{n}{df\PYGZus{}train\PYGZus{}num}\PYG{o}{=}\PYG{n}{pd}\PYG{o}{.}\PYG{n}{DataFrame}\PYG{p}{(}\PYG{n}{df\PYGZus{}train\PYGZus{}num}\PYG{p}{)}
+\PYG{n}{df\PYGZus{}train\PYGZus{}num\PYGZus{}rpl}\PYG{o}{=}\PYG{n}{pd}\PYG{o}{.}\PYG{n}{DataFrame}\PYG{p}{(}\PYG{n}{df\PYGZus{}train\PYGZus{}num\PYGZus{}rpl}\PYG{p}{)}
+\PYG{n}{df\PYGZus{}test\PYGZus{}num}\PYG{o}{=}\PYG{n}{pd}\PYG{o}{.}\PYG{n}{DataFrame}\PYG{p}{(}\PYG{n}{df\PYGZus{}test\PYGZus{}num}\PYG{p}{)}
+\end{Verbatim}

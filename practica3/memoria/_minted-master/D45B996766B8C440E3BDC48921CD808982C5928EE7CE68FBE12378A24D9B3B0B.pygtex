@@ -1,0 +1,10 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{n}{resampler}\PYG{o}{=}\PYG{n}{EditedNearestNeighbours}\PYG{p}{(}\PYG{n}{n\PYGZus{}neighbors}\PYG{o}{=}\PYG{l+m+mi}{5}\PYG{p}{)}
+\PYG{n}{df\PYGZus{}train\PYGZus{}under}\PYG{p}{,} \PYG{n}{df\PYGZus{}train\PYGZus{}obj\PYGZus{}under} \PYG{o}{=} \PYG{n}{resampler}\PYG{o}{.}\PYG{n}{fit\PYGZus{}resample}\PYG{p}{(}\PYG{n}{df\PYGZus{}train\PYGZus{}num}\PYG{p}{,} \PYG{n}{df\PYGZus{}train\PYGZus{}obj}\PYG{p}{)}
+\PYG{n}{df\PYGZus{}train\PYGZus{}under\PYGZus{}rpl}\PYG{p}{,} \PYG{n}{df\PYGZus{}train\PYGZus{}obj\PYGZus{}under\PYGZus{}rpl} \PYG{o}{=}
+ \PYG{n}{resampler}\PYG{o}{.}\PYG{n}{fit\PYGZus{}resample}\PYG{p}{(}\PYG{n}{df\PYGZus{}train\PYGZus{}num\PYGZus{}rpl}\PYG{p}{,} \PYG{n}{df\PYGZus{}train\PYGZus{}obj\PYGZus{}replaced}\PYG{p}{)}
+
+\PYG{n}{Counter}\PYG{p}{(}\PYG{n}{df\PYGZus{}train\PYGZus{}obj\PYGZus{}under}\PYG{p}{)}
+
+\PYG{n}{Counter}\PYG{p}{(\PYGZob{}}\PYG{l+m+mi}{1}\PYG{p}{:} \PYG{l+m+mi}{203}\PYG{p}{,} \PYG{l+m+mi}{2}\PYG{p}{:} \PYG{l+m+mi}{31}\PYG{p}{,} \PYG{l+m+mi}{3}\PYG{p}{:} \PYG{l+m+mi}{812}\PYG{p}{,} \PYG{l+m+mi}{4}\PYG{p}{:} \PYG{l+m+mi}{256}\PYG{p}{,} \PYG{l+m+mi}{5}\PYG{p}{:} \PYG{l+m+mi}{408}\PYG{p}{\PYGZcb{})}
+\end{Verbatim}

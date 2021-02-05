@@ -1,0 +1,14 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{k}{def} \PYG{n+nf}{tune\PYGZus{}svc}\PYG{p}{(}\PYG{n}{max\PYGZus{}value}\PYG{p}{,}\PYG{n}{data}\PYG{p}{,}\PYG{n}{obj}\PYG{p}{):}
+	\PYG{n}{acc}\PYG{o}{=}\PYG{p}{[]}
+	\PYG{k}{for} \PYG{n}{i} \PYG{o+ow}{in} \PYG{n+nb}{range}\PYG{p}{(}\PYG{l+m+mi}{1}\PYG{p}{,}\PYG{n}{max\PYGZus{}value}\PYG{p}{):}
+		\PYG{n}{svc}\PYG{o}{=}\PYG{n}{LinearSVC}\PYG{p}{(}\PYG{n}{random\PYGZus{}state}\PYG{o}{=}\PYG{l+m+mi}{10}\PYG{p}{,}\PYG{n}{C}\PYG{o}{=}\PYG{n}{i}\PYG{p}{,}\PYG{n}{max\PYGZus{}iter}\PYG{o}{=}\PYG{l+m+mi}{100000}\PYG{p}{)}
+		\PYG{n}{acc}\PYG{o}{.}\PYG{n}{append}\PYG{p}{(}\PYG{n}{cross\PYGZus{}validation}\PYG{p}{(}\PYG{n}{svc}\PYG{p}{,}\PYG{n}{data}\PYG{p}{,}\PYG{n}{obj}\PYG{p}{))}
+	
+	\PYG{n}{fig}\PYG{p}{,} \PYG{n}{ax} \PYG{o}{=}\PYG{n}{plt}\PYG{o}{.}\PYG{n}{subplots}\PYG{p}{(}\PYG{n}{figsize}\PYG{o}{=}\PYG{p}{(}\PYG{l+m+mi}{15}\PYG{p}{,}\PYG{l+m+mi}{5}\PYG{p}{))}
+	\PYG{n}{ax}\PYG{o}{.}\PYG{n}{plot}\PYG{p}{(}\PYG{n+nb}{range}\PYG{p}{(}\PYG{l+m+mi}{1}\PYG{p}{,}\PYG{n}{max\PYGZus{}value}\PYG{p}{),} \PYG{n}{acc}\PYG{p}{)}
+	\PYG{n}{ax}\PYG{o}{.}\PYG{n}{set\PYGZus{}title}\PYG{p}{(}\PYG{l+s+s1}{\PYGZsq{}Linear SVC\PYGZsq{}}\PYG{p}{)}
+	\PYG{n}{ax}\PYG{o}{.}\PYG{n}{set\PYGZus{}xlabel}\PYG{p}{(}\PYG{l+s+s1}{\PYGZsq{}Valor parámetro\PYGZsq{}}\PYG{p}{)}
+	\PYG{n}{ax}\PYG{o}{.}\PYG{n}{set\PYGZus{}ylabel}\PYG{p}{(}\PYG{l+s+s1}{\PYGZsq{}Accuracy\PYGZsq{}}\PYG{p}{)}
+	\PYG{n}{plt}\PYG{o}{.}\PYG{n}{show}\PYG{p}{()}
+\end{Verbatim}

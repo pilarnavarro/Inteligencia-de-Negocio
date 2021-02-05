@@ -1,0 +1,4 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+  \PYG{n}{svc}\PYG{o}{=}\PYG{n}{LinearSVC}\PYG{p}{(}\PYG{n}{random\PYGZus{}state}\PYG{o}{=}\PYG{l+m+mi}{10}\PYG{p}{,}\PYG{n}{C}\PYG{o}{=}\PYG{l+m+mi}{50}\PYG{p}{,}\PYG{n}{max\PYGZus{}iter}\PYG{o}{=}\PYG{l+m+mi}{100000}\PYG{p}{)}
+  \PYG{n}{svc}\PYG{o}{.}\PYG{n}{fit}\PYG{p}{(}\PYG{n}{df\PYGZus{}train\PYGZus{}over}\PYG{p}{,}\PYG{n}{df\PYGZus{}train\PYGZus{}obj\PYGZus{}over}\PYG{p}{)}
+\end{Verbatim}

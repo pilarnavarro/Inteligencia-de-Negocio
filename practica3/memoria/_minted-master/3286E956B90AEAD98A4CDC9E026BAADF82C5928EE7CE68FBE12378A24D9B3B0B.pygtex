@@ -1,0 +1,6 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{n}{extra}\PYG{o}{=}\PYG{n}{ExtraTreesClassifier}\PYG{p}{(}\PYG{n}{n\PYGZus{}estimators}\PYG{o}{=}\PYG{l+m+mi}{275}\PYG{p}{,}\PYG{n}{random\PYGZus{}state}\PYG{o}{=}\PYG{l+m+mi}{10}\PYG{p}{)}
+\PYG{n}{cross\PYGZus{}validation}\PYG{p}{(}\PYG{n}{extra}\PYG{p}{,} \PYG{n}{df\PYGZus{}train\PYGZus{}over}\PYG{p}{,} \PYG{n}{df\PYGZus{}train\PYGZus{}obj\PYGZus{}over}\PYG{p}{,}\PYG{k+kc}{True}\PYG{p}{)}
+
+\PYG{n}{Accuracy}\PYG{p}{:}  \PYG{l+m+mf}{0.94213698630137}
+\end{Verbatim}
